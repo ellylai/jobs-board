@@ -1,0 +1,6 @@
+requests>=2.31
+beautifulsoup4>=4.12
+# APPIC (appic.py) may require a JS-capable browser; keep Playwright available.
+playwright>=1.44
+# SerpAPI Google Jobs endpoint (indeed.py).
+google-search-results>=2.4

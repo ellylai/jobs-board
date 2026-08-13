@@ -1,0 +1,250 @@
+"""Job board pipeline.
+
+Runs each scraper, merges results into the per-track JSON files, ages out
+stale listings, and rewrites README.md from the JSON (the JSON is the source
+of truth; the README is a generated artifact).
+
+Design notes:
+- Each scraper is independent and importable. A scraper that raises is logged
+  and skipped -- one broken site never crashes the whole run.
+- Only ``archinect`` is wired in for now. The others are placeholders until
+  their scraper modules are implemented (see SCRAPERS below).
+"""
+
+from __future__ import annotations
+
+import json
+import logging
+import os
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Callable, Iterable
+
+# --- Scrapers -------------------------------------------------------------
+# Each entry maps a data file (track) to the list of scraper callables that
+# feed it. A scraper is a zero-arg function returning a list of listing dicts.
+from scrapers import archinect
+
+# from scrapers import apa      # TODO: implement scrapers/apa.py
+# from scrapers import appic    # TODO: implement scrapers/appic.py
+# from scrapers import indeed   # TODO: implement scrapers/indeed.py
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+)
+log = logging.getLogger("pipeline")
+
+# --- Paths ----------------------------------------------------------------
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / "data"
+README_PATH = BASE_DIR / "README.md"
+
+# --- Config ---------------------------------------------------------------
+MAX_AGE_DAYS = 60          # listings older than this are dropped entirely
+NEW_BADGE_HOURS = 48       # listings newer than this get a 🆕 prefix
+
+# Track -> data file -> scrapers feeding it.
+# ``indeed`` feeds both tracks via different query strings, so it will appear
+# in both lists once implemented (it should tag/return listings per track).
+SCRAPERS: dict[str, list[Callable[[], list[dict]]]] = {
+    "architecture": [
+        archinect.scrape,
+        # indeed.scrape_architecture,   # TODO
+    ],
+    "psychology": [
+        # apa.scrape,                   # TODO
+        # appic.scrape,                 # TODO
+        # indeed.scrape_psychology,     # TODO
+    ],
+}
+
+
+# --- Time helpers ---------------------------------------------------------
+def _now() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def _today_iso() -> str:
+    return _now().date().isoformat()
+
+
+def _parse_date(value: str | None) -> datetime | None:
+    """Parse an ISO date/datetime string to an aware UTC datetime, or None."""
+    if not value:
+        return None
+    try:
+        dt = datetime.fromisoformat(value)
+    except ValueError:
+        # Fall back to date-only.
+        try:
+            dt = datetime.strptime(value[:10], "%Y-%m-%d")
+        except ValueError:
+            return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt
+
+
+# --- JSON I/O -------------------------------------------------------------
+def load_listings(track: str) -> list[dict]:
+    path = DATA_DIR / f"{track}.json"
+    if not path.exists():
+        return []
+    try:
+        return json.loads(path.read_text(encoding="utf-8") or "[]")
+    except json.JSONDecodeError:
+        log.error("Corrupt JSON in %s; starting from empty list", path.name)
+        return []
+
+
+def save_listings(track: str, listings: list[dict]) -> None:
+    path = DATA_DIR / f"{track}.json"
+    path.write_text(
+        json.dumps(listings, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+
+# --- Scraper runner -------------------------------------------------------
+def run_scrapers(scrapers: Iterable[Callable[[], list[dict]]]) -> list[dict]:
+    """Run each scraper, isolating failures. Returns all collected listings."""
+    collected: list[dict] = []
+    for scraper in scrapers:
+        name = getattr(scraper, "__module__", "?") + "." + getattr(scraper, "__name__", "?")
+        try:
+            results = scraper() or []
+            log.info("%s returned %d listing(s)", name, len(results))
+            collected.extend(results)
+        except Exception:  # noqa: BLE001 - one bad scraper must not stop the run
+            log.exception("Scraper %s failed; skipping", name)
+    return collected
+
+
+# --- Merge ----------------------------------------------------------------
+def merge(existing: list[dict], scraped: list[dict]) -> list[dict]:
+    """Merge freshly scraped listings into existing ones.
+
+    - Dedup on ``id``.
+    - Listings seen this run are marked active; existing listings not seen are
+      marked inactive (kept for history until they age out).
+    - Listings older than MAX_AGE_DAYS (by posted_date) are dropped entirely.
+    """
+    today = _today_iso()
+    by_id: dict[str, dict] = {item["id"]: item for item in existing if item.get("id")}
+    seen_ids: set[str] = set()
+
+    for item in scraped:
+        lid = item.get("id")
+        if not lid:
+            log.warning("Scraped listing missing id; skipping: %r", item.get("title"))
+            continue
+        seen_ids.add(lid)
+        if lid in by_id:
+            # Update mutable fields but preserve the original scraped_date.
+            prev = by_id[lid]
+            prev.update(item)
+            prev["scraped_date"] = prev.get("scraped_date") or item.get("scraped_date") or today
+            prev["active"] = True
+        else:
+            item.setdefault("scraped_date", today)
+            item["active"] = True
+            by_id[lid] = item
+
+    # Mark listings not seen this run as inactive.
+    for lid, item in by_id.items():
+        if lid not in seen_ids:
+            item["active"] = False
+
+    # Drop listings older than MAX_AGE_DAYS.
+    cutoff = _now().timestamp() - MAX_AGE_DAYS * 86400
+    merged: list[dict] = []
+    for item in by_id.values():
+        posted = _parse_date(item.get("posted_date"))
+        if posted is not None and posted.timestamp() < cutoff:
+            continue
+        merged.append(item)
+
+    return merged
+
+
+# --- README rendering -----------------------------------------------------
+def _sort_key(item: dict):
+    dt = _parse_date(item.get("posted_date"))
+    return dt.timestamp() if dt else 0.0
+
+
+def _md_escape(text: str) -> str:
+    return (text or "").replace("|", "\\|").replace("\n", " ").strip()
+
+
+def _render_table(listings: list[dict]) -> str:
+    header = (
+        "| Company | Role | Location | Posted | Tags | Apply |\n"
+        "| --- | --- | --- | --- | --- | --- |\n"
+    )
+    active = [x for x in listings if x.get("active", True)]
+    active.sort(key=_sort_key, reverse=True)
+
+    if not active:
+        return "_No active listings yet._\n"
+
+    now = _now()
+    rows: list[str] = []
+    for item in active:
+        company = _md_escape(item.get("company", ""))
+        posted = _parse_date(item.get("posted_date"))
+        if posted is not None and (now - posted).total_seconds() <= NEW_BADGE_HOURS * 3600:
+            company = f"🆕 {company}"
+
+        role = _md_escape(item.get("title", ""))
+        location = _md_escape(item.get("location", ""))
+        posted_str = posted.date().isoformat() if posted else "—"
+        tags = _md_escape(", ".join(item.get("tags", []) or []))
+        url = item.get("url", "")
+        apply = f"[Apply]({url})" if url else "—"
+
+        rows.append(
+            f"| {company} | {role} | {location} | {posted_str} | {tags} | {apply} |"
+        )
+
+    return header + "\n".join(rows) + "\n"
+
+
+def render_readme(tracks: dict[str, list[dict]]) -> None:
+    updated = _now().strftime("%Y-%m-%d %H:%M UTC")
+    parts = [
+        "# Job Board",
+        "",
+        f"_Last updated: {updated}_",
+        "",
+        "Auto-generated from the JSON data files by `pipeline.py`. Do not edit by hand.",
+        "",
+        "## 🏛️ Architecture",
+        "",
+        _render_table(tracks.get("architecture", [])),
+        "## 🧠 Psychology",
+        "",
+        _render_table(tracks.get("psychology", [])),
+    ]
+    README_PATH.write_text("\n".join(parts).rstrip() + "\n", encoding="utf-8")
+    log.info("Wrote %s", README_PATH.name)
+
+
+# --- Main -----------------------------------------------------------------
+def main() -> None:
+    tracks: dict[str, list[dict]] = {}
+    for track, scrapers in SCRAPERS.items():
+        existing = load_listings(track)
+        scraped = run_scrapers(scrapers)
+        merged = merge(existing, scraped)
+        save_listings(track, merged)
+        active = sum(1 for x in merged if x.get("active"))
+        log.info("Track %s: %d total, %d active", track, len(merged), active)
+        tracks[track] = merged
+
+    render_readme(tracks)
+
+
+if __name__ == "__main__":
+    main()
