@@ -45,9 +45,13 @@ from scrapers import (
 #   doctoral-capstone internships (require a master's, passed comps, an approved
 #   dissertation proposal). This board targets undergrads, so APPIC's audience
 #   doesn't fit. Kept in the repo in case a doctoral board is ever wanted.
+# - society boards (SPSP, APS, SRCD, SAS): evaluated and SKIPPED -- they're
+#   senior-academic recruitment (tenure-track/professor/postdoc). Every listing
+#   trips the seniority/advanced-degree filter, so undergrad yield is ~0 (SRCD is
+#   also a JS-rendered shell). Not worth a scraper.
 # The psychology track targets undergrad-accessible roles (research assistant,
-# lab intern, clinical aide, etc.) via curated boards (Duke, the psychology
-# jobs/internships blog) plus SerpAPI/Google Jobs.
+# lab intern, clinical aide, etc.) via curated boards (Duke, Harvard's post-grad
+# research jobs, the psychology jobs/internships blog) plus SerpAPI/Google Jobs.
 
 logging.basicConfig(
     level=logging.INFO,
