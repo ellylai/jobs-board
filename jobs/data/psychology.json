@@ -91,7 +91,7 @@
     "url": "https://www.linkedin.com/jobs/view/marketing-communications-intern-%E2%80%93-psychology-spirituality-wellness-personal-growth-at-healing-happens-4450788108?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-08-07",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": [
       "Part-Time"
     ]
@@ -227,6 +227,19 @@
     "tags": [
       "Full-Time",
       "Research"
+    ]
+  },
+  {
+    "id": "133242aa40cf6482e00c68bd1b703dd0e8e6f7f3c93443780c22bd54b9dc1ff0",
+    "title": "I/O Psychology Intern | Fully Remote USA",
+    "company": "vmysmartpros",
+    "location": "Remote",
+    "url": "https://www.mysmartpros.com/tuition/job/i-o-psychology-intern-fully-remote-usa-f6db04df/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-08-13",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Full-Time"
     ]
   }
 ]

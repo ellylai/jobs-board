@@ -15,13 +15,21 @@ Adding a firm:
   - Workday:    read host/tenant/site from the careers URL
                 ``https://{host}/en-US/{site}`` and the ``/cxs/{tenant}/{site}/``
                 XHR path (visible in the network tab).
+  - Jobvite:    the slug in ``jobs.jobvite.com/{slug}/search``.
+  - UltiPro:    host/code/board_id from ``https://{host}/{code}/JobBoard/{id}/``.
+
+Deferred ATS (need a JS browser, so out until Playwright is approved):
+  - Corgan (iCIMS): a JS-set-cookie "Please Enable Cookies" gate blocks non-JS
+    clients; no results without it.
+  - HDR (Taleo): the careersection page is a JS shell with no server-rendered
+    listings.
 """
 
 from __future__ import annotations
 
 import logging
 
-from . import _greenhouse, _workday
+from . import _greenhouse, _jobvite, _ultipro, _workday
 
 log = logging.getLogger("scrapers.firms")
 
@@ -93,6 +101,22 @@ FIRMS: list[dict] = [
             "site": "External",
         },
     },
+    {
+        "name": "NBBJ",
+        "track": "architecture",
+        "ats": "jobvite",
+        "params": {"slug": "nbbj"},
+    },
+    {
+        "name": "Perkins&Will",
+        "track": "architecture",
+        "ats": "ultipro",
+        "params": {
+            "host": "recruiting2.ultipro.com",
+            "code": "PER1007PWILL",
+            "board_id": "0ca393a4-bf82-4db6-acae-91e6a0315a4a",
+        },
+    },
 ]
 
 
@@ -108,6 +132,17 @@ def _dispatch(firm: dict) -> list[dict]:
     if ats == "workday":
         return _workday.fetch_board(
             params["host"], params["tenant"], params["site"], company=name,
+            require_keep=True, tag_mapping=ARCH_SOFTWARE_TAGS,
+        )
+    if ats == "jobvite":
+        return _jobvite.fetch_board(
+            params["slug"], company=name, require_keep=True,
+            tag_mapping=ARCH_SOFTWARE_TAGS,
+        )
+    if ats == "ultipro":
+        return _ultipro.fetch_board(
+            params["code"], params["board_id"], company=name,
+            host=params.get("host", "recruiting2.ultipro.com"),
             require_keep=True, tag_mapping=ARCH_SOFTWARE_TAGS,
         )
     raise ValueError(f"{name}: unknown ATS {ats!r}")

@@ -378,11 +378,63 @@
     "url": "https://www.dezeenjobs.com/job/oma-architect-designer-1108353/",
     "posted_date": "2026-08-07",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": [
       "Full-Time",
       "Architect",
       "Designer"
+    ]
+  },
+  {
+    "id": "64e64d503ed39c142d279db5c71c25af68abe6371022d5a40061240795891996",
+    "title": "Interior Designer - Corporate Commercial and Healthcare Practice",
+    "company": "NBBJ",
+    "location": "New York, New York",
+    "url": "https://jobs.jobvite.com/nbbj/job/o5N0zfwb",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Full-Time"
+    ]
+  },
+  {
+    "id": "7128ab214b35305ac2ff5f129a285253971709fa42fb2e29b7f5faa236429da2",
+    "title": "Junior Environmental Graphic Designer - Signage and Wayfinding",
+    "company": "NBBJ",
+    "location": "Seattle, Washington",
+    "url": "https://jobs.jobvite.com/nbbj/job/owWBAfwn",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Full-Time"
+    ]
+  },
+  {
+    "id": "262cad2f26973d2227877dabf4a44f2d4bab447c08c8ce5e9e94f8e9dd96543a",
+    "title": "Project Designer",
+    "company": "Perkins&Will",
+    "location": "Houston, TX",
+    "url": "https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=9eaa358a-427f-4e93-8cc5-2c3fef2d1e1b",
+    "posted_date": "2026-08-11",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Full-Time"
+    ]
+  },
+  {
+    "id": "70541778ec2f173692a96334dac85bf0c1098d447906b2e8ce3240c804db47d5",
+    "title": "Interior Technical Designer",
+    "company": "Perkins&Will",
+    "location": "Austin, TX",
+    "url": "https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=ab921f4a-e8cb-40b7-bef8-ec9262427a2a",
+    "posted_date": "2026-07-20",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Full-Time"
     ]
   }
 ]
