@@ -25,9 +25,16 @@ from typing import Callable, Iterable
 # feed it. A scraper is a zero-arg function returning a list of listing dicts.
 from scrapers import archinect
 
-# from scrapers import apa      # TODO: implement scrapers/apa.py
-# from scrapers import appic    # TODO: implement scrapers/appic.py
-# from scrapers import indeed   # TODO: implement scrapers/indeed.py
+# Psychology-track sourcing history:
+# - apa (APA PsycCareers): dropped -- APA closed the PsycCareers job board on
+#   2026-07-31 with no replacement.
+# - appic (scrapers/appic.py): built and working, but PARKED -- APPIC lists
+#   doctoral-capstone internships (require a master's, passed comps, an approved
+#   dissertation proposal). This board targets undergrads, so APPIC's audience
+#   doesn't fit. Kept in the repo in case a doctoral board is ever wanted.
+# The psychology track targets undergrad-accessible roles (research assistant,
+# lab intern, clinical aide, etc.) via SerpAPI/Google Jobs.
+from scrapers import indeed
 
 logging.basicConfig(
     level=logging.INFO,
@@ -53,12 +60,11 @@ NEW_BADGE_HOURS = 48       # listings newer than this get a 🆕 prefix
 SCRAPERS: dict[str, list[Callable[[], list[dict]]]] = {
     "architecture": [
         archinect.scrape,
-        # indeed.scrape_architecture,   # TODO
+        # indeed.scrape_architecture is available but disabled to conserve the
+        # SerpAPI free-tier quota -- Archinect already covers architecture.
     ],
     "psychology": [
-        # apa.scrape,                   # TODO
-        # appic.scrape,                 # TODO
-        # indeed.scrape_psychology,     # TODO
+        indeed.scrape_psychology,
     ],
 }
 
