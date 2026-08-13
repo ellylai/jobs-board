@@ -40,6 +40,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Install Playwright Chromium
+        # Needed by scrapers/_browser.py (HDR's JS-rendered Taleo board).
+        run: python -m playwright install --with-deps chromium
+
       - name: Run pipeline
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}

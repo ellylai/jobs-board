@@ -34,7 +34,7 @@ except ImportError:  # python-dotenv not installed; rely on real env vars
 # Each entry maps a data file (track) to the list of scraper callables that
 # feed it. A scraper is a zero-arg function returning a list of listing dicts.
 from scrapers import (
-    _filter, _location, archinect, dezeen, duke, firms, harvard, indeed,
+    _filter, _location, archinect, dezeen, duke, firms, harvard, hdr, indeed,
     wordpress_psych,
 )
 
@@ -81,6 +81,7 @@ SCRAPERS: dict[str, list[Callable[[], list[dict]]]] = {
     "architecture": [
         archinect.scrape,
         dezeen.scrape,
+        hdr.scrape,
         firms.scrape_architecture,
         # indeed.scrape_architecture is available but disabled to conserve the
         # SerpAPI free-tier quota -- Archinect + firm boards cover architecture.

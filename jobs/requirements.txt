@@ -7,5 +7,8 @@ google-search-results>=2.4
 python-dotenv>=1.0
 # Browser-TLS-impersonating HTTP client for WAF-guarded boards (scrapers/_http.py).
 curl_cffi>=0.7
+# Headless browser for the few JS-rendered boards (scrapers/_browser.py, HDR).
+# CI must also run: playwright install --with-deps chromium
+playwright>=1.44
 # Note: APPIC turned out to be server-rendered (a session token unlocks the
 # results table), so no Playwright/headless browser is required.

@@ -18,11 +18,13 @@ Adding a firm:
   - Jobvite:    the slug in ``jobs.jobvite.com/{slug}/search``.
   - UltiPro:    host/code/board_id from ``https://{host}/{code}/JobBoard/{id}/``.
 
-Deferred ATS (need a JS browser, so out until Playwright is approved):
-  - Corgan (iCIMS): a JS-set-cookie "Please Enable Cookies" gate blocks non-JS
-    clients; no results without it.
-  - HDR (Taleo): the careersection page is a JS shell with no server-rendered
-    listings.
+Other firms live outside this file:
+  - HDR (Taleo, JS-rendered) -> its own ``scrapers/hdr.py`` (headless browser).
+
+Blocked entirely (active anti-bot; even headless Chromium is served a challenge,
+so no Playwright workaround) -- do NOT retry without a CAPTCHA-solving service:
+  - Corgan (iCIMS): an interactive "Human Verification" CAPTCHA puzzle.
+  - AIA career center: a Cloudflare "One moment..." interstitial.
 """
 
 from __future__ import annotations
