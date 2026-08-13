@@ -82,5 +82,79 @@
       "Volunteer",
       "Research"
     ]
+  },
+  {
+    "id": "f9ffeeee1bb009d64c65529aee531025ae839640d2ef1234cba208df0b2f4ff9",
+    "title": "Marketing & Communications Intern – Psychology, Spirituality, Wellness & Personal Growth",
+    "company": "Healing Happens",
+    "location": "United States",
+    "url": "https://www.linkedin.com/jobs/view/marketing-communications-intern-%E2%80%93-psychology-spirituality-wellness-personal-growth-at-healing-happens-4450788108?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-08-07",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "remote"
+    ]
+  },
+  {
+    "id": "0d1700023ae97b54bdc1050f21fbb22dc43744ef64f43c3b535d261f8dad9ffa",
+    "title": "Psychology Internship: Live Intake, Supervision & Seminars",
+    "company": "NIP",
+    "location": "United States",
+    "url": "https://talents.vaia.com/companies/nip/psychology-internship-live-intake-supervision-seminars-108417511/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-08-13",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "59c6ed72e43f0ea0108ad565b45621e5b5b230d847a55478915601f3da9d7cd0",
+    "title": "School Psychologist or Intern - ECE (2026-2027)",
+    "company": "Jefferson County Public Schools",
+    "location": "United States",
+    "url": "https://www.linkedin.com/jobs/view/school-psychologist-or-intern-ece-2026-2027-at-jefferson-county-public-schools-4450325840?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-08-07",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "counseling"
+    ]
+  },
+  {
+    "id": "8dab9fa2a34ad25cd719e865e4b814ac9aafbb6c02ee48adbe3405d1f04eaa3a",
+    "title": "Psychometry Intern — Hands-On Psychological Assessment",
+    "company": "Pine Rest Christian Mental Health Services",
+    "location": "United States",
+    "url": "https://talents.vaia.com/companies/pine-rest-christian-mental-health-services/psychometry-intern-hands-on-psychological-assessment-126030136/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-08-13",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "7e9b81600794e828aae0c9659720fb6d61909229294931ca1b3edffc8eea56ad",
+    "title": "School Psychology Intern - Multi-Tier Student Support",
+    "company": "Greece Central School District",
+    "location": "United States",
+    "url": "https://bebee.com/us/jobs/school-psychology-intern-multi-tier-student-support-greece-central-school-district-hilton--lensa-7428_415a3735dd987dad7b47c5c7a087826650d625df156716a7faaa93d8dbf97f58?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-08-09",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "counseling"
+    ]
+  },
+  {
+    "id": "7e831e5f3436b6b2ed58db46d970eb1adce1c1c9332c8b3cad235d7f17a5a6f5",
+    "title": "Volunteer with Your Pet",
+    "company": "Holy Cross Home Care and Hospice",
+    "location": "United States",
+    "url": "https://bebee.com/us/jobs/volunteer-with-your-pet-holy-cross-home-care-and-hospice-md--appcast-13509_98551353?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-08-09",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "volunteer"
+    ]
   }
 ]

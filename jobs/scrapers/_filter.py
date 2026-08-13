@@ -24,15 +24,27 @@ from __future__ import annotations
 
 import re
 
-# Advanced-degree / licensure / seniority markers -> not undergrad-accessible.
+# Advanced-degree / licensure markers -> not undergrad-accessible. Graduate-level
+# training terms (master's-level, practicum) are here too: web search surfaces
+# "Master's Level Clinical Internship" / "Clinical Practicum Intern" roles whose
+# "intern" reads as a KEEP but which require enrollment in a graduate program.
 DROP_TERMS = (
     "phd required", "ph.d required", "ph.d. required", "doctoral required",
     "doctorate required", "md required", "postdoc", "post-doc",
     "currently enrolled in doctoral", "graduate degree required",
     "master's required", "masters required", "master’s required",
+    "master's level", "masters level", "master’s level",
+    "master's-level", "masters-level", "practicum",
     "licensure required", "licensed ", "lcsw", "lpc", "lmft", "psyd required",
     "board certified", "bcba",
 )
+
+# "doctoral" on its own marks a doctoral-program role, but ``pre-doctoral`` /
+# ``predoctoral`` are undergrad/post-bac KEEP terms -- so match "doctoral" only
+# when it isn't the tail of "pre-doctoral"/"predoctoral". (The \b already spares
+# "predoctoral", which has no boundary before "doctoral"; the lookbehind spares
+# the hyphenated "pre-doctoral".)
+_DOCTORAL_RE = re.compile(r"(?<!pre-)(?<!pre)\bdoctoral", re.IGNORECASE)
 
 # Entry-level / undergrad markers -> positive signal. ``designer`` and ``job
 # captain`` are the early-career architecture titles (a plain "Architect" needs
@@ -73,7 +85,8 @@ _YEARS_RE = re.compile(r"(\d+)\s*(?:-\s*\d+\s*|\+\s*)?years?", re.IGNORECASE)
 
 
 def has_drop_term(text: str) -> bool:
-    return bool(_DROP_RE.search(text or ""))
+    text = text or ""
+    return bool(_DROP_RE.search(text) or _DOCTORAL_RE.search(text))
 
 
 def has_keep_term(text: str) -> bool:

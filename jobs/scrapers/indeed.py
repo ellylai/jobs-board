@@ -22,6 +22,7 @@ so the pipeline degrades gracefully when the secret is missing.
 from __future__ import annotations
 
 import hashlib
+import html
 import logging
 import os
 import re
@@ -92,7 +93,8 @@ def _today_iso() -> str:
 
 
 def _clean(text: str | None) -> str:
-    return re.sub(r"\s+", " ", (text or "")).strip()
+    # Google Jobs returns HTML-entity-encoded text ("&amp;", "&#39;"); decode it.
+    return re.sub(r"\s+", " ", html.unescape(text or "")).strip()
 
 
 def _parse_posted_date(detected: dict | None) -> str:
