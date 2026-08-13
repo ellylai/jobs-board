@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "70f8d695bdb8fdbbeb889a1ce65068fdac1d4a79cac8e61b6be99f18fbf9e74c",
+    "title": "Architecture Internship – Fall 2026",
+    "company": "Selldorf Architects",
+    "location": "New York, NY, US",
+    "url": "https://archinect.com/jobs/entry/150559252/architecture-internship-fall-2026",
+    "posted_date": "2026-08-13",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "9c8c061d01c249890be3afaf9fdfe69cbdbc6f7797e7e388187fec1f188eee3c",
+    "title": "Intern Designer",
+    "company": "Harvest Architecture, LLC",
+    "location": "South Pasadena, CA, US",
+    "url": "https://archinect.com/jobs/entry/150556634/intern-designer",
+    "posted_date": "2026-07-29",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "e646f34457a8d722fddd2d5e603d8d27050c9f653b3f43560d9795573fe3e767",
+    "title": "Summer Internship",
+    "company": "Pleskow Architects, Inc.",
+    "location": "Los Angeles, CA, US",
+    "url": "https://archinect.com/jobs/entry/150549787/summer-internship",
+    "posted_date": "2026-06-22",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  }
+]
