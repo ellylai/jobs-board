@@ -331,18 +331,5 @@
     "scraped_date": "2026-08-13",
     "active": true,
     "tags": []
-  },
-  {
-    "id": "a767820cdb2b01f25922df767961737155d1ceb0a696a28dc36fcd7a75a73d84",
-    "title": "Healthcare Interior Designer",
-    "company": "DLR Group",
-    "location": "Cleveland, Ohio, United States",
-    "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5350600008",
-    "posted_date": "2026-07-20",
-    "scraped_date": "2026-08-13",
-    "active": true,
-    "tags": [
-      "Revit"
-    ]
   }
 ]

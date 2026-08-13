@@ -1,6 +1,6 @@
 # 🧠 Psychology
 
-_Last updated: 2026-08-13 19:20 UTC_ · [← All tracks](README.md)
+_Last updated: 2026-08-13 19:33 UTC_ · [← All tracks](README.md)
 
 Auto-generated from the JSON data files by `pipeline.py`. Do not edit by hand.
 

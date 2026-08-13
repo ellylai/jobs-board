@@ -1,6 +1,6 @@
 # 🏛️ Architecture
 
-_Last updated: 2026-08-13 19:20 UTC_ · [← All tracks](README.md)
+_Last updated: 2026-08-13 19:33 UTC_ · [← All tracks](README.md)
 
 Auto-generated from the JSON data files by `pipeline.py`. Do not edit by hand.
 
@@ -22,7 +22,6 @@ Auto-generated from the JSON data files by `pipeline.py`. Do not edit by hand.
 | CannonDesign | Technology - Entry Level | Buffalo, NY; Chicago, IL | 2026-07-22 | Revit | [Apply](http://www.cannondesign.com/careers/?gh_jid=8643131002) |
 | DLR Group | Civil Engineer, Entry Level | Des Moines, Iowa, United States; Omaha, Nebraska, United States | 2026-07-21 | SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5361581008) |
 | SOM | Designer - Architecture (Austin TX) | Austin | 2026-07-21 |  | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
-| DLR Group | Healthcare Interior Designer | Cleveland, Ohio, United States | 2026-07-20 | Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5350600008) |
 | KPF | Architectural Intern | New York | 2026-07-14 |  | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern_JR202500038) |
 | KPF | Architectural Intern (Interiors) | New York | 2026-07-14 |  | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
 | KPF | Data & Systems Developer Intern | New York | 2026-07-14 |  | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Data---Systems-Developer-Intern_JR202600047) |
