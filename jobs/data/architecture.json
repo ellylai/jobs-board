@@ -31,5 +31,305 @@
     "scraped_date": "2026-08-13",
     "active": true,
     "tags": []
+  },
+  {
+    "id": "2d35398f94bf15d3040f0e24ad60b999aa60e1f6ba592e5ef2e4228aa3ff8d07",
+    "title": "Architectural Designer, Entry-Level K-12",
+    "company": "DLR Group",
+    "location": "Phoenix, Arizona, United States",
+    "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5320328008",
+    "posted_date": "2026-07-10",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Revit"
+    ]
+  },
+  {
+    "id": "51b730b04cd6b060a5652f43c414a26b2ee4d1de86a9e047ab4b983d670ed0b1",
+    "title": "Civil Engineer, Entry Level",
+    "company": "DLR Group",
+    "location": "Des Moines, Iowa, United States; Omaha, Nebraska, United States",
+    "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5361581008",
+    "posted_date": "2026-07-21",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "SketchUp"
+    ]
+  },
+  {
+    "id": "e30b15e34e31292909b4b981869793b38509b1f17a9b0bb0411b9293b3148ca8",
+    "title": "Designer, Justice & Civic",
+    "company": "DLR Group",
+    "location": "Phoenix, Arizona, United States",
+    "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5366446008",
+    "posted_date": "2026-07-22",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Revit"
+    ]
+  },
+  {
+    "id": "93343968bbf4ee4004353bcb1d1b15d1d1e0dd12de740fda337fde5deb17d457",
+    "title": "Interior Designer",
+    "company": "DLR Group",
+    "location": "Chicago, Illinois, United States",
+    "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5349582008",
+    "posted_date": "2026-07-28",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Revit"
+    ]
+  },
+  {
+    "id": "0f9164b8497f8eed1bb81b890cb73719b1fa4477ff6de269423f13ca87b9e5ce",
+    "title": "Designer - Entry Level",
+    "company": "CannonDesign",
+    "location": "St. Louis, MO",
+    "url": "http://www.cannondesign.com/careers/?gh_jid=8652909002",
+    "posted_date": "2026-07-28",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Revit"
+    ]
+  },
+  {
+    "id": "bfcc51947c4cd5d69fb59ac93c8b0a0d22c76b8062cb82b2cc6e289420234a30",
+    "title": "Designer IB",
+    "company": "CannonDesign",
+    "location": "Denver, CO",
+    "url": "http://www.cannondesign.com/careers/?gh_jid=8654410002",
+    "posted_date": "2026-07-28",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Revit"
+    ]
+  },
+  {
+    "id": "6fc31feea66153a1d690b6fae84d5a1071efeb149706bb9fe6337d19cc474372",
+    "title": "Technology - Entry Level",
+    "company": "CannonDesign",
+    "location": "Buffalo, NY; Chicago, IL",
+    "url": "http://www.cannondesign.com/careers/?gh_jid=8643131002",
+    "posted_date": "2026-07-22",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Revit"
+    ]
+  },
+  {
+    "id": "ae6331db4b64679a5067ad9a26c061440e84d8937e7c0c7b4b587e1036dc94a0",
+    "title": "Brand Designer",
+    "company": "Gensler",
+    "location": "Bangalore, India",
+    "url": "https://gensler.wd1.myworkdayjobs.com/en-US/genslercareers/job/Bangalore-India/Brand-Designer_R-17994",
+    "posted_date": "2026-08-10",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "12ab14cc257a4b8c85bcfbee84e0d3ab1322700c756dba69f33690e6646a2496",
+    "title": "Job Captain - Sports",
+    "company": "HKS",
+    "location": "2 Locations",
+    "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain---Sports_2026-03274",
+    "posted_date": "2026-08-11",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "2512912ee98587670b1f917d070ec897c0b13e93082450d06e2c01b7cb6bb790",
+    "title": "Job Captain - Education",
+    "company": "HKS",
+    "location": "Dallas",
+    "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain---Education_2026-03231",
+    "posted_date": "2026-08-11",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "eb9a35290a8ba0d14ab69989c817e9742e547bd81d744392dbea38205b6e684e",
+    "title": "Project Interior Designer - Mission Critical",
+    "company": "HKS",
+    "location": "4 Locations",
+    "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Atlanta/Project-Interior-Designer---Mission-Critical_2026-03642",
+    "posted_date": "2026-08-06",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "e28b560b3d08b2f7677a2a5753f37b02dcbd638f69327734e60eb85f434dc549",
+    "title": "Designer - Architectural Visualization",
+    "company": "HKS",
+    "location": "3 Locations",
+    "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Designer---Architectural-Visualization_2026-03532",
+    "posted_date": "2026-07-31",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "92837def0dc1706719ada5acb0a1b50300cc09f4f56edda24da39b32c601ee33",
+    "title": "Project Interior Designer - Health",
+    "company": "HKS",
+    "location": "Orlando",
+    "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Orlando/Project-Interior-Designer---Health_2026-03531",
+    "posted_date": "2026-07-27",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "71c939001af9b994721d4427d67bcfdb59312df71b3b3562982ac28bf954fdba",
+    "title": "Architectural Intern",
+    "company": "KPF",
+    "location": "New York",
+    "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern_JR202500038",
+    "posted_date": "2026-07-14",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "3a3ca83994697fc262856b7ca671488426666e9e209151243d13f3863b329f4d",
+    "title": "Architectural Intern (Interiors)",
+    "company": "KPF",
+    "location": "New York",
+    "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075",
+    "posted_date": "2026-07-14",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "4bee7de15396124eb79608bff47ba5f8ab7c174618752bc10b4f8d0b235a220f",
+    "title": "Data & Systems Developer Intern",
+    "company": "KPF",
+    "location": "New York",
+    "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Data---Systems-Developer-Intern_JR202600047",
+    "posted_date": "2026-07-14",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "a9907d388c59b0f9020745be36f8bf4cacb09d5d7de0ef22ba96b07f780187ab",
+    "title": "Architectural Designer (0-4 Years)",
+    "company": "KPF",
+    "location": "London",
+    "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/London/Architectural-Designer--0-4-Years-_JR202600007",
+    "posted_date": "2026-07-14",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "accdc450d8bbfd1cc67c080ede682bcfdeacdad5934f4906eb0ec294d7e8c73a",
+    "title": "Year One - Junior Designer - City Design",
+    "company": "SOM",
+    "location": "Chicago",
+    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Chicago/Year-One---Junior-Designer---City-Design_R-3997",
+    "posted_date": "2026-07-14",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "7e4ef848958950f6e7d90a27cab975901fc7cdfe076dd8f370abbe4a376fd5dc",
+    "title": "Enclosure Intern",
+    "company": "SOM",
+    "location": "New York",
+    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Architecture-Intern_R-4120",
+    "posted_date": "2026-07-28",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "dc19c95339d4f046fd3d8af930ada34c21625f97e6e354ff85e9204665e3436b",
+    "title": "Designer - Architecture (Austin TX)",
+    "company": "SOM",
+    "location": "Austin",
+    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062",
+    "posted_date": "2026-07-21",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "20b9a8935e1e6985eba5f366de16a714ae62ce70ee452c771950c0fc3e7b71a9",
+    "title": "Year One - Junior Designer - Architecture",
+    "company": "SOM",
+    "location": "Los Angeles",
+    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Los-Angeles/Job-Posting-Title-Year-One---Junior-Designer---Architecture_R-4057",
+    "posted_date": "2026-07-14",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "990a617f31d61b929d0d25733f57ed655e800cc936d7835cb15b2b79d2f1b158",
+    "title": "Junior Designer, Architecture",
+    "company": "SOM",
+    "location": "Shanghai",
+    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Shanghai/Junior-Designer--Architecture_R-4040",
+    "posted_date": "2026-07-14",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "ab600632e8a18fbd8d52b971b0bd6ac0abbebe8fcd1af70d2f3991a6b9ebaf27",
+    "title": "Year One - Junior Designer - Structural Engineering",
+    "company": "SOM",
+    "location": "Chicago",
+    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Chicago/Year-One---Junior-Designer---Structural-Engineering_R-3993",
+    "posted_date": "2026-07-14",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "c3015efcdcb92b6eb4e6595968350b68cefdcfb5a8088cf6c5f3ce89d1d9ce74",
+    "title": "Designer - Architecture",
+    "company": "SOM",
+    "location": "Chicago",
+    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Chicago/Designer---Architecture_R-3623",
+    "posted_date": "2026-07-14",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "1a45b0610c74b9114d2b6b80359c18180a542a6d7cea2f39e84c0ba1565d3bb7",
+    "title": "Junior Designer, Structural Engineering",
+    "company": "SOM",
+    "location": "Shanghai",
+    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Shanghai/Junior-Designer--Structural-Engineering_R-3651",
+    "posted_date": "2026-07-14",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
+  },
+  {
+    "id": "9e6e595c1968f85723e5ab171e8ab59eba1cdeedeeecf8bb2ff9422047aea4b2",
+    "title": "Designer - Structural Engineering",
+    "company": "SOM",
+    "location": "Chicago",
+    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Chicago/Designer---Structural-Engineering_R-3667",
+    "posted_date": "2026-07-14",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": []
   }
 ]

@@ -23,7 +23,7 @@ from typing import Callable, Iterable
 # --- Scrapers -------------------------------------------------------------
 # Each entry maps a data file (track) to the list of scraper callables that
 # feed it. A scraper is a zero-arg function returning a list of listing dicts.
-from scrapers import archinect
+from scrapers import _filter, archinect, duke, firms, indeed, wordpress_psych
 
 # Psychology-track sourcing history:
 # - apa (APA PsycCareers): dropped -- APA closed the PsycCareers job board on
@@ -33,8 +33,8 @@ from scrapers import archinect
 #   dissertation proposal). This board targets undergrads, so APPIC's audience
 #   doesn't fit. Kept in the repo in case a doctoral board is ever wanted.
 # The psychology track targets undergrad-accessible roles (research assistant,
-# lab intern, clinical aide, etc.) via SerpAPI/Google Jobs.
-from scrapers import indeed
+# lab intern, clinical aide, etc.) via curated boards (Duke, the psychology
+# jobs/internships blog) plus SerpAPI/Google Jobs.
 
 logging.basicConfig(
     level=logging.INFO,
@@ -54,16 +54,18 @@ README_PATH = ROOT_DIR / "README.md"
 MAX_AGE_DAYS = 60          # listings older than this are dropped entirely
 NEW_BADGE_HOURS = 48       # listings newer than this get a 🆕 prefix
 
-# Track -> data file -> scrapers feeding it.
-# ``indeed`` feeds both tracks via different query strings, so it will appear
-# in both lists once implemented (it should tag/return listings per track).
+# Track -> data file -> scrapers feeding it. Free/curated sources first; the
+# SerpAPI web search (quota-limited, may return []) runs last.
 SCRAPERS: dict[str, list[Callable[[], list[dict]]]] = {
     "architecture": [
         archinect.scrape,
+        firms.scrape_architecture,
         # indeed.scrape_architecture is available but disabled to conserve the
-        # SerpAPI free-tier quota -- Archinect already covers architecture.
+        # SerpAPI free-tier quota -- Archinect + firm boards cover architecture.
     ],
     "psychology": [
+        wordpress_psych.scrape,
+        duke.scrape,
         indeed.scrape_psychology,
     ],
 }
@@ -288,6 +290,13 @@ def main() -> None:
     for track, scrapers in SCRAPERS.items():
         existing = load_listings(track)
         scraped = run_scrapers(scrapers)
+        # Safety net: drop any listing whose title trips the advanced-degree /
+        # licensure DROP screen, whatever its source claimed. DROP-only (no
+        # require_keep, no seniority), so curated sources are unaffected.
+        before = len(scraped)
+        scraped = _filter.filter_listings(scraped, require_keep=False, text_keys=("title",))
+        if len(scraped) != before:
+            log.info("Safety net dropped %d listing(s) in %s", before - len(scraped), track)
         merged = merge(existing, scraped)
         save_listings(track, merged)
         active = sum(1 for x in merged if x.get("active"))

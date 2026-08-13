@@ -27,6 +27,8 @@ import os
 import re
 from datetime import datetime, timedelta, timezone
 
+from . import _filter
+
 try:
     from serpapi import GoogleSearch
 except ImportError:  # package name: google-search-results
@@ -54,15 +56,6 @@ PSYCH_QUERIES = (
 ARCH_QUERIES = (
     "architecture internship",
     "architecture co-op",
-)
-
-# Titles/descriptions requiring an advanced degree or seniority -> not undergrad.
-EXCLUDE_PATTERNS = (
-    "ph.d", "phd", "psy.d", "psyd", "doctoral", "doctorate", "postdoc",
-    "post-doctoral", "licensed", "lcsw", "lmft", "lpc ", "lpcc", "bcba",
-    "board certified", "master's required", "masters required", "msw required",
-    "senior", "director", "manager", "supervisor", "lead ", "principal",
-    "faculty", "professor", "attending", "chief",
 )
 
 # Role-category tags for psychology listings.
@@ -122,8 +115,18 @@ def _parse_posted_date(detected: dict | None) -> str:
 
 
 def _is_undergrad_accessible(title: str, description: str) -> bool:
-    hay = f"{title}\n{description}".lower()
-    return not any(p in hay for p in EXCLUDE_PATTERNS)
+    """Undergrad-accessibility for a web-search hit (a *broad* source).
+
+    Uses the shared filter: title+description must carry an entry-level KEEP
+    signal and no advanced-degree/licensure DROP term; separately, the *title*
+    must not read as senior. Seniority is checked on the title only -- a role's
+    description routinely mentions a "lab manager" or "director" it reports to,
+    which shouldn't disqualify an entry-level posting.
+    """
+    text = f"{title}\n{description}"
+    return _filter.is_undergrad_accessible(
+        text, require_keep=True
+    ) and not _filter.has_seniority_term(title)
 
 
 def _tags_from(mapping: dict, text: str) -> list[str]:
