@@ -36,9 +36,12 @@ logging.basicConfig(
 log = logging.getLogger("pipeline")
 
 # --- Paths ----------------------------------------------------------------
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent   # jobs/
+ROOT_DIR = BASE_DIR.parent                   # repo root
 DATA_DIR = BASE_DIR / "data"
-README_PATH = BASE_DIR / "README.md"
+# Generated markdown lives at the repo root so the track files render as
+# clickable tabs on the GitHub landing page. JSON stays the source of truth.
+README_PATH = ROOT_DIR / "README.md"
 
 # --- Config ---------------------------------------------------------------
 MAX_AGE_DAYS = 60          # listings older than this are dropped entirely
@@ -211,24 +214,66 @@ def _render_table(listings: list[dict]) -> str:
     return header + "\n".join(rows) + "\n"
 
 
-def render_readme(tracks: dict[str, list[dict]]) -> None:
-    updated = _now().strftime("%Y-%m-%d %H:%M UTC")
+# Display metadata + output filename per track. The order here is the order
+# tracks appear on the index README.
+TRACKS_META: dict[str, dict[str, str]] = {
+    "architecture": {"title": "Architecture", "emoji": "🏛️", "file": "ARCHITECTURE.md"},
+    "psychology": {"title": "Psychology", "emoji": "🧠", "file": "PSYCHOLOGY.md"},
+}
+
+_GENERATED_NOTE = "Auto-generated from the JSON data files by `pipeline.py`. Do not edit by hand."
+
+
+def _active_count(listings: list[dict]) -> int:
+    return sum(1 for x in listings if x.get("active", True))
+
+
+def _render_track_file(track: str, listings: list[dict], updated: str) -> None:
+    """Write a single ARCHITECTURE.md / PSYCHOLOGY.md track page."""
+    meta = TRACKS_META[track]
+    parts = [
+        f"# {meta['emoji']} {meta['title']}",
+        "",
+        f"_Last updated: {updated}_ · [← All tracks](README.md)",
+        "",
+        _GENERATED_NOTE,
+        "",
+        _render_table(listings),
+    ]
+    path = ROOT_DIR / meta["file"]
+    path.write_text("\n".join(parts).rstrip() + "\n", encoding="utf-8")
+    log.info("Wrote %s", path.name)
+
+
+def _render_index(tracks: dict[str, list[dict]], updated: str) -> None:
+    """Write the root README.md landing page linking to each track."""
     parts = [
         "# Job Board",
         "",
         f"_Last updated: {updated}_",
         "",
-        "Auto-generated from the JSON data files by `pipeline.py`. Do not edit by hand.",
+        _GENERATED_NOTE,
         "",
-        "## 🏛️ Architecture",
+        "## Tracks",
         "",
-        _render_table(tracks.get("architecture", [])),
-        "## 🧠 Psychology",
-        "",
-        _render_table(tracks.get("psychology", [])),
+        "| Track | Open roles | Board |",
+        "| --- | --- | --- |",
     ]
+    for track, meta in TRACKS_META.items():
+        count = _active_count(tracks.get(track, []))
+        parts.append(
+            f"| {meta['emoji']} {meta['title']} | {count} | [{meta['file']}]({meta['file']}) |"
+        )
     README_PATH.write_text("\n".join(parts).rstrip() + "\n", encoding="utf-8")
     log.info("Wrote %s", README_PATH.name)
+
+
+def render_readme(tracks: dict[str, list[dict]]) -> None:
+    """Render the index README plus one markdown page per track."""
+    updated = _now().strftime("%Y-%m-%d %H:%M UTC")
+    for track in TRACKS_META:
+        _render_track_file(track, tracks.get(track, []), updated)
+    _render_index(tracks, updated)
 
 
 # --- Main -----------------------------------------------------------------
