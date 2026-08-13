@@ -124,6 +124,28 @@ _US_STATES = {
 }
 _STATE_ABBRS = set(_US_STATES.values())
 
+# A structured location this vague tells us nothing -> worth mining the
+# description / asking the LLM. Anything more specific that still didn't match a
+# target is trusted as non-target and dropped without an LLM call.
+_VAGUE_LOCATIONS = {"", "united states", "usa", "us", "u.s.", "u.s.a.", "n/a",
+                    "na", "various", "various locations", "multiple",
+                    "multiple locations", "nationwide"}
+# Target-capable states named on their own are ambiguous for our *city* targets
+# (Texas -> Austin/Dallas/Houston?, Washington -> Seattle?), so they, too, get
+# the description/LLM pass. (California is already a positive match; New York is
+# already read as NYC by target_label.)
+_AMBIGUOUS_STATES = {"texas", "washington"}
+_N_LOCATIONS_RE = re.compile(r"\d+\s+locations?")
+
+
+def _is_vague(location: str | None) -> bool:
+    loc = (location or "").strip().lower()
+    return (
+        loc in _VAGUE_LOCATIONS
+        or loc in _AMBIGUOUS_STATES
+        or bool(_N_LOCATIONS_RE.fullmatch(loc))
+    )
+
 
 def _is_nontarget_state(location: str | None) -> bool:
     """True if the location names a US state that can't contain a target market."""
@@ -166,31 +188,32 @@ def _from_description(description: str) -> str | None:
     return None
 
 
-# --- Gemini fallback -------------------------------------------------------
+# --- Gemini fallback (batched) ---------------------------------------------
+# One request resolves many listings: the throttled, rate-limited LLM is the
+# bottleneck, so batching is what keeps a run (dozens of vague locations) fast.
 _last_call = 0.0
-_calls_made = 0
-_cache: dict[str, str] = {}
+_batches_made = 0
+_cache: dict[str, str] = {}   # description snippet -> raw model answer
+BATCH_SIZE = 15
+_SNIPPET_LEN = 400
 
-_PROMPT = (
-    "You extract the work location of a job posting. Read the text and reply with "
-    "EXACTLY ONE line and nothing else: either 'City, ST' using the two-letter US "
-    "state code, or 'Remote' if it is fully remote, or 'Unknown' if the location "
-    "is not stated. Text:\n\n"
+_BATCH_INSTRUCTION = (
+    "You extract the primary US work location of each job posting below. For every "
+    "numbered item, reply on its own line as 'N. City, ST' (two-letter US state "
+    "code), or 'N. Remote' if fully remote, or 'N. Unknown' if not stated. Output "
+    "only those numbered lines.\n\n"
 )
 
 
-def _gemini_location(text: str) -> str:
-    """Ask Gemini for a job's location. Returns "" if unavailable/skipped."""
-    global _last_call, _calls_made
+def _gemini_raw_batch(texts: list[str]) -> dict[int, str]:
+    """One Gemini call for up to BATCH_SIZE texts. Returns {local_index: answer}."""
+    global _last_call, _batches_made
     key = os.environ.get(GEMINI_KEY_ENV)
-    if not key or not text:
-        return ""
-    if _calls_made >= GEMINI_MAX_CALLS:
-        return ""
-    snippet = text[:1500]
-    if snippet in _cache:
-        return _cache[snippet]
-
+    if not key or not texts or _batches_made >= GEMINI_MAX_CALLS:
+        return {}
+    prompt = _BATCH_INSTRUCTION + "\n".join(
+        f"{i + 1}. {(t or '')[:_SNIPPET_LEN]}" for i, t in enumerate(texts)
+    )
     wait = GEMINI_MIN_INTERVAL - (time.monotonic() - _last_call)
     if wait > 0:
         time.sleep(wait)
@@ -199,56 +222,87 @@ def _gemini_location(text: str) -> str:
             GEMINI_URL,
             params={"key": key},
             json={
-                "contents": [{"parts": [{"text": _PROMPT + snippet}]}],
-                "generationConfig": {"temperature": 0, "maxOutputTokens": 20},
+                "contents": [{"parts": [{"text": prompt}]}],
+                "generationConfig": {"temperature": 0, "maxOutputTokens": 16 * len(texts) + 32},
             },
             timeout=GEMINI_TIMEOUT,
         )
         _last_call = time.monotonic()
-        _calls_made += 1
+        _batches_made += 1
         resp.raise_for_status()
-        data = resp.json()
-        out = (
-            data["candidates"][0]["content"]["parts"][0]["text"]
-        ).strip().splitlines()[0].strip()
+        text = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
     except Exception as exc:  # noqa: BLE001 - LLM is best-effort; never fatal
         # Redact the api key, which appears in the request URL of HTTP errors.
-        msg = str(exc).replace(key, "***")
-        log.warning("Gemini location lookup failed: %s", msg)
-        return ""
-    _cache[snippet] = out
-    return out
+        log.warning("Gemini batch lookup failed: %s", str(exc).replace(key, "***"))
+        return {}
+    answers: dict[int, str] = {}
+    for line in text.splitlines():
+        m = re.match(r"\s*(\d+)[.)]\s*(.+)", line)
+        if m:
+            answers[int(m.group(1)) - 1] = m.group(2).strip()
+    return answers
+
+
+def gemini_batch(texts: list[str]) -> list[str | None]:
+    """Resolve description texts to target labels (or None) via batched Gemini."""
+    results: list[str | None] = [None] * len(texts)
+    todo: list[int] = []
+    for i, t in enumerate(texts):
+        snippet = (t or "")[:_SNIPPET_LEN]
+        if snippet in _cache:
+            results[i] = target_label(_cache[snippet])
+        elif snippet:
+            todo.append(i)
+    for start in range(0, len(todo), BATCH_SIZE):
+        chunk = todo[start:start + BATCH_SIZE]
+        answers = _gemini_raw_batch([texts[i] for i in chunk])
+        for local_i, global_i in enumerate(chunk):
+            ans = answers.get(local_i, "")
+            _cache[(texts[global_i] or "")[:_SNIPPET_LEN]] = ans
+            results[global_i] = target_label(ans)
+    return results
 
 
 # --- Public API ------------------------------------------------------------
-def resolve(
-    location: str | None, description: str = "", *, use_llm: bool = True
-) -> tuple[bool, str | None]:
-    """Decide whether a listing is in a target market.
+def classify_rules(
+    location: str | None, description: str = ""
+) -> tuple[str, str | None]:
+    """Rules-only classification (no network).
 
-    Returns ``(allowed, display)``. ``display`` is a cleaned label to overwrite
-    the listing's location with (when resolved from text/LLM), or ``None`` to
-    keep the original string.
+    Returns ``(decision, display)`` where ``decision`` is ``"keep"``, ``"drop"``,
+    or ``"llm"`` (undecided -- needs a description-based LLM lookup). ``display``
+    is a label to overwrite the listing's location with, or None to keep it.
     """
     label = target_label(location)
     if label:
-        # Structured field already good; only relabel the vague "remote-ish" ones.
-        return True, ("Remote" if label == "Remote" else None)
-
-    # Definite non-target state -> drop now, without spending a description scan
-    # or (throttled, quota-limited) LLM call.
-    if _is_nontarget_state(location):
-        return False, None
-
+        return "keep", ("Remote" if label == "Remote" else None)
+    # A specific structured location that didn't match a target is trusted as
+    # non-target and dropped now -- no description scan, no LLM.
+    if _is_nontarget_state(location) or not _is_vague(location):
+        return "drop", None
     label = _from_description(description)
     if label:
-        return True, label
+        return "keep", label
+    if not description:
+        return "drop", None
+    return "llm", None
 
-    # LLM only for sources that actually carry a role-specific description (firm
-    # ATS boards don't, and their boilerplate would mislead it).
-    if use_llm and description:
-        label = target_label(_gemini_location(description))
+
+def resolve(
+    location: str | None, description: str = "", *, use_llm: bool = True
+) -> tuple[bool, str | None]:
+    """Single-listing convenience (rules + one LLM lookup).
+
+    Prefer ``classify_rules`` + ``gemini_batch`` for bulk work (the pipeline does),
+    which batches the LLM calls. Returns ``(allowed, display)``.
+    """
+    decision, display = classify_rules(location, description)
+    if decision == "keep":
+        return True, display
+    if decision == "drop":
+        return False, None
+    if use_llm:
+        label = gemini_batch([description])[0]
         if label:
             return True, label
-
     return False, None

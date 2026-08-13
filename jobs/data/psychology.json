@@ -158,5 +158,75 @@
     "tags": [
       "volunteer"
     ]
+  },
+  {
+    "id": "c0db4f750aed082224edbadade657831cc631cc663d52708884227fb0ee9a60d",
+    "title": "Research Assistant the in Infant Brain and Behavior Lab",
+    "company": "NYU Langone Health",
+    "location": "New York City",
+    "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/IBB%20Lab%20RA%20Listing.pdf",
+    "posted_date": "2026-08-13",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Full-Time",
+      "Research"
+    ]
+  },
+  {
+    "id": "f4a5045949ddcc927ae72ffb8d5b2491649c0e2ff35955353d08fb493bc43397",
+    "title": "Research Associate in the Shuffrey Lab",
+    "company": "New York University",
+    "location": "New York City",
+    "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/2026%20DOLPHIN%20RA%20Posting.pdf",
+    "posted_date": "2026-08-06",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Full-Time",
+      "Research"
+    ]
+  },
+  {
+    "id": "1769f92ae41a799558933dea278d5f073c7c3a77c232e6fe8980024bdaee8b1f",
+    "title": "Research Assistant in the Clinical & Affective Neuroscience Lab",
+    "company": "University of California, Berkeley",
+    "location": "California",
+    "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-07/Research%20Assistant%20in%20the%20Clinical.pdf",
+    "posted_date": "2026-07-20",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Full-Time",
+      "Research"
+    ]
+  },
+  {
+    "id": "49eb7ba0783cfd9d7647d3ef35a5464288a8c9833beca76acf709887fb90ff7d",
+    "title": "Research Coordinator in the RESTORE Lab",
+    "company": "the University of Houston",
+    "location": "Houston",
+    "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-07/RESTORE%20Lab%20Coordinator%20Position%202026.pdf",
+    "posted_date": "2026-07-01",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Full-Time",
+      "Research"
+    ]
+  },
+  {
+    "id": "1ac9a196e57c7bc96576ca33b53625bda42855a1a855efca433f742367cdceb7",
+    "title": "Lab Manager in the Social Origins Lab",
+    "company": "the University of California, Berkeley",
+    "location": "California",
+    "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-05/Lab%20Manager%20in%20the%20Social%20Origins%20Lab%20at%20the%20University%20of%20California.pdf",
+    "posted_date": "2026-08-13",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Full-Time",
+      "Research"
+    ]
   }
 ]

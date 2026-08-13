@@ -33,7 +33,10 @@ except ImportError:  # python-dotenv not installed; rely on real env vars
 # --- Scrapers -------------------------------------------------------------
 # Each entry maps a data file (track) to the list of scraper callables that
 # feed it. A scraper is a zero-arg function returning a list of listing dicts.
-from scrapers import _filter, _location, archinect, duke, firms, indeed, wordpress_psych
+from scrapers import (
+    _filter, _location, archinect, dezeen, duke, firms, harvard, indeed,
+    wordpress_psych,
+)
 
 # Psychology-track sourcing history:
 # - apa (APA PsycCareers): dropped -- APA closed the PsycCareers job board on
@@ -73,6 +76,7 @@ NEW_BADGE_HOURS = 48       # listings newer than this get a 🆕 prefix
 SCRAPERS: dict[str, list[Callable[[], list[dict]]]] = {
     "architecture": [
         archinect.scrape,
+        dezeen.scrape,
         firms.scrape_architecture,
         # indeed.scrape_architecture is available but disabled to conserve the
         # SerpAPI free-tier quota -- Archinect + firm boards cover architecture.
@@ -80,6 +84,7 @@ SCRAPERS: dict[str, list[Callable[[], list[dict]]]] = {
     "psychology": [
         wordpress_psych.scrape,
         duke.scrape,
+        harvard.scrape,
         indeed.scrape_psychology,
     ],
 }
@@ -150,15 +155,33 @@ def run_scrapers(scrapers: Iterable[Callable[[], list[dict]]]) -> list[dict]:
 def apply_location_gate(listings: list[dict]) -> list[dict]:
     """Keep only listings in a target market; strip the transient _description.
 
-    Scrapers attach ``_description`` (a stripped body) for sources whose
-    structured location is vague. The gate consumes it -- rules first, then an
-    optional Gemini lookup -- and removes it so it never reaches the JSON.
+    Two passes so the LLM is batched: first classify every listing by rules,
+    collecting the undecided ones; then resolve those together with one batched
+    Gemini call per group. Scrapers attach ``_description`` (a stripped body) for
+    sources whose structured location is vague; it's removed before returning so
+    it never reaches the JSON.
     """
+    decisions: list[list] = []
+    pending_idx: list[int] = []
+    pending_txt: list[str] = []
+    for i, item in enumerate(listings):
+        description = item.get("_description", "")
+        decision, display = _location.classify_rules(item.get("location", ""), description)
+        decisions.append([decision, display])
+        if decision == "llm":
+            pending_idx.append(i)
+            pending_txt.append(description)
+
+    if pending_idx:
+        labels = _location.gemini_batch(pending_txt)
+        for k, i in enumerate(pending_idx):
+            label = labels[k]
+            decisions[i] = ["keep" if label else "drop", label]
+
     kept: list[dict] = []
-    for item in listings:
-        description = item.pop("_description", "")
-        allowed, display = _location.resolve(item.get("location", ""), description)
-        if not allowed:
+    for item, (decision, display) in zip(listings, decisions):
+        item.pop("_description", None)
+        if decision != "keep":
             continue
         if display:
             item["location"] = display
