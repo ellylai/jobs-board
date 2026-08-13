@@ -1,6 +1,6 @@
 # Job Board
 
-_Last updated: 2026-08-13 17:16 UTC_
+_Last updated: 2026-08-13 17:24 UTC_
 
 Auto-generated from the JSON data files by `pipeline.py`. Do not edit by hand.
 
