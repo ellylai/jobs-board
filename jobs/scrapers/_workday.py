@@ -28,7 +28,7 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-from . import _filter
+from . import _employment, _filter
 
 log = logging.getLogger("scrapers.workday")
 
@@ -142,8 +142,11 @@ def fetch_board(
                 continue
             path = job.get("externalPath") or ""
             url = f"{job_base}{path}" if path else job_base
-            tags = _tags_from(tag_mapping, title)
-            for t in extra_tags or []:
+            # Workday's list API carries no employment-type field; default firm
+            # postings to Full-Time (intern titles still classify as Internship).
+            emp = _employment.classify(title, default="Full-Time")
+            tags = [emp] if emp else []
+            for t in _tags_from(tag_mapping, title) + (extra_tags or []):
                 if t not in tags:
                     tags.append(t)
             listing = {

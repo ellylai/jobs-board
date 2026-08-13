@@ -28,7 +28,7 @@ import os
 import re
 from datetime import datetime, timedelta, timezone
 
-from . import _filter
+from . import _employment, _filter
 
 try:
     from serpapi import GoogleSearch
@@ -180,9 +180,13 @@ def _to_listing(job: dict, tag_mapping: dict, extra_tags: list[str] | None = Non
     company = _clean(job.get("company_name"))
     location = _clean(job.get("location"))
     description = job.get("description") or ""
-    tag_text = f"{title} {description}"
-    tags = _tags_from(tag_mapping, tag_text)
-    for t in extra_tags or []:
+    detected = job.get("detected_extensions") or {}
+    # Google Jobs gives an authoritative schedule_type (Full-time/Internship/...).
+    emp = _employment.classify(
+        title, schedule_type=detected.get("schedule_type"), text=description
+    )
+    tags = [emp] if emp else []
+    for t in _tags_from(tag_mapping, f"{title} {description}") + (extra_tags or []):
         if t not in tags:
             tags.append(t)
     return {
@@ -191,10 +195,11 @@ def _to_listing(job: dict, tag_mapping: dict, extra_tags: list[str] | None = Non
         "company": company,
         "location": location,
         "url": _apply_url(job),
-        "posted_date": _parse_posted_date(job.get("detected_extensions")),
+        "posted_date": _parse_posted_date(detected),
         "scraped_date": _today_iso(),
         "active": True,
         "tags": tags,
+        "_description": description,  # transient: consumed by the location gate
     }
 
 

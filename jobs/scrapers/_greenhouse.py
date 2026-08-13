@@ -29,7 +29,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from . import _filter
+from . import _employment, _filter
 
 log = logging.getLogger("scrapers.greenhouse")
 
@@ -113,8 +113,11 @@ def fetch_board(
         firm = company or _clean(job.get("company_name")) or slug
         location = _clean((job.get("location") or {}).get("name"))
         body = _strip_html(job.get("content"))
-        tags = _tags_from(tag_mapping, f"{title} {body}")
-        for t in extra_tags or []:
+        # Firm boards expose no employment-type field; a design firm's non-intern
+        # postings are salaried professional roles, so default to Full-Time.
+        emp = _employment.classify(title, text=body, default="Full-Time")
+        tags = [emp] if emp else []
+        for t in _tags_from(tag_mapping, f"{title} {body}") + (extra_tags or []):
             if t not in tags:
                 tags.append(t)
 
@@ -128,6 +131,9 @@ def fetch_board(
             "scraped_date": _today_iso(),
             "active": True,
             "tags": tags,
+            # No _description: a firm board's structured location is reliable, and
+            # its HTML body is office-list/legal boilerplate that would mislead the
+            # location gate (every office city + "remote options" + CA privacy text).
         }
         by_id.setdefault(listing["id"], listing)
 

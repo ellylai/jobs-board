@@ -8,7 +8,9 @@
     "posted_date": "2026-08-13",
     "scraped_date": "2026-08-13",
     "active": true,
-    "tags": []
+    "tags": [
+      "Internship"
+    ]
   },
   {
     "id": "9c8c061d01c249890be3afaf9fdfe69cbdbc6f7797e7e388187fec1f188eee3c",
@@ -19,7 +21,9 @@
     "posted_date": "2026-07-29",
     "scraped_date": "2026-08-13",
     "active": true,
-    "tags": []
+    "tags": [
+      "Internship"
+    ]
   },
   {
     "id": "e646f34457a8d722fddd2d5e603d8d27050c9f653b3f43560d9795573fe3e767",
@@ -30,18 +34,21 @@
     "posted_date": "2026-06-22",
     "scraped_date": "2026-08-13",
     "active": true,
-    "tags": []
+    "tags": [
+      "Internship"
+    ]
   },
   {
     "id": "2d35398f94bf15d3040f0e24ad60b999aa60e1f6ba592e5ef2e4228aa3ff8d07",
     "title": "Architectural Designer, Entry-Level K-12",
     "company": "DLR Group",
-    "location": "Phoenix, Arizona, United States",
+    "location": "Remote",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5320328008",
     "posted_date": "2026-07-10",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": [
+      "Full-Time",
       "Revit"
     ]
   },
@@ -53,7 +60,7 @@
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5361581008",
     "posted_date": "2026-07-21",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": [
       "SketchUp"
     ]
@@ -62,12 +69,13 @@
     "id": "e30b15e34e31292909b4b981869793b38509b1f17a9b0bb0411b9293b3148ca8",
     "title": "Designer, Justice & Civic",
     "company": "DLR Group",
-    "location": "Phoenix, Arizona, United States",
+    "location": "Remote",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5366446008",
     "posted_date": "2026-07-22",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": [
+      "Full-Time",
       "Revit"
     ]
   },
@@ -79,7 +87,7 @@
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5349582008",
     "posted_date": "2026-07-28",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": [
       "Revit"
     ]
@@ -92,7 +100,7 @@
     "url": "http://www.cannondesign.com/careers/?gh_jid=8652909002",
     "posted_date": "2026-07-28",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": [
       "Revit"
     ]
@@ -101,12 +109,13 @@
     "id": "bfcc51947c4cd5d69fb59ac93c8b0a0d22c76b8062cb82b2cc6e289420234a30",
     "title": "Designer IB",
     "company": "CannonDesign",
-    "location": "Denver, CO",
+    "location": "Remote",
     "url": "http://www.cannondesign.com/careers/?gh_jid=8654410002",
     "posted_date": "2026-07-28",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": [
+      "Internship",
       "Revit"
     ]
   },
@@ -114,12 +123,13 @@
     "id": "6fc31feea66153a1d690b6fae84d5a1071efeb149706bb9fe6337d19cc474372",
     "title": "Technology - Entry Level",
     "company": "CannonDesign",
-    "location": "Buffalo, NY; Chicago, IL",
+    "location": "Remote",
     "url": "http://www.cannondesign.com/careers/?gh_jid=8643131002",
     "posted_date": "2026-07-22",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": [
+      "Internship",
       "Revit"
     ]
   },
@@ -131,7 +141,7 @@
     "url": "https://gensler.wd1.myworkdayjobs.com/en-US/genslercareers/job/Bangalore-India/Brand-Designer_R-17994",
     "posted_date": "2026-08-10",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": []
   },
   {
@@ -142,7 +152,7 @@
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain---Sports_2026-03274",
     "posted_date": "2026-08-11",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": []
   },
   {
@@ -154,7 +164,9 @@
     "posted_date": "2026-08-11",
     "scraped_date": "2026-08-13",
     "active": true,
-    "tags": []
+    "tags": [
+      "Full-Time"
+    ]
   },
   {
     "id": "eb9a35290a8ba0d14ab69989c817e9742e547bd81d744392dbea38205b6e684e",
@@ -164,7 +176,7 @@
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Atlanta/Project-Interior-Designer---Mission-Critical_2026-03642",
     "posted_date": "2026-08-06",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": []
   },
   {
@@ -175,7 +187,7 @@
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Designer---Architectural-Visualization_2026-03532",
     "posted_date": "2026-07-31",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": []
   },
   {
@@ -186,7 +198,7 @@
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Orlando/Project-Interior-Designer---Health_2026-03531",
     "posted_date": "2026-07-27",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": []
   },
   {
@@ -198,7 +210,9 @@
     "posted_date": "2026-07-14",
     "scraped_date": "2026-08-13",
     "active": true,
-    "tags": []
+    "tags": [
+      "Internship"
+    ]
   },
   {
     "id": "3a3ca83994697fc262856b7ca671488426666e9e209151243d13f3863b329f4d",
@@ -209,7 +223,9 @@
     "posted_date": "2026-07-14",
     "scraped_date": "2026-08-13",
     "active": true,
-    "tags": []
+    "tags": [
+      "Internship"
+    ]
   },
   {
     "id": "4bee7de15396124eb79608bff47ba5f8ab7c174618752bc10b4f8d0b235a220f",
@@ -220,7 +236,9 @@
     "posted_date": "2026-07-14",
     "scraped_date": "2026-08-13",
     "active": true,
-    "tags": []
+    "tags": [
+      "Internship"
+    ]
   },
   {
     "id": "a9907d388c59b0f9020745be36f8bf4cacb09d5d7de0ef22ba96b07f780187ab",
@@ -230,7 +248,7 @@
     "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/London/Architectural-Designer--0-4-Years-_JR202600007",
     "posted_date": "2026-07-14",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": []
   },
   {
@@ -241,7 +259,7 @@
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Chicago/Year-One---Junior-Designer---City-Design_R-3997",
     "posted_date": "2026-07-14",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": []
   },
   {
@@ -253,7 +271,9 @@
     "posted_date": "2026-07-28",
     "scraped_date": "2026-08-13",
     "active": true,
-    "tags": []
+    "tags": [
+      "Internship"
+    ]
   },
   {
     "id": "dc19c95339d4f046fd3d8af930ada34c21625f97e6e354ff85e9204665e3436b",
@@ -264,7 +284,9 @@
     "posted_date": "2026-07-21",
     "scraped_date": "2026-08-13",
     "active": true,
-    "tags": []
+    "tags": [
+      "Full-Time"
+    ]
   },
   {
     "id": "20b9a8935e1e6985eba5f366de16a714ae62ce70ee452c771950c0fc3e7b71a9",
@@ -275,7 +297,9 @@
     "posted_date": "2026-07-14",
     "scraped_date": "2026-08-13",
     "active": true,
-    "tags": []
+    "tags": [
+      "Full-Time"
+    ]
   },
   {
     "id": "990a617f31d61b929d0d25733f57ed655e800cc936d7835cb15b2b79d2f1b158",
@@ -285,7 +309,7 @@
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Shanghai/Junior-Designer--Architecture_R-4040",
     "posted_date": "2026-07-14",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": []
   },
   {
@@ -296,7 +320,7 @@
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Chicago/Year-One---Junior-Designer---Structural-Engineering_R-3993",
     "posted_date": "2026-07-14",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": []
   },
   {
@@ -307,7 +331,7 @@
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Chicago/Designer---Architecture_R-3623",
     "posted_date": "2026-07-14",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": []
   },
   {
@@ -318,7 +342,7 @@
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Shanghai/Junior-Designer--Structural-Engineering_R-3651",
     "posted_date": "2026-07-14",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": []
   },
   {
@@ -329,7 +353,21 @@
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Chicago/Designer---Structural-Engineering_R-3667",
     "posted_date": "2026-07-14",
     "scraped_date": "2026-08-13",
-    "active": true,
+    "active": false,
     "tags": []
+  },
+  {
+    "id": "a767820cdb2b01f25922df767961737155d1ceb0a696a28dc36fcd7a75a73d84",
+    "title": "Healthcare Interior Designer",
+    "company": "DLR Group",
+    "location": "Remote",
+    "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5350600008",
+    "posted_date": "2026-07-20",
+    "scraped_date": "2026-08-13",
+    "active": false,
+    "tags": [
+      "Full-Time",
+      "Revit"
+    ]
   }
 ]

@@ -23,6 +23,8 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
+from . import _employment
+
 log = logging.getLogger("scrapers.archinect")
 
 BASE_URL = "https://archinect.com"
@@ -132,6 +134,8 @@ def _parse_entry(entry) -> dict | None:
     posted_date = _parse_date(date_el.get_text()) if date_el else _today_iso()
     url = urljoin(BASE_URL, anchor["href"])
 
+    emp = _employment.classify(title, default="Internship")
+    tags = ([emp] if emp else []) + _software_tags(title)
     return {
         "id": _make_id(title, company),
         "title": title,
@@ -141,7 +145,7 @@ def _parse_entry(entry) -> dict | None:
         "posted_date": posted_date,
         "scraped_date": _today_iso(),
         "active": True,
-        "tags": _software_tags(title),
+        "tags": tags,
     }
 
 

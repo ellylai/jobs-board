@@ -43,6 +43,9 @@ jobs:
       - name: Run pipeline
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          # Optional: enables the LLM location fallback in scrapers/_location.py.
+          # Unset -> the pipeline still runs, just without LLM location recovery.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python pipeline.py
 
       - name: Commit and push if changed

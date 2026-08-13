@@ -27,7 +27,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from . import _filter
+from . import _employment, _filter
 
 log = logging.getLogger("scrapers.duke")
 
@@ -44,13 +44,10 @@ _RECRUITMENT_RE = re.compile(r"participat|participants|study volunteers", re.IGN
 # Trailing "read more about this opportunity »" boilerplate on the snippet.
 _READMORE_RE = re.compile(r"\bread\s+more\b.*$", re.IGNORECASE | re.DOTALL)
 
-# Lightweight keyword tags (the page's own type facets aren't exposed per row).
+# Domain tags (employment type is handled separately by _employment). The page's
+# own type facets aren't exposed per row, so these are keyword-based.
 TAG_KEYWORDS: dict[str, tuple[str, ...]] = {
-    "Internship": ("intern",),
-    "Full-Time": ("full-time", "full time"),
-    "Part-Time": ("part-time", "part time"),
     "Paid": ("paid", "salary", "stipend", "hourly"),
-    "Volunteer": ("volunteer",),
     "Research": ("research", "lab ", "laboratory"),
 }
 
@@ -117,6 +114,8 @@ def _parse_row(row) -> dict | None:
 
     role, org = _split_title(raw_title)
     url = urljoin(BASE_URL, anchor["href"]) if anchor else PAGE_URL
+    emp = _employment.classify(role, text=body)
+    tags = ([emp] if emp else []) + _tags_from(f"{raw_title} {body}")
     return {
         "id": _make_id(role, org),
         "title": role,
@@ -127,7 +126,8 @@ def _parse_row(row) -> dict | None:
         "posted_date": "",
         "scraped_date": _today_iso(),
         "active": True,
-        "tags": _tags_from(f"{raw_title} {body}"),
+        "tags": tags,
+        "_description": body,  # transient: consumed by the location gate
     }
 
 

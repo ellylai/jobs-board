@@ -31,7 +31,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from . import _filter
+from . import _employment, _filter
 
 log = logging.getLogger("scrapers.wordpress_psych")
 
@@ -138,25 +138,20 @@ def _location_from(cat_ids: list[int], id2name: dict[int, str]) -> str:
     return ""
 
 
-def _tags_from(cat_ids: list[int], id2name: dict[int, str], job_ids: set[int]) -> list[str]:
+def _employment_of(cat_ids: list[int], id2name: dict[int, str], job_ids: set[int]) -> str:
+    """Employment-type label from the post's job-type categories."""
+    names = " ".join(id2name.get(cid, "") for cid in cat_ids if cid in job_ids)
+    return _employment.classify(category=names)
+
+
+def _subfield_tags(cat_ids: list[int], id2name: dict[int, str]) -> list[str]:
+    """Psychology-subfield tags: "Clinical Psychology" -> "Clinical"."""
     tags: list[str] = []
     for cid in cat_ids:
         name = id2name.get(cid, "")
-        low = name.lower()
-        if cid in job_ids:
-            # "Full-Time Job" -> "Full-Time"; "Summer Internship or Workshop"
-            # -> "Summer Internship".
-            tag = re.sub(r"\s+job$", "", name, flags=re.I)
-            tag = re.sub(r"\s+or\s+workshop$", "", tag, flags=re.I)
-            tags.append(tag)
-        elif low.endswith(" psychology"):
+        if name.lower().endswith(" psychology") and name not in tags:
             tags.append(name[: -len(" Psychology")])
-    # De-dup, cap the noise.
-    seen: list[str] = []
-    for t in tags:
-        if t not in seen:
-            seen.append(t)
-    return seen[:4]
+    return tags[:3]
 
 
 def scrape() -> list[dict]:
@@ -188,6 +183,8 @@ def scrape() -> list[dict]:
 
         role, company = _split_title(raw_title)
         cat_ids = post.get("categories") or []
+        emp = _employment_of(cat_ids, id2name, job_id_set)
+        tags = ([emp] if emp else []) + _subfield_tags(cat_ids, id2name)
         listing = {
             "id": _make_id(role, company),
             "title": role,
@@ -197,7 +194,8 @@ def scrape() -> list[dict]:
             "posted_date": (post.get("date") or "")[:10] or _today_iso(),
             "scraped_date": _today_iso(),
             "active": True,
-            "tags": _tags_from(cat_ids, id2name, job_id_set),
+            "tags": tags,
+            "_description": body,  # transient: consumed by the location gate
         }
         by_id.setdefault(listing["id"], listing)
 

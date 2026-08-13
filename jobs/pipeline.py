@@ -23,7 +23,7 @@ from typing import Callable, Iterable
 # --- Scrapers -------------------------------------------------------------
 # Each entry maps a data file (track) to the list of scraper callables that
 # feed it. A scraper is a zero-arg function returning a list of listing dicts.
-from scrapers import _filter, archinect, duke, firms, indeed, wordpress_psych
+from scrapers import _filter, _location, archinect, duke, firms, indeed, wordpress_psych
 
 # Psychology-track sourcing history:
 # - apa (APA PsycCareers): dropped -- APA closed the PsycCareers job board on
@@ -53,6 +53,10 @@ README_PATH = ROOT_DIR / "README.md"
 # --- Config ---------------------------------------------------------------
 MAX_AGE_DAYS = 60          # listings older than this are dropped entirely
 NEW_BADGE_HOURS = 48       # listings newer than this get a 🆕 prefix
+
+# Target markets: anywhere in California + these cities (plus remote). Enforced
+# by the location gate below; everything else -- including undeterminable
+# locations -- is dropped. See scrapers/_location.py.
 
 # Track -> data file -> scrapers feeding it. Free/curated sources first; the
 # SerpAPI web search (quota-limited, may return []) runs last.
@@ -130,6 +134,26 @@ def run_scrapers(scrapers: Iterable[Callable[[], list[dict]]]) -> list[dict]:
         except Exception:  # noqa: BLE001 - one bad scraper must not stop the run
             log.exception("Scraper %s failed; skipping", name)
     return collected
+
+
+# --- Location gate --------------------------------------------------------
+def apply_location_gate(listings: list[dict]) -> list[dict]:
+    """Keep only listings in a target market; strip the transient _description.
+
+    Scrapers attach ``_description`` (a stripped body) for sources whose
+    structured location is vague. The gate consumes it -- rules first, then an
+    optional Gemini lookup -- and removes it so it never reaches the JSON.
+    """
+    kept: list[dict] = []
+    for item in listings:
+        description = item.pop("_description", "")
+        allowed, display = _location.resolve(item.get("location", ""), description)
+        if not allowed:
+            continue
+        if display:
+            item["location"] = display
+        kept.append(item)
+    return kept
 
 
 # --- Merge ----------------------------------------------------------------
@@ -297,6 +321,10 @@ def main() -> None:
         scraped = _filter.filter_listings(scraped, require_keep=False, text_keys=("title",))
         if len(scraped) != before:
             log.info("Safety net dropped %d listing(s) in %s", before - len(scraped), track)
+        # Location gate: keep only target-market (or remote) roles.
+        before = len(scraped)
+        scraped = apply_location_gate(scraped)
+        log.info("Location gate: kept %d of %d listing(s) in %s", len(scraped), before, track)
         merged = merge(existing, scraped)
         save_listings(track, merged)
         active = sum(1 for x in merged if x.get("active"))
