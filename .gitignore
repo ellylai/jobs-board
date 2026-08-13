@@ -11,3 +11,6 @@ env/
 Thumbs.db
 .vscode/
 .idea/
+
+# Secrets / local env (SERPAPI_KEY, GEMINI_API_KEY) -- never commit
+.env

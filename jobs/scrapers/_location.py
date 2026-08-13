@@ -29,7 +29,9 @@ import requests
 log = logging.getLogger("scrapers.location")
 
 GEMINI_KEY_ENV = "GEMINI_API_KEY"
-GEMINI_MODEL = "gemini-2.0-flash"
+# The "-latest" alias tracks the current cheap/fast Flash-Lite model, so it won't
+# break as dated model ids (gemini-2.0-flash, gemini-2.5-flash-lite, ...) retire.
+GEMINI_MODEL = "gemini-flash-lite-latest"
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
     f"{GEMINI_MODEL}:generateContent"
@@ -97,6 +99,45 @@ def target_label(text: str | None) -> str | None:
     if _texas_city(t, "houston"):
         return "Houston"
     return None
+
+
+# US states as {full name: abbr}. A location naming any state OTHER than these
+# target-capable ones -- CA (a target) and TX/WA/NY (may hold a target city) --
+# is a definite non-target and can be dropped without touching the description or
+# the LLM. (CA and NYC are already caught positively by ``target_label``.)
+_TARGET_STATES = {"ca", "tx", "wa", "ny"}
+_US_STATES = {
+    "alabama": "al", "alaska": "ak", "arizona": "az", "arkansas": "ar",
+    "california": "ca", "colorado": "co", "connecticut": "ct", "delaware": "de",
+    "florida": "fl", "georgia": "ga", "hawaii": "hi", "idaho": "id",
+    "illinois": "il", "indiana": "in", "iowa": "ia", "kansas": "ks",
+    "kentucky": "ky", "louisiana": "la", "maine": "me", "maryland": "md",
+    "massachusetts": "ma", "michigan": "mi", "minnesota": "mn",
+    "mississippi": "ms", "missouri": "mo", "montana": "mt", "nebraska": "ne",
+    "nevada": "nv", "new hampshire": "nh", "new jersey": "nj",
+    "new mexico": "nm", "new york": "ny", "north carolina": "nc",
+    "north dakota": "nd", "ohio": "oh", "oklahoma": "ok", "oregon": "or",
+    "pennsylvania": "pa", "rhode island": "ri", "south carolina": "sc",
+    "south dakota": "sd", "tennessee": "tn", "texas": "tx", "utah": "ut",
+    "vermont": "vt", "virginia": "va", "washington": "wa",
+    "west virginia": "wv", "wisconsin": "wi", "wyoming": "wy",
+}
+_STATE_ABBRS = set(_US_STATES.values())
+
+
+def _is_nontarget_state(location: str | None) -> bool:
+    """True if the location names a US state that can't contain a target market."""
+    if not location:
+        return False
+    t = f" {location.lower()} "
+    for m in re.finditer(r",\s*([a-z]{2})\b", t):
+        ab = m.group(1)
+        if ab in _STATE_ABBRS and ab not in _TARGET_STATES:
+            return True
+    for name, ab in _US_STATES.items():
+        if ab not in _TARGET_STATES and f" {name} " in t:
+            return True
+    return False
 
 
 # "City, ST" occurrences in free text (for description mining).
@@ -171,7 +212,9 @@ def _gemini_location(text: str) -> str:
             data["candidates"][0]["content"]["parts"][0]["text"]
         ).strip().splitlines()[0].strip()
     except Exception as exc:  # noqa: BLE001 - LLM is best-effort; never fatal
-        log.warning("Gemini location lookup failed: %s", exc)
+        # Redact the api key, which appears in the request URL of HTTP errors.
+        msg = str(exc).replace(key, "***")
+        log.warning("Gemini location lookup failed: %s", msg)
         return ""
     _cache[snippet] = out
     return out
@@ -192,12 +235,19 @@ def resolve(
         # Structured field already good; only relabel the vague "remote-ish" ones.
         return True, ("Remote" if label == "Remote" else None)
 
+    # Definite non-target state -> drop now, without spending a description scan
+    # or (throttled, quota-limited) LLM call.
+    if _is_nontarget_state(location):
+        return False, None
+
     label = _from_description(description)
     if label:
         return True, label
 
-    if use_llm:
-        label = target_label(_gemini_location(description or location or ""))
+    # LLM only for sources that actually carry a role-specific description (firm
+    # ATS boards don't, and their boilerplate would mislead it).
+    if use_llm and description:
+        label = target_label(_gemini_location(description))
         if label:
             return True, label
 

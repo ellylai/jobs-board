@@ -20,6 +20,16 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Callable, Iterable
 
+# Load a local .env (SERPAPI_KEY, GEMINI_API_KEY) before anything reads the
+# environment. ``usecwd=True`` walks up from the working dir, so running from
+# jobs/ still finds the repo-root .env. Absent in CI (real env vars) -> no-op.
+try:
+    from dotenv import find_dotenv, load_dotenv
+
+    load_dotenv(find_dotenv(usecwd=True))
+except ImportError:  # python-dotenv not installed; rely on real env vars
+    pass
+
 # --- Scrapers -------------------------------------------------------------
 # Each entry maps a data file (track) to the list of scraper callables that
 # feed it. A scraper is a zero-arg function returning a list of listing dicts.

@@ -59,15 +59,15 @@ ARCH_QUERIES = (
     "architecture co-op",
 )
 
-# Role-category tags for psychology listings.
+# Role-category (domain) tags for psychology listings. Title-cased to match the
+# employment-type tag; "volunteer"/"remote" are omitted here since the
+# employment-type and location fields already carry them.
 PSYCH_ROLE_TAGS: dict[str, tuple[str, ...]] = {
-    "research": ("research assistant", "research intern", "lab ", "laboratory"),
-    "clinical": ("clinical aide", "clinical intern", "clinic"),
-    "counseling": ("counsel", "counseling"),
-    "rehab": ("rehab", "rehabilitation"),
-    "behavioral": ("behavioral", "behavior tech", "rbt", "aba "),
-    "volunteer": ("volunteer",),
-    "remote": ("remote", "work from home"),
+    "Research": ("research assistant", "research intern", "lab ", "laboratory"),
+    "Clinical": ("clinical aide", "clinical intern", "clinic"),
+    "Counseling": ("counsel", "counseling"),
+    "Rehab": ("rehab", "rehabilitation"),
+    "Behavioral": ("behavioral", "behavior tech", "rbt", "aba "),
 }
 
 # Design software tags for architecture listings (mirrors archinect.py).

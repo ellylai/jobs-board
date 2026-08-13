@@ -2,5 +2,8 @@ requests>=2.31
 beautifulsoup4>=4.12
 # SerpAPI Google Jobs endpoint (indeed.py).
 google-search-results>=2.4
+# Loads a local .env (SERPAPI_KEY, GEMINI_API_KEY) for dev runs. In CI these
+# come from GitHub secrets as real env vars, so the missing .env is a no-op.
+python-dotenv>=1.0
 # Note: APPIC turned out to be server-rendered (a session token unlocks the
 # results table), so no Playwright/headless browser is required.
