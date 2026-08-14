@@ -56,9 +56,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Stage the JSON data (in jobs/) plus the generated markdown at the
-          # repo root. Steps run from jobs/, so root files are one level up.
-          git add data/*.json ../README.md ../ARCHITECTURE.md ../PSYCHOLOGY.md
+          # Stage the JSON data (in jobs/) plus the generated README at the repo
+          # root. Steps run from jobs/, so the root README is one level up.
+          git add data/*.json ../README.md
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

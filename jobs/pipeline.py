@@ -342,39 +342,51 @@ def _render_table(listings: list[dict]) -> str:
     return header + "\n".join(rows) + "\n"
 
 
-# Display metadata + output filename per track. The order here is the order
-# tracks appear on the index README.
+# Display metadata per track. The order here is the order tracks appear.
 TRACKS_META: dict[str, dict[str, str]] = {
-    "architecture": {"title": "Architecture", "emoji": "🏛️", "file": "ARCHITECTURE.md"},
-    "psychology": {"title": "Psychology", "emoji": "🧠", "file": "PSYCHOLOGY.md"},
+    "architecture": {"title": "Architecture", "emoji": "🏛️"},
+    "psychology": {"title": "Psychology", "emoji": "🧠"},
 }
 
 _GENERATED_NOTE = "Auto-generated from the JSON data files by `pipeline.py`. Do not edit by hand."
+
+# Concise note on the two filters every listing passes (see scrapers/_filter.py
+# and scrapers/_location.py).
+_FILTERS_NOTE = (
+    "Every listing is auto-filtered on two axes:\n\n"
+    "- **Undergraduate-accessible** — interns, research assistants, and other "
+    "entry-level roles are kept; anything requiring an advanced degree, licensure, "
+    "or seniority (PhD, \"Senior\", \"Manager\", 3+ years, ...) is dropped.\n"
+    "- **Target market** — anywhere in California, or Seattle / New York City / "
+    "Austin / Dallas / Houston; fully-remote roles are also kept. Everything else "
+    "is dropped.\n\n"
+    "🆕 marks listings posted in the last 48 hours."
+)
 
 
 def _active_count(listings: list[dict]) -> int:
     return sum(1 for x in listings if x.get("active", True))
 
 
-def _render_track_file(track: str, listings: list[dict], updated: str) -> None:
-    """Write a single ARCHITECTURE.md / PSYCHOLOGY.md track page."""
+def _render_section(track: str, listings: list[dict]) -> str:
+    """Render one track as a collapsible <details> block containing its table."""
     meta = TRACKS_META[track]
-    parts = [
-        f"# {meta['emoji']} {meta['title']}",
-        "",
-        f"_Last updated: {updated}_ · [← All tracks](README.md)",
-        "",
-        _GENERATED_NOTE,
-        "",
-        _render_table(listings),
-    ]
-    path = ROOT_DIR / meta["file"]
-    path.write_text("\n".join(parts).rstrip() + "\n", encoding="utf-8")
-    log.info("Wrote %s", path.name)
+    count = _active_count(listings)
+    # Blank lines around the table are required for GitHub to render Markdown
+    # inside the <details> element.
+    return (
+        "<details>\n"
+        f"<summary><strong>{meta['emoji']} {meta['title']}</strong> — "
+        f"{count} open role(s)</summary>\n\n"
+        f"{_render_table(listings)}\n"
+        "</details>"
+    )
 
 
-def _render_index(tracks: dict[str, list[dict]], updated: str) -> None:
-    """Write the root README.md landing page linking to each track."""
+def render_readme(tracks: dict[str, list[dict]]) -> None:
+    """Render the single root README.md: intro, filter note, one collapsible
+    section per track (both tables live on the landing page)."""
+    updated = _now().strftime("%Y-%m-%d %H:%M UTC")
     parts = [
         "# Job Board",
         "",
@@ -382,26 +394,16 @@ def _render_index(tracks: dict[str, list[dict]], updated: str) -> None:
         "",
         _GENERATED_NOTE,
         "",
-        "## Tracks",
+        _FILTERS_NOTE,
         "",
-        "| Track | Open roles | Board |",
-        "| --- | --- | --- |",
+        "## Open roles",
+        "",
     ]
-    for track, meta in TRACKS_META.items():
-        count = _active_count(tracks.get(track, []))
-        parts.append(
-            f"| {meta['emoji']} {meta['title']} | {count} | [{meta['file']}]({meta['file']}) |"
-        )
+    for track in TRACKS_META:
+        parts.append(_render_section(track, tracks.get(track, [])))
+        parts.append("")
     README_PATH.write_text("\n".join(parts).rstrip() + "\n", encoding="utf-8")
     log.info("Wrote %s", README_PATH.name)
-
-
-def render_readme(tracks: dict[str, list[dict]]) -> None:
-    """Render the index README plus one markdown page per track."""
-    updated = _now().strftime("%Y-%m-%d %H:%M UTC")
-    for track in TRACKS_META:
-        _render_track_file(track, tracks.get(track, []), updated)
-    _render_index(tracks, updated)
 
 
 # --- Main -----------------------------------------------------------------
