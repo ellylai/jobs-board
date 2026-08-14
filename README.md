@@ -72,4 +72,4 @@ Every listing is auto-filtered on two axes:
 
 ---
 
-_made by ellyse xxx | for dev: see [`jobs/README.md`](jobs/README.md)._
+_made by ellyse for friends xx | for dev: see [`jobs/README.md`](jobs/README.md)._
