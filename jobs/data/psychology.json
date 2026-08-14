@@ -53,7 +53,8 @@
     "tags": [
       "Full-Time",
       "Research"
-    ]
+    ],
+    "source": "duke"
   },
   {
     "id": "623cacec96d131fdedf2700bd8608eee07ead0825c1a0efee1abb19600e9734d",
@@ -67,7 +68,8 @@
     "tags": [
       "Full-Time",
       "Research"
-    ]
+    ],
+    "source": "duke"
   },
   {
     "id": "b5daa4b7559070c914f03cdac15547fb8e1253f64aa4a601bda84ff09c6e5c34",
@@ -91,10 +93,11 @@
     "url": "https://www.linkedin.com/jobs/view/marketing-communications-intern-%E2%80%93-psychology-spirituality-wellness-personal-growth-at-healing-happens-4450788108?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-08-07",
     "scraped_date": "2026-08-13",
-    "active": false,
+    "active": true,
     "tags": [
       "Part-Time"
-    ]
+    ],
+    "source": "indeed"
   },
   {
     "id": "0d1700023ae97b54bdc1050f21fbb22dc43744ef64f43c3b535d261f8dad9ffa",
@@ -107,7 +110,8 @@
     "active": true,
     "tags": [
       "Internship"
-    ]
+    ],
+    "source": "indeed"
   },
   {
     "id": "59c6ed72e43f0ea0108ad565b45621e5b5b230d847a55478915601f3da9d7cd0",
@@ -171,7 +175,8 @@
     "tags": [
       "Full-Time",
       "Research"
-    ]
+    ],
+    "source": "harvard"
   },
   {
     "id": "f4a5045949ddcc927ae72ffb8d5b2491649c0e2ff35955353d08fb493bc43397",
@@ -185,7 +190,8 @@
     "tags": [
       "Full-Time",
       "Research"
-    ]
+    ],
+    "source": "harvard"
   },
   {
     "id": "1769f92ae41a799558933dea278d5f073c7c3a77c232e6fe8980024bdaee8b1f",
@@ -199,7 +205,8 @@
     "tags": [
       "Full-Time",
       "Research"
-    ]
+    ],
+    "source": "harvard"
   },
   {
     "id": "49eb7ba0783cfd9d7647d3ef35a5464288a8c9833beca76acf709887fb90ff7d",
@@ -213,7 +220,8 @@
     "tags": [
       "Full-Time",
       "Research"
-    ]
+    ],
+    "source": "harvard"
   },
   {
     "id": "1ac9a196e57c7bc96576ca33b53625bda42855a1a855efca433f742367cdceb7",
@@ -227,7 +235,8 @@
     "tags": [
       "Full-Time",
       "Research"
-    ]
+    ],
+    "source": "harvard"
   },
   {
     "id": "133242aa40cf6482e00c68bd1b703dd0e8e6f7f3c93443780c22bd54b9dc1ff0",
@@ -240,6 +249,217 @@
     "active": true,
     "tags": [
       "Full-Time"
-    ]
+    ],
+    "source": "indeed"
+  },
+  {
+    "id": "bed2e99598a395bb0be5f4add8a7abeab072bae15aa6582dd02baeddee87295b",
+    "title": "Summer Research Program",
+    "company": "Psychology.org",
+    "location": "Remote",
+    "url": "https://www.psychology.org/resources/how-to-find-an-internship/",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Research"
+    ],
+    "source": "fun"
+  },
+  {
+    "id": "09bd6a6e8aec824a3d31ca58c52233c4e0a2ec8a59ca875b05b62d70d602194f",
+    "title": "Internship in Bioscience",
+    "company": "Allen Institute",
+    "location": "Seattle",
+    "url": "https://alleninstitute.org/careers/internships-postbac/#Internship",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Research"
+    ],
+    "source": "fun"
+  },
+  {
+    "id": "df6e93d5e58b8322299dcb488a5c5a379e3937264e2f5340595c6378c513c165",
+    "title": "Summer Research Program",
+    "company": "Baylor College of Medicine",
+    "location": "Houston",
+    "url": "https://www.bcm.edu/education/schools/graduate-school-of-biomedical-sciences/programs/diversity/smart",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Research"
+    ],
+    "source": "fun"
+  },
+  {
+    "id": "1269eadff3a89bde64ad64cc6ff9e9c3284b15448fab224afad06909ce5fa78f",
+    "title": "Summer Research Program",
+    "company": "Columbia Neuroscience and Aging (STAR U)",
+    "location": "New York City",
+    "url": "https://www.columbianeurology.org/education-and-training/summer-translational-aging-research-undergraduates-star-u",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Research"
+    ],
+    "source": "fun"
+  },
+  {
+    "id": "5d1b6f37ecf4c4119610d1d001abe46fa2596fb01cbd7ccafc8183485f4836be",
+    "title": "Summer Research Program",
+    "company": "Fred Hutchinson Cancer Research Center, Seattle",
+    "location": "Seattle",
+    "url": "https://www.fredhutch.org/en/education-training/undergraduate-students/summer-undergraduate-research-program.html",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Research"
+    ],
+    "source": "fun"
+  },
+  {
+    "id": "28e40113e9d2f363e7e06409214fc15b6938b419c79835270e950bee0fa89bee",
+    "title": "Summer Research Program",
+    "company": "New York University Langone Department of Neuroscience",
+    "location": "New York City",
+    "url": "https://med.nyu.edu/departments-institutes/neuroscience/education/undergraduate-summer-research-training",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Research"
+    ],
+    "source": "fun"
+  },
+  {
+    "id": "05c2b2f6140cdef7e1e0683bb41411251cf6f179a03a7825f6dcc0def101d521",
+    "title": "Summer Research Program",
+    "company": "New York University, V",
+    "location": "New York City",
+    "url": "https://med.nyu.edu/research/sackler-institute-graduate-biomedical-sciences/summer-undergraduate-research-program",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Research"
+    ],
+    "source": "fun"
+  },
+  {
+    "id": "20bc7b9c540e6c3787d07f09151c20535426858e90c101e4a462755eea2185ec",
+    "title": "Summer Research Program",
+    "company": "Pepperdine University – Summer Undergraduate Research in Biology",
+    "location": "California",
+    "url": "https://seaver.pepperdine.edu/surb/",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Research"
+    ],
+    "source": "fun"
+  },
+  {
+    "id": "86e26fb10c2efac6022846079039fa129b4b1a1c247d27d87139f0e00557ac97",
+    "title": "Summer Research Program",
+    "company": "Rockefeller University Chemers Neustein Summer Undergraduate Research Fellowship",
+    "location": "New York City",
+    "url": "http://www.rockefeller.edu/SURF/",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Research"
+    ],
+    "source": "fun"
+  },
+  {
+    "id": "9db6c8c155c3fade9abf33a5cc5e02937645d343ddce142d7c79888ffd6ef441",
+    "title": "Summer Research Program",
+    "company": "Sloan-Kettering Summer Undergraduate Research Program",
+    "location": "New York City",
+    "url": "http://www.sloankettering.edu/summer-undergraduate-research-program",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Research"
+    ],
+    "source": "fun"
+  },
+  {
+    "id": "e4804c53b8c9fba892363a2351ba3aae68fd8b816b68c8aa3d0d6b21e82a5283",
+    "title": "Summer Research Program",
+    "company": "homas Jefferson University Virtual Summer Science Program",
+    "location": "Remote",
+    "url": "https://www.jefferson.edu/academics/colleges-schools-institutes/life-sciences/other-opportunities/summerscience-jefferson.html",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Research"
+    ],
+    "source": "fun"
+  },
+  {
+    "id": "1762bf41ea9891ee6a35fde231dc0af5f9fa49adbe431b0351cd97de83238674",
+    "title": "Summer Research Program",
+    "company": "niversity of California, Los Angeles",
+    "location": "California",
+    "url": "https://grad.ucla.edu/admissions/diversity/summer-programs-for-undergraduate-research-spur/",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Research"
+    ],
+    "source": "fun"
+  },
+  {
+    "id": "70e5be9c0619b2d945b074acb23b1d6798cf3da0a7fb6d41d90a720c780d270c",
+    "title": "Summer Research Program",
+    "company": "University of California at San Francisco",
+    "location": "California",
+    "url": "https://graduate.ucsf.edu/srtp",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Research"
+    ],
+    "source": "fun"
+  },
+  {
+    "id": "ab2ab1a3c4c929fdba8a9b16f04b041df75a8eff368653e15a1d43bb1d6c6709",
+    "title": "Summer Research Program",
+    "company": "University of Texas Southwestern Undergraduate Research Fellowship Program",
+    "location": "Dallas",
+    "url": "https://gsbs.utsouthwestern.edu/research-opportunities/surf/",
+    "posted_date": "",
+    "scraped_date": "2026-08-13",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Research"
+    ],
+    "source": "fun"
   }
 ]

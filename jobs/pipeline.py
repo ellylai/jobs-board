@@ -16,9 +16,10 @@ from __future__ import annotations
 import json
 import logging
 import os
-from datetime import datetime, timezone
+from dataclasses import dataclass
+from datetime import date, datetime, timezone
 from pathlib import Path
-from typing import Callable, Iterable
+from typing import Callable
 
 # Load a local .env (SERPAPI_KEY, GEMINI_API_KEY) before anything reads the
 # environment. ``usecwd=True`` walks up from the working dir, so running from
@@ -34,8 +35,8 @@ except ImportError:  # python-dotenv not installed; rely on real env vars
 # Each entry maps a data file (track) to the list of scraper callables that
 # feed it. A scraper is a zero-arg function returning a list of listing dicts.
 from scrapers import (
-    _filter, _location, archinect, dezeen, duke, firms, harvard, hdr, indeed,
-    wordpress_psych,
+    _filter, _location, archinect, dezeen, duke, firms, fun, harvard, hdr,
+    indeed, wordpress_psych,
 )
 
 # Psychology-track sourcing history:
@@ -49,9 +50,14 @@ from scrapers import (
 #   senior-academic recruitment (tenure-track/professor/postdoc). Every listing
 #   trips the seniority/advanced-degree filter, so undergrad yield is ~0 (SRCD is
 #   also a JS-rendered shell). Not worth a scraper.
+# - summer programs (Phase 3b): FUN's list is scraped (see the 'fun' source).
+#   NSF REU was deferred (redesigned to a JS/challenge app with no reachable API);
+#   NIH SIP (Bethesda MD) and Yale Child Study (New Haven CT) were skipped -- each
+#   is a single non-target location, so the location gate drops them outright.
 # The psychology track targets undergrad-accessible roles (research assistant,
 # lab intern, clinical aide, etc.) via curated boards (Duke, Harvard's post-grad
-# research jobs, the psychology jobs/internships blog) plus SerpAPI/Google Jobs.
+# research jobs, FUN's summer programs, the psychology jobs/internships blog)
+# plus SerpAPI/Google Jobs.
 
 logging.basicConfig(
     level=logging.INFO,
@@ -75,24 +81,45 @@ NEW_BADGE_HOURS = 48       # listings newer than this get a 🆕 prefix
 # by the location gate below; everything else -- including undeterminable
 # locations -- is dropped. See scrapers/_location.py.
 
-# Track -> data file -> scrapers feeding it. Free/curated sources first; the
-# SerpAPI web search (quota-limited, may return []) runs last.
-SCRAPERS: dict[str, list[Callable[[], list[dict]]]] = {
+@dataclass(frozen=True)
+class Source:
+    """One scraper plus how often to run it.
+
+    ``frequency`` is one of ``daily`` / ``weekly`` / ``monthly`` / ``semester``.
+    Low-frequency sources (e.g. summer programs that post once a term) don't run
+    every day; the merge keeps their listings active in between (see ``merge``),
+    so they don't flicker off the board on the days they're skipped.
+    """
+    name: str
+    scrape: Callable[[], list[dict]]
+    frequency: str = "daily"
+
+
+# Track -> the sources feeding it. Free/curated sources first; the SerpAPI web
+# search (quota-limited, may return []) runs last.
+SCRAPERS: dict[str, list[Source]] = {
     "architecture": [
-        archinect.scrape,
-        dezeen.scrape,
-        hdr.scrape,
-        firms.scrape_architecture,
+        Source("archinect", archinect.scrape),
+        Source("dezeen", dezeen.scrape),
+        Source("hdr", hdr.scrape),
+        Source("firms", firms.scrape_architecture),
         # indeed.scrape_architecture is available but disabled to conserve the
         # SerpAPI free-tier quota -- Archinect + firm boards cover architecture.
     ],
     "psychology": [
-        wordpress_psych.scrape,
-        duke.scrape,
-        harvard.scrape,
-        indeed.scrape_psychology,
+        Source("wordpress_psych", wordpress_psych.scrape),
+        Source("duke", duke.scrape),
+        Source("harvard", harvard.scrape),
+        # Summer research programs change ~once a term -> run twice a year (the
+        # source-aware merge keeps its listings active in between).
+        Source("fun", fun.scrape, frequency="semester"),
+        Source("indeed", indeed.scrape_psychology),
     ],
 }
+
+# Set RUN_ALL_SOURCES=1 to ignore cadence and run every source (manual /
+# workflow_dispatch runs and local testing).
+FORCE_ALL_ENV = "RUN_ALL_SOURCES"
 
 
 # --- Time helpers ---------------------------------------------------------
@@ -142,18 +169,46 @@ def save_listings(track: str, listings: list[dict]) -> None:
 
 
 # --- Scraper runner -------------------------------------------------------
-def run_scrapers(scrapers: Iterable[Callable[[], list[dict]]]) -> list[dict]:
-    """Run each scraper, isolating failures. Returns all collected listings."""
+def is_due(frequency: str, today: date, *, force: bool = False) -> bool:
+    """Whether a source of this frequency should run on ``today``."""
+    if force or frequency == "daily":
+        return True
+    if frequency == "weekly":
+        return today.weekday() == 0            # Monday
+    if frequency == "monthly":
+        return today.day == 1
+    if frequency == "semester":
+        return today.day == 1 and today.month in (1, 8)  # start of spring / fall
+    log.warning("Unknown frequency %r; treating as daily", frequency)
+    return True
+
+
+def run_scrapers(
+    sources: list[Source], today: date, *, force: bool = False
+) -> tuple[list[dict], set[str]]:
+    """Run the sources that are due today, isolating failures.
+
+    Returns ``(listings, ran)`` where ``ran`` is the set of source names that ran
+    *successfully* -- a source that was skipped (not due) or raised is absent, so
+    the merge won't deactivate its existing listings.
+    """
     collected: list[dict] = []
-    for scraper in scrapers:
-        name = getattr(scraper, "__module__", "?") + "." + getattr(scraper, "__name__", "?")
+    ran: set[str] = set()
+    for src in sources:
+        if not is_due(src.frequency, today, force=force):
+            log.info("Skipping %s (%s; not due today)", src.name, src.frequency)
+            continue
         try:
-            results = scraper() or []
-            log.info("%s returned %d listing(s)", name, len(results))
-            collected.extend(results)
+            results = src.scrape() or []
         except Exception:  # noqa: BLE001 - one bad scraper must not stop the run
-            log.exception("Scraper %s failed; skipping", name)
-    return collected
+            log.exception("Scraper %s failed; keeping its prior listings", src.name)
+            continue
+        ran.add(src.name)
+        for item in results:
+            item["source"] = src.name
+        log.info("%s returned %d listing(s)", src.name, len(results))
+        collected.extend(results)
+    return collected, ran
 
 
 # --- Location gate --------------------------------------------------------
@@ -195,12 +250,15 @@ def apply_location_gate(listings: list[dict]) -> list[dict]:
 
 
 # --- Merge ----------------------------------------------------------------
-def merge(existing: list[dict], scraped: list[dict]) -> list[dict]:
+def merge(existing: list[dict], scraped: list[dict], ran_sources: set[str]) -> list[dict]:
     """Merge freshly scraped listings into existing ones.
 
     - Dedup on ``id``.
-    - Listings seen this run are marked active; existing listings not seen are
-      marked inactive (kept for history until they age out).
+    - Listings seen this run are marked active.
+    - An existing listing not seen this run is marked inactive ONLY if its source
+      ran this cycle (so a low-frequency source that was skipped, or one that
+      failed transiently, keeps its listings active). Legacy listings with no
+      recorded source are treated as belonging to a source that ran.
     - Listings older than MAX_AGE_DAYS (by posted_date) are dropped entirely.
     """
     today = _today_iso()
@@ -224,9 +282,9 @@ def merge(existing: list[dict], scraped: list[dict]) -> list[dict]:
             item["active"] = True
             by_id[lid] = item
 
-    # Mark listings not seen this run as inactive.
+    # Deactivate unseen listings only when their source actually ran this cycle.
     for lid, item in by_id.items():
-        if lid not in seen_ids:
+        if lid not in seen_ids and (item.get("source") in ran_sources or not item.get("source")):
             item["active"] = False
 
     # Drop listings older than MAX_AGE_DAYS.
@@ -348,10 +406,15 @@ def render_readme(tracks: dict[str, list[dict]]) -> None:
 
 # --- Main -----------------------------------------------------------------
 def main() -> None:
+    today = _now().date()
+    force = os.environ.get(FORCE_ALL_ENV, "").strip().lower() in ("1", "true", "yes")
+    if force:
+        log.info("%s set; running every source regardless of cadence", FORCE_ALL_ENV)
+
     tracks: dict[str, list[dict]] = {}
-    for track, scrapers in SCRAPERS.items():
+    for track, sources in SCRAPERS.items():
         existing = load_listings(track)
-        scraped = run_scrapers(scrapers)
+        scraped, ran = run_scrapers(sources, today, force=force)
         # Safety net: drop any listing whose title trips the advanced-degree /
         # licensure DROP screen, whatever its source claimed. DROP-only (no
         # require_keep, no seniority), so curated sources are unaffected.
@@ -363,7 +426,7 @@ def main() -> None:
         before = len(scraped)
         scraped = apply_location_gate(scraped)
         log.info("Location gate: kept %d of %d listing(s) in %s", len(scraped), before, track)
-        merged = merge(existing, scraped)
+        merged = merge(existing, scraped, ran)
         save_listings(track, merged)
         active = sum(1 for x in merged if x.get("active"))
         log.info("Track %s: %d total, %d active", track, len(merged), active)

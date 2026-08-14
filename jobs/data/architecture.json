@@ -10,7 +10,8 @@
     "active": true,
     "tags": [
       "Internship"
-    ]
+    ],
+    "source": "archinect"
   },
   {
     "id": "9c8c061d01c249890be3afaf9fdfe69cbdbc6f7797e7e388187fec1f188eee3c",
@@ -23,7 +24,8 @@
     "active": true,
     "tags": [
       "Internship"
-    ]
+    ],
+    "source": "archinect"
   },
   {
     "id": "e646f34457a8d722fddd2d5e603d8d27050c9f653b3f43560d9795573fe3e767",
@@ -36,7 +38,8 @@
     "active": true,
     "tags": [
       "Internship"
-    ]
+    ],
+    "source": "archinect"
   },
   {
     "id": "2d35398f94bf15d3040f0e24ad60b999aa60e1f6ba592e5ef2e4228aa3ff8d07",
@@ -166,7 +169,8 @@
     "active": true,
     "tags": [
       "Full-Time"
-    ]
+    ],
+    "source": "firms"
   },
   {
     "id": "eb9a35290a8ba0d14ab69989c817e9742e547bd81d744392dbea38205b6e684e",
@@ -212,7 +216,8 @@
     "active": true,
     "tags": [
       "Internship"
-    ]
+    ],
+    "source": "firms"
   },
   {
     "id": "3a3ca83994697fc262856b7ca671488426666e9e209151243d13f3863b329f4d",
@@ -225,7 +230,8 @@
     "active": true,
     "tags": [
       "Internship"
-    ]
+    ],
+    "source": "firms"
   },
   {
     "id": "4bee7de15396124eb79608bff47ba5f8ab7c174618752bc10b4f8d0b235a220f",
@@ -238,7 +244,8 @@
     "active": true,
     "tags": [
       "Internship"
-    ]
+    ],
+    "source": "firms"
   },
   {
     "id": "a9907d388c59b0f9020745be36f8bf4cacb09d5d7de0ef22ba96b07f780187ab",
@@ -273,7 +280,8 @@
     "active": true,
     "tags": [
       "Internship"
-    ]
+    ],
+    "source": "firms"
   },
   {
     "id": "dc19c95339d4f046fd3d8af930ada34c21625f97e6e354ff85e9204665e3436b",
@@ -286,7 +294,8 @@
     "active": true,
     "tags": [
       "Full-Time"
-    ]
+    ],
+    "source": "firms"
   },
   {
     "id": "20b9a8935e1e6985eba5f366de16a714ae62ce70ee452c771950c0fc3e7b71a9",
@@ -299,7 +308,8 @@
     "active": true,
     "tags": [
       "Full-Time"
-    ]
+    ],
+    "source": "firms"
   },
   {
     "id": "990a617f31d61b929d0d25733f57ed655e800cc936d7835cb15b2b79d2f1b158",
@@ -383,7 +393,8 @@
       "Full-Time",
       "Architect",
       "Designer"
-    ]
+    ],
+    "source": "dezeen"
   },
   {
     "id": "64e64d503ed39c142d279db5c71c25af68abe6371022d5a40061240795891996",
@@ -396,7 +407,8 @@
     "active": true,
     "tags": [
       "Full-Time"
-    ]
+    ],
+    "source": "firms"
   },
   {
     "id": "7128ab214b35305ac2ff5f129a285253971709fa42fb2e29b7f5faa236429da2",
@@ -409,7 +421,8 @@
     "active": true,
     "tags": [
       "Full-Time"
-    ]
+    ],
+    "source": "firms"
   },
   {
     "id": "262cad2f26973d2227877dabf4a44f2d4bab447c08c8ce5e9e94f8e9dd96543a",
@@ -422,7 +435,8 @@
     "active": true,
     "tags": [
       "Full-Time"
-    ]
+    ],
+    "source": "firms"
   },
   {
     "id": "70541778ec2f173692a96334dac85bf0c1098d447906b2e8ce3240c804db47d5",
@@ -435,6 +449,7 @@
     "active": true,
     "tags": [
       "Full-Time"
-    ]
+    ],
+    "source": "firms"
   }
 ]
