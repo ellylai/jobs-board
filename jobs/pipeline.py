@@ -331,7 +331,7 @@ def _render_table(listings: list[dict]) -> str:
 
         role = _md_escape(item.get("title", ""))
         location = _md_escape(item.get("location", ""))
-        posted_str = posted.date().isoformat() if posted else "—"
+        posted_str = posted.strftime("%b %-d") if posted else "---"
         tags = _md_escape(", ".join(item.get("tags", []) or []))
         url = item.get("url", "")
         apply = f"[Apply]({url})" if url else "—"
@@ -418,7 +418,7 @@ def render_readme(tracks: dict[str, list[dict]]) -> None:
     a developer footer."""
     updated = _now().strftime("%Y-%m-%d %H:%M UTC")
     parts = [
-        "# Job Board",
+        "# Open Internships & Jobs for Architecture / Psychology",
         "",
         f"_Last updated: {updated}_",
         "",
