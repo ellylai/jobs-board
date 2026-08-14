@@ -2,7 +2,7 @@
 
 _Last updated: 2026-08-14 01:26 UTC_
 
-Auto-generated from the JSON data files by `pipeline.py`. Do not edit by hand.
+For dev: see `jobs/README.md`.
 
 Every listing is auto-filtered on two axes:
 

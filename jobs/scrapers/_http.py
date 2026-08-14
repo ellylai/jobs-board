@@ -27,29 +27,43 @@ log = logging.getLogger("scrapers.http")
 # Ordered by how reliably the WAFs seen so far accept them.
 IMPERSONATE_TARGETS = ("safari17_0", "chrome120", "chrome116", "safari15_5", "chrome110")
 DEFAULT_TIMEOUT = 30
-_RETRY_DELAY = 0.5
+_RETRY_DELAY = 0.5              # between fingerprints within a round
+MAX_ROUNDS = 3                 # full passes over the fingerprints
+_BACKOFF_BASE = 1.5            # seconds before the 2nd round, doubling thereafter
+# Block-like statuses worth retrying (WAF/rate-limit/transient). A plain 404/401
+# is a real answer, so we return it immediately instead of hammering.
+RETRYABLE_STATUSES = frozenset({403, 408, 425, 429, 500, 502, 503, 520, 521, 522, 523, 524, 525})
 
 
 def get(url: str, *, headers: dict | None = None, timeout: int = DEFAULT_TIMEOUT, **kwargs):
     """GET ``url`` via curl_cffi, rotating browser TLS fingerprints on rejection.
 
-    Returns the first response with status < 400. If every fingerprint is
-    rejected, returns the last response (so the caller's ``raise_for_status``
-    surfaces it) or re-raises the last transport error.
+    The WAFs block probabilistically, so a full pass over the fingerprints can
+    still fail; we retry the whole pass up to ``MAX_ROUNDS`` times with an
+    exponential backoff between rounds. Returns the first response with status
+    < 400 (or the first non-retryable status, e.g. a genuine 404). If every
+    attempt is a block-like status, returns the last response so the caller's
+    ``raise_for_status`` surfaces it; if every attempt raised, re-raises the last.
     """
     last_response = None
     last_error: Exception | None = None
-    for imp in IMPERSONATE_TARGETS:
-        try:
-            resp = _cr.get(url, impersonate=imp, headers=headers, timeout=timeout, **kwargs)
-        except Exception as exc:  # noqa: BLE001 - try the next fingerprint
-            last_error = exc
-            continue
-        if resp.status_code < 400:
-            return resp
-        last_response = resp
-        log.debug("%s rejected %s (HTTP %s); rotating fingerprint", url, imp, resp.status_code)
-        time.sleep(_RETRY_DELAY)
+    for round_no in range(MAX_ROUNDS):
+        if round_no:
+            backoff = _BACKOFF_BASE * (2 ** (round_no - 1))
+            log.debug("%s: all fingerprints rejected; backoff %.1fs (round %d/%d)",
+                      url, backoff, round_no + 1, MAX_ROUNDS)
+            time.sleep(backoff)
+        for imp in IMPERSONATE_TARGETS:
+            try:
+                resp = _cr.get(url, impersonate=imp, headers=headers, timeout=timeout, **kwargs)
+            except Exception as exc:  # noqa: BLE001 - try the next fingerprint
+                last_error = exc
+                continue
+            if resp.status_code < 400 or resp.status_code not in RETRYABLE_STATUSES:
+                return resp  # success, or a real (non-retryable) error like 404
+            last_response = resp
+            log.debug("%s rejected %s (HTTP %s); rotating fingerprint", url, imp, resp.status_code)
+            time.sleep(_RETRY_DELAY)
     if last_response is not None:
         return last_response
     raise last_error if last_error else RuntimeError(f"No response for {url}")
