@@ -3,7 +3,7 @@
 _Last updated: 2026-08-14 01:38 UTC_
 
 <!-- intro:start -->
-_Write your introduction here. This block is preserved when the board regenerates — everything else on this page is auto-generated._
+Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
 <!-- intro:end -->
 
 Every listing is auto-filtered on two axes:
