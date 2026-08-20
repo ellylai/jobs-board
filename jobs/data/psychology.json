@@ -48,7 +48,7 @@
     "location": "New York City",
     "url": "https://psychandneuro.duke.edu/opportunity/clinical-research-coordinator-full-time-position-predictor-study-mount-sinai",
     "posted_date": "",
-    "scraped_date": "2026-08-18",
+    "scraped_date": "2026-08-20",
     "active": true,
     "tags": [
       "Full-Time",
@@ -63,7 +63,7 @@
     "location": "California",
     "url": "https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab",
     "posted_date": "",
-    "scraped_date": "2026-08-18",
+    "scraped_date": "2026-08-20",
     "active": true,
     "tags": [
       "Full-Time",
@@ -170,7 +170,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/IBB%20Lab%20RA%20Listing.pdf",
     "posted_date": "2026-08-13",
-    "scraped_date": "2026-08-18",
+    "scraped_date": "2026-08-20",
     "active": true,
     "tags": [
       "Full-Time",
@@ -185,7 +185,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/2026%20DOLPHIN%20RA%20Posting.pdf",
     "posted_date": "2026-08-06",
-    "scraped_date": "2026-08-18",
+    "scraped_date": "2026-08-20",
     "active": true,
     "tags": [
       "Full-Time",
@@ -200,7 +200,7 @@
     "location": "California",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-07/Research%20Assistant%20in%20the%20Clinical.pdf",
     "posted_date": "2026-07-20",
-    "scraped_date": "2026-08-18",
+    "scraped_date": "2026-08-20",
     "active": true,
     "tags": [
       "Full-Time",
@@ -215,7 +215,7 @@
     "location": "Houston",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-07/RESTORE%20Lab%20Coordinator%20Position%202026.pdf",
     "posted_date": "2026-07-01",
-    "scraped_date": "2026-08-18",
+    "scraped_date": "2026-08-20",
     "active": true,
     "tags": [
       "Full-Time",
@@ -229,8 +229,8 @@
     "company": "the University of California, Berkeley",
     "location": "California",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-05/Lab%20Manager%20in%20the%20Social%20Origins%20Lab%20at%20the%20University%20of%20California.pdf",
-    "posted_date": "2026-08-18",
-    "scraped_date": "2026-08-18",
+    "posted_date": "2026-08-20",
+    "scraped_date": "2026-08-20",
     "active": true,
     "tags": [
       "Full-Time",
@@ -469,7 +469,7 @@
     "location": "New York City",
     "url": "https://bebee.com/us/jobs/fall-2026-psychology-adjunct-instructor-st-johns-university-jamaica-ny--t7xk-794947554?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-08-08",
-    "scraped_date": "2026-08-18",
+    "scraped_date": "2026-08-20",
     "active": true,
     "tags": [
       "Internship",
@@ -485,12 +485,44 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf",
     "posted_date": "2026-08-17",
-    "scraped_date": "2026-08-18",
+    "scraped_date": "2026-08-20",
     "active": true,
     "tags": [
       "Full-Time",
       "Research"
     ],
     "source": "harvard"
+  },
+  {
+    "id": "6784d2d5484707f00d5af79d3ea6e642a42a8a47e7e555e7e03f572c7c7e8ffb",
+    "title": "SCHOOL PSYCHOLOGIST.",
+    "company": "Department of War Education Activity (DOWEA)",
+    "location": "California",
+    "url": "https://bebee.com/us/jobs/school-psychologist-department-of-war-education-activity-dowea-fort-bragg--lifeworq-fa73b2ae-48bb-46da-b534-cdc36605061c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-08-05",
+    "scraped_date": "2026-08-20",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Counseling",
+      "Behavioral"
+    ],
+    "source": "indeed"
+  },
+  {
+    "id": "1c07614be449868581dba8a87962f67118a155353e628472dc011803164f5d62",
+    "title": "Internship Behavioral Health",
+    "company": "Centerstone of Illinois, Inc.",
+    "location": "Remote",
+    "url": "https://centerstone.wd5.myworkdayjobs.com/en-US/CenterstoneCareers/job/Internship-Behavioral-Health_JR-032624?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-08-05",
+    "scraped_date": "2026-08-20",
+    "active": true,
+    "tags": [
+      "Part-Time",
+      "Clinical",
+      "Behavioral"
+    ],
+    "source": "indeed"
   }
 ]
