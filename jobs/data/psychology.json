@@ -48,7 +48,7 @@
     "location": "New York City",
     "url": "https://psychandneuro.duke.edu/opportunity/clinical-research-coordinator-full-time-position-predictor-study-mount-sinai",
     "posted_date": "",
-    "scraped_date": "2026-08-25",
+    "scraped_date": "2026-08-26",
     "active": true,
     "tags": [
       "Full-Time",
@@ -63,7 +63,7 @@
     "location": "California",
     "url": "https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab",
     "posted_date": "",
-    "scraped_date": "2026-08-25",
+    "scraped_date": "2026-08-26",
     "active": true,
     "tags": [
       "Full-Time",
@@ -105,8 +105,8 @@
     "company": "NIP",
     "location": "New York City",
     "url": "https://talents.vaia.com/companies/nip/psychology-internship-live-intake-supervision-seminars-108417511/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-08-25",
-    "scraped_date": "2026-08-25",
+    "posted_date": "2026-08-26",
+    "scraped_date": "2026-08-26",
     "active": true,
     "tags": [
       "Internship"
@@ -170,7 +170,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/IBB%20Lab%20RA%20Listing.pdf",
     "posted_date": "2026-08-13",
-    "scraped_date": "2026-08-25",
+    "scraped_date": "2026-08-26",
     "active": true,
     "tags": [
       "Full-Time",
@@ -185,7 +185,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/2026%20DOLPHIN%20RA%20Posting.pdf",
     "posted_date": "2026-08-06",
-    "scraped_date": "2026-08-25",
+    "scraped_date": "2026-08-26",
     "active": true,
     "tags": [
       "Full-Time",
@@ -200,7 +200,7 @@
     "location": "California",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-07/Research%20Assistant%20in%20the%20Clinical.pdf",
     "posted_date": "2026-07-20",
-    "scraped_date": "2026-08-25",
+    "scraped_date": "2026-08-26",
     "active": true,
     "tags": [
       "Full-Time",
@@ -215,7 +215,7 @@
     "location": "Houston",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-07/RESTORE%20Lab%20Coordinator%20Position%202026.pdf",
     "posted_date": "2026-07-01",
-    "scraped_date": "2026-08-25",
+    "scraped_date": "2026-08-26",
     "active": true,
     "tags": [
       "Full-Time",
@@ -229,8 +229,8 @@
     "company": "the University of California, Berkeley",
     "location": "California",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-05/Lab%20Manager%20in%20the%20Social%20Origins%20Lab%20at%20the%20University%20of%20California.pdf",
-    "posted_date": "2026-08-25",
-    "scraped_date": "2026-08-25",
+    "posted_date": "2026-08-26",
+    "scraped_date": "2026-08-26",
     "active": true,
     "tags": [
       "Full-Time",
@@ -469,8 +469,8 @@
     "location": "New York City",
     "url": "https://bebee.com/us/jobs/fall-2026-psychology-adjunct-instructor-st-johns-university-jamaica-ny--t7xk-794947554?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-08-08",
-    "scraped_date": "2026-08-24",
-    "active": false,
+    "scraped_date": "2026-08-26",
+    "active": true,
     "tags": [
       "Internship",
       "Research",
@@ -485,7 +485,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf",
     "posted_date": "2026-08-17",
-    "scraped_date": "2026-08-25",
+    "scraped_date": "2026-08-26",
     "active": true,
     "tags": [
       "Full-Time",
@@ -560,8 +560,8 @@
     "company": "MantraCare",
     "location": "Remote",
     "url": "https://mantra.care/careers/psychology-internship-in-united-states/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-08-25",
-    "scraped_date": "2026-08-25",
+    "posted_date": "2026-08-26",
+    "scraped_date": "2026-08-26",
     "active": true,
     "tags": [
       "Internship",
@@ -576,10 +576,24 @@
     "location": "Remote",
     "url": "https://www.linkedin.com/jobs/view/marketing-content-digital-experience-intern-%E2%80%93-psychology-spirituality-wellness-personal-growth-at-healing-happens-4450788108?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-08-13",
-    "scraped_date": "2026-08-25",
+    "scraped_date": "2026-08-26",
     "active": true,
     "tags": [
       "Internship"
+    ],
+    "source": "indeed"
+  },
+  {
+    "id": "ae3b4d6636e89064c976a2f91127234b5aaf54b13bfdeba7ef568b036322ddcf",
+    "title": "reputed company Remote Psychology Internships | Intern Abroad HQ",
+    "company": "FlexBoard",
+    "location": "Remote",
+    "url": "https://flexboard.9y.liveblog365.com/job/866286?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-08-24",
+    "scraped_date": "2026-08-26",
+    "active": true,
+    "tags": [
+      "Full-Time"
     ],
     "source": "indeed"
   }
