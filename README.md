@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-08-31 15:49 UTC_
+_Last updated: 2026-09-01 13:02 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -16,11 +16,10 @@ Every listing is auto-filtered on two axes:
 ## Open roles
 
 <details>
-<summary><strong>🏛️ Architecture</strong> — 17 open role(s)</summary>
+<summary><strong>🏛️ Architecture</strong> — 16 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 HDR | Transportation Marketing Intern | United States-California-Irvine | Aug 31 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195779&tz=GMT%2B00%3A00&tzname=UTC) |
 | SOM | Designer/Architect | San Francisco | Aug 27 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148) |
 | DLR Group | Interior Designer, K-12 | San Diego, California, United States; San Francisco, California, United States | Aug 26 | Contract, Revit, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008) |
 | HKS | Project Designer - Hospitality | Dallas | Aug 25 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713) |
@@ -29,10 +28,10 @@ Every listing is auto-filtered on two axes:
 | SOM | Interior Design Intern | New York | Aug 17 | Internship | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Interior-Design-Intern_R-4138) |
 | Selldorf Architects | Architecture Internship – Fall 2026 | New York, NY, US | Aug 13 | Internship | [Apply](https://archinect.com/jobs/entry/150559252/architecture-internship-fall-2026) |
 | HKS | Job Captain - Education | Dallas | Aug 11 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain---Education_2026-03231) |
-| KPF | Architectural Intern | New York | Aug 1 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern_JR202500038) |
-| KPF | Architectural Intern (Interiors) | New York | Aug 1 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
-| KPF | Data & Systems Developer Intern | New York | Aug 1 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Data---Systems-Developer-Intern_JR202600047) |
-| SOM | Designer - Architecture (Austin TX) | Austin | Aug 1 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
+| KPF | Architectural Intern | New York | Aug 2 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern_JR202500038) |
+| KPF | Architectural Intern (Interiors) | New York | Aug 2 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
+| KPF | Data & Systems Developer Intern | New York | Aug 2 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Data---Systems-Developer-Intern_JR202600047) |
+| SOM | Designer - Architecture (Austin TX) | Austin | Aug 2 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
 | Harvest Architecture, LLC | Intern Designer | South Pasadena, CA, US | Jul 29 | Internship | [Apply](https://archinect.com/jobs/entry/150556634/intern-designer) |
 | Perkins&Will | Interior Technical Designer | Austin, TX | Jul 20 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=ab921f4a-e8cb-40b7-bef8-ec9262427a2a) |
 | NBBJ | Interior Designer - Corporate Commercial and Healthcare Practice | New York, New York | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/o5N0zfwb) |
@@ -41,13 +40,11 @@ Every listing is auto-filtered on two axes:
 </details>
 
 <details>
-<summary><strong>🧠 Psychology</strong> — 23 open role(s)</summary>
+<summary><strong>🧠 Psychology</strong> — 21 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 NIP | Psychology Internship: Live Intake, Supervision & Seminars | New York City | Aug 31 | Internship | [Apply](https://talents.vaia.com/companies/nip/psychology-internship-live-intake-supervision-seminars-108417511/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 the University of California, Berkeley | Lab Manager in the Social Origins Lab | California | Aug 31 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-05/Lab%20Manager%20in%20the%20Social%20Origins%20Lab%20at%20the%20University%20of%20California.pdf) |
-| 🆕 MantraCare | Psychology Internships / Training in USA (Remote) | Remote | Aug 31 | Internship, Counseling | [Apply](https://mantra.care/careers/psychology-internship-in-united-states/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 the University of California, Berkeley | Lab Manager in the Social Origins Lab | California | Sep 1 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-05/Lab%20Manager%20in%20the%20Social%20Origins%20Lab%20at%20the%20University%20of%20California.pdf) |
 | the Columbia University Medical Center | Research Assistant in the Eating Disorders Clinic | New York City | Aug 17 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf) |
 | NYU Langone Health | Research Assistant the in Infant Brain and Behavior Lab | New York City | Aug 13 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/IBB%20Lab%20RA%20Listing.pdf) |
 | St. John's University | Fall 2026 Psychology Adjunct Instructor | New York City | Aug 7 | Internship, Research, Clinical | [Apply](https://bebee.com/us/jobs/fall-2026-psychology-adjunct-instructor-st-johns-university-jamaica-ny--t7xk-794947554?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
