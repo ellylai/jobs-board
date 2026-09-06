@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-09-05 11:36 UTC_
+_Last updated: 2026-09-06 11:56 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -20,16 +20,16 @@ Every listing is auto-filtered on two axes:
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 Perkins&Will | Project Designer | New York, NY | Sep 4 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=d5d58ded-a155-4909-a667-5488555e5bbb) |
-| 🆕 HDR | Electrical Intern- Dallas | United States-Texas-Dallas | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195684&tz=GMT%2B00%3A00&tzname=UTC) |
-| 🆕 HDR | Water Supply Intern-WG | United States-Texas-Austin | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195777&tz=GMT%2B00%3A00&tzname=UTC) |
-| 🆕 HDR | Cultural Resources Intern-WG | United States-Texas-Austin | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195788&tz=GMT%2B00%3A00&tzname=UTC) |
-| 🆕 HDR | Mechanical Intern-Dallas | United States-Texas-Dallas | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195821&tz=GMT%2B00%3A00&tzname=UTC) |
-| 🆕 HDR | Site Civil Intern-Dallas | United States-Texas-Dallas | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195827&tz=GMT%2B00%3A00&tzname=UTC) |
-| 🆕 HDR | Structural Intern-Dallas | United States-Texas-Dallas | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195829&tz=GMT%2B00%3A00&tzname=UTC) |
-| 🆕 HDR | Transportation Intern-WG | United States-Texas-Austin | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195837&tz=GMT%2B00%3A00&tzname=UTC) |
-| 🆕 HDR | Stormwater Intern-WG | United States-Texas-Austin | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195854&tz=GMT%2B00%3A00&tzname=UTC) |
-| 🆕 HDR | Water/Wastewater Intern-WG | United States-Texas-Austin | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195859&tz=GMT%2B00%3A00&tzname=UTC) |
+| Perkins&Will | Project Designer | New York, NY | Sep 4 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=d5d58ded-a155-4909-a667-5488555e5bbb) |
+| HDR | Electrical Intern- Dallas | United States-Texas-Dallas | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195684&tz=GMT%2B00%3A00&tzname=UTC) |
+| HDR | Water Supply Intern-WG | United States-Texas-Austin | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195777&tz=GMT%2B00%3A00&tzname=UTC) |
+| HDR | Cultural Resources Intern-WG | United States-Texas-Austin | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195788&tz=GMT%2B00%3A00&tzname=UTC) |
+| HDR | Mechanical Intern-Dallas | United States-Texas-Dallas | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195821&tz=GMT%2B00%3A00&tzname=UTC) |
+| HDR | Site Civil Intern-Dallas | United States-Texas-Dallas | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195827&tz=GMT%2B00%3A00&tzname=UTC) |
+| HDR | Structural Intern-Dallas | United States-Texas-Dallas | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195829&tz=GMT%2B00%3A00&tzname=UTC) |
+| HDR | Transportation Intern-WG | United States-Texas-Austin | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195837&tz=GMT%2B00%3A00&tzname=UTC) |
+| HDR | Stormwater Intern-WG | United States-Texas-Austin | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195854&tz=GMT%2B00%3A00&tzname=UTC) |
+| HDR | Water/Wastewater Intern-WG | United States-Texas-Austin | Sep 4 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195859&tz=GMT%2B00%3A00&tzname=UTC) |
 | CannonDesign | Structural - Entry Level | San Diego, CA | Sep 1 | Internship, Revit | [Apply](http://www.cannondesign.com/careers/?gh_jid=8770323002) |
 | SOM | Designer/Architect | San Francisco | Aug 27 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148) |
 | DLR Group | Interior Designer, K-12 | San Diego, California, United States; San Francisco, California, United States | Aug 26 | Contract, Revit, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008) |
@@ -38,9 +38,9 @@ Every listing is auto-filtered on two axes:
 | SOM | Interior Design Intern | New York | Aug 17 | Internship | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Interior-Design-Intern_R-4138) |
 | Selldorf Architects | Architecture Internship – Fall 2026 | New York, NY, US | Aug 13 | Internship | [Apply](https://archinect.com/jobs/entry/150559252/architecture-internship-fall-2026) |
 | HKS | Job Captain - Education | Dallas | Aug 11 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain---Education_2026-03231) |
-| KPF | Architectural Intern (Interiors) | New York | Aug 6 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
-| KPF | Data & Systems Developer Intern | New York | Aug 6 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Data---Systems-Developer-Intern_JR202600047) |
-| SOM | Designer - Architecture (Austin TX) | Austin | Aug 6 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
+| KPF | Architectural Intern (Interiors) | New York | Aug 7 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
+| KPF | Data & Systems Developer Intern | New York | Aug 7 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Data---Systems-Developer-Intern_JR202600047) |
+| SOM | Designer - Architecture (Austin TX) | Austin | Aug 7 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
 | Harvest Architecture, LLC | Intern Designer | South Pasadena, CA, US | Jul 29 | Internship | [Apply](https://archinect.com/jobs/entry/150556634/intern-designer) |
 | NBBJ | Interior Designer - Corporate Commercial and Healthcare Practice | New York, New York | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/o5N0zfwb) |
 
