@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-09-09 12:44 UTC_
+_Last updated: 2026-09-10 12:41 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -21,28 +21,29 @@ Every listing is auto-filtered on two axes:
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
 | 🆕 CannonDesign | Consulting Intern (Summer 2027) | Remote | Sep 9 | Internship | [Apply](http://www.cannondesign.com/careers/?gh_jid=8786961002) |
+| 🆕 HDR | Water/Wastewater Intern | United States-Texas-Dallas | Sep 9 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195744&tz=GMT%2B00%3A00&tzname=UTC) |
+| 🆕 HDR | Water Resources Intern | United States-Texas-Dallas | Sep 9 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195748&tz=GMT%2B00%3A00&tzname=UTC) |
 | Perkins&Will | Project Designer | New York, NY | Sep 4 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=d5d58ded-a155-4909-a667-5488555e5bbb) |
-| CannonDesign | Structural - Entry Level | San Diego, CA | Sep 1 | Internship, Revit | [Apply](http://www.cannondesign.com/careers/?gh_jid=8770323002) |
 | SOM | Designer/Architect | San Francisco | Aug 27 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148) |
-| DLR Group | Interior Designer, K-12 | San Diego, California, United States; San Francisco, California, United States | Aug 26 | Contract, Revit, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008) |
+| DLR Group | Interior Designer, K-12 | Sacramento, California, United States; San Diego, California, United States | Aug 26 | Contract, Revit, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008) |
 | HKS | Project Designer - Hospitality | Dallas | Aug 25 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713) |
 | SOM | Urban Designer | Austin | Aug 20 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Urban-Designer_R-4144) |
 | SOM | Interior Design Intern | New York | Aug 17 | Internship | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Interior-Design-Intern_R-4138) |
-| Selldorf Architects | Architecture Internship – Fall 2026 | New York, NY, US | Aug 13 | Internship | [Apply](https://archinect.com/jobs/entry/150559252/architecture-internship-fall-2026) |
 | HKS | Job Captain - Education | Dallas | Aug 11 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain---Education_2026-03231) |
-| KPF | Architectural Intern (Interiors) | New York | Aug 10 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
-| KPF | Data & Systems Developer Intern | New York | Aug 10 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Data---Systems-Developer-Intern_JR202600047) |
-| SOM | Designer - Architecture (Austin TX) | Austin | Aug 10 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
+| KPF | Architectural Intern (Interiors) | New York | Aug 11 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
+| KPF | Data & Systems Developer Intern | New York | Aug 11 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Data---Systems-Developer-Intern_JR202600047) |
+| SOM | Designer - Architecture (Austin TX) | Austin | Aug 11 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
 | Harvest Architecture, LLC | Intern Designer | South Pasadena, CA, US | Jul 29 | Internship | [Apply](https://archinect.com/jobs/entry/150556634/intern-designer) |
 | NBBJ | Interior Designer - Corporate Commercial and Healthcare Practice | New York, New York | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/o5N0zfwb) |
 
 </details>
 
 <details>
-<summary><strong>🧠 Psychology</strong> — 19 open role(s)</summary>
+<summary><strong>🧠 Psychology</strong> — 20 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
+| 🆕 KBR | Research Psychologist | Houston, TX | Sep 10 | Full-Time, Research, Clinical, Behavioral | [Apply](https://careers.kbr.com/us/en/job/R2124420/Research-Psychologist?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
 | the Columbia University Medical Center | Research Assistant in the Eating Disorders Clinic | New York City | Aug 17 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf) |
 | NYU Langone Health | Research Assistant the in Infant Brain and Behavior Lab | New York City | Aug 13 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/IBB%20Lab%20RA%20Listing.pdf) |
 | New York University | Research Associate in the Shuffrey Lab | New York City | Aug 6 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/2026%20DOLPHIN%20RA%20Posting.pdf) |

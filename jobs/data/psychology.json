@@ -63,7 +63,7 @@
     "location": "California",
     "url": "https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab",
     "posted_date": "",
-    "scraped_date": "2026-09-09",
+    "scraped_date": "2026-09-10",
     "active": true,
     "tags": [
       "Full-Time",
@@ -170,7 +170,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/IBB%20Lab%20RA%20Listing.pdf",
     "posted_date": "2026-08-13",
-    "scraped_date": "2026-09-09",
+    "scraped_date": "2026-09-10",
     "active": true,
     "tags": [
       "Full-Time",
@@ -185,7 +185,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/2026%20DOLPHIN%20RA%20Posting.pdf",
     "posted_date": "2026-08-06",
-    "scraped_date": "2026-09-09",
+    "scraped_date": "2026-09-10",
     "active": true,
     "tags": [
       "Full-Time",
@@ -200,7 +200,7 @@
     "location": "California",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-07/Research%20Assistant%20in%20the%20Clinical.pdf",
     "posted_date": "2026-07-20",
-    "scraped_date": "2026-09-09",
+    "scraped_date": "2026-09-10",
     "active": true,
     "tags": [
       "Full-Time",
@@ -470,7 +470,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf",
     "posted_date": "2026-08-17",
-    "scraped_date": "2026-09-09",
+    "scraped_date": "2026-09-10",
     "active": true,
     "tags": [
       "Full-Time",
@@ -579,6 +579,23 @@
     "active": false,
     "tags": [
       "Full-Time"
+    ],
+    "source": "indeed"
+  },
+  {
+    "id": "fe8514483f68cd73cfb57cdc1cd7d443670b3392da543aa73f70503d00f90485",
+    "title": "Research Psychologist",
+    "company": "KBR",
+    "location": "Houston, TX",
+    "url": "https://careers.kbr.com/us/en/job/R2124420/Research-Psychologist?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-09-10",
+    "scraped_date": "2026-09-10",
+    "active": true,
+    "tags": [
+      "Full-Time",
+      "Research",
+      "Clinical",
+      "Behavioral"
     ],
     "source": "indeed"
   }
