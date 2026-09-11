@@ -63,7 +63,7 @@
     "location": "California",
     "url": "https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab",
     "posted_date": "",
-    "scraped_date": "2026-09-10",
+    "scraped_date": "2026-09-11",
     "active": true,
     "tags": [
       "Full-Time",
@@ -170,7 +170,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/IBB%20Lab%20RA%20Listing.pdf",
     "posted_date": "2026-08-13",
-    "scraped_date": "2026-09-10",
+    "scraped_date": "2026-09-11",
     "active": true,
     "tags": [
       "Full-Time",
@@ -185,7 +185,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/2026%20DOLPHIN%20RA%20Posting.pdf",
     "posted_date": "2026-08-06",
-    "scraped_date": "2026-09-10",
+    "scraped_date": "2026-09-11",
     "active": true,
     "tags": [
       "Full-Time",
@@ -200,7 +200,7 @@
     "location": "California",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-07/Research%20Assistant%20in%20the%20Clinical.pdf",
     "posted_date": "2026-07-20",
-    "scraped_date": "2026-09-10",
+    "scraped_date": "2026-09-11",
     "active": true,
     "tags": [
       "Full-Time",
@@ -470,7 +470,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf",
     "posted_date": "2026-08-17",
-    "scraped_date": "2026-09-10",
+    "scraped_date": "2026-09-11",
     "active": true,
     "tags": [
       "Full-Time",
@@ -590,7 +590,7 @@
     "url": "https://careers.kbr.com/us/en/job/R2124420/Research-Psychologist?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-09-10",
     "scraped_date": "2026-09-10",
-    "active": true,
+    "active": false,
     "tags": [
       "Full-Time",
       "Research",
@@ -598,5 +598,22 @@
       "Behavioral"
     ],
     "source": "indeed"
+  },
+  {
+    "id": "10b7195942408de121414706e482b2da9d3e6dd1e6cd911737677a5026b7df23",
+    "title": "Staff Research Associate",
+    "company": "Cognition Affect and Neurodevelopment in Youth Lab at the University of California – Los Angeles (CA)",
+    "location": "California",
+    "url": "https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/",
+    "posted_date": "2026-09-10",
+    "scraped_date": "2026-09-11",
+    "active": true,
+    "tags": [
+      "Full-Time",
+      "Clinical",
+      "Cognitive",
+      "Developmental"
+    ],
+    "source": "wordpress_psych"
   }
 ]
