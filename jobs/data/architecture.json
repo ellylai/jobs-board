@@ -20,7 +20,7 @@
     "location": "South Pasadena, CA, US",
     "url": "https://archinect.com/jobs/entry/150556634/intern-designer",
     "posted_date": "2026-07-29",
-    "scraped_date": "2026-09-11",
+    "scraped_date": "2026-09-12",
     "active": true,
     "tags": [
       "Internship"
@@ -138,7 +138,7 @@
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain---Education_2026-03231",
     "posted_date": "2026-08-12",
     "scraped_date": "2026-09-11",
-    "active": true,
+    "active": false,
     "tags": [
       "Full-Time"
     ],
@@ -197,8 +197,8 @@
     "company": "KPF",
     "location": "New York",
     "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075",
-    "posted_date": "2026-08-12",
-    "scraped_date": "2026-09-11",
+    "posted_date": "2026-08-13",
+    "scraped_date": "2026-09-12",
     "active": true,
     "tags": [
       "Internship"
@@ -220,28 +220,6 @@
     "source": "firms"
   },
   {
-    "id": "a9907d388c59b0f9020745be36f8bf4cacb09d5d7de0ef22ba96b07f780187ab",
-    "title": "Architectural Designer (0-4 Years)",
-    "company": "KPF",
-    "location": "London",
-    "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/London/Architectural-Designer--0-4-Years-_JR202600007",
-    "posted_date": "2026-07-14",
-    "scraped_date": "2026-08-13",
-    "active": false,
-    "tags": []
-  },
-  {
-    "id": "accdc450d8bbfd1cc67c080ede682bcfdeacdad5934f4906eb0ec294d7e8c73a",
-    "title": "Year One - Junior Designer - City Design",
-    "company": "SOM",
-    "location": "Chicago",
-    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Chicago/Year-One---Junior-Designer---City-Design_R-3997",
-    "posted_date": "2026-07-14",
-    "scraped_date": "2026-08-13",
-    "active": false,
-    "tags": []
-  },
-  {
     "id": "7e4ef848958950f6e7d90a27cab975901fc7cdfe076dd8f370abbe4a376fd5dc",
     "title": "Enclosure Intern",
     "company": "SOM",
@@ -261,8 +239,8 @@
     "company": "SOM",
     "location": "Austin",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062",
-    "posted_date": "2026-08-12",
-    "scraped_date": "2026-09-11",
+    "posted_date": "2026-08-13",
+    "scraped_date": "2026-09-12",
     "active": true,
     "tags": [
       "Full-Time"
@@ -282,61 +260,6 @@
       "Full-Time"
     ],
     "source": "firms"
-  },
-  {
-    "id": "990a617f31d61b929d0d25733f57ed655e800cc936d7835cb15b2b79d2f1b158",
-    "title": "Junior Designer, Architecture",
-    "company": "SOM",
-    "location": "Shanghai",
-    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Shanghai/Junior-Designer--Architecture_R-4040",
-    "posted_date": "2026-07-14",
-    "scraped_date": "2026-08-13",
-    "active": false,
-    "tags": []
-  },
-  {
-    "id": "ab600632e8a18fbd8d52b971b0bd6ac0abbebe8fcd1af70d2f3991a6b9ebaf27",
-    "title": "Year One - Junior Designer - Structural Engineering",
-    "company": "SOM",
-    "location": "Chicago",
-    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Chicago/Year-One---Junior-Designer---Structural-Engineering_R-3993",
-    "posted_date": "2026-07-14",
-    "scraped_date": "2026-08-13",
-    "active": false,
-    "tags": []
-  },
-  {
-    "id": "c3015efcdcb92b6eb4e6595968350b68cefdcfb5a8088cf6c5f3ce89d1d9ce74",
-    "title": "Designer - Architecture",
-    "company": "SOM",
-    "location": "Chicago",
-    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Chicago/Designer---Architecture_R-3623",
-    "posted_date": "2026-07-14",
-    "scraped_date": "2026-08-13",
-    "active": false,
-    "tags": []
-  },
-  {
-    "id": "1a45b0610c74b9114d2b6b80359c18180a542a6d7cea2f39e84c0ba1565d3bb7",
-    "title": "Junior Designer, Structural Engineering",
-    "company": "SOM",
-    "location": "Shanghai",
-    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Shanghai/Junior-Designer--Structural-Engineering_R-3651",
-    "posted_date": "2026-07-14",
-    "scraped_date": "2026-08-13",
-    "active": false,
-    "tags": []
-  },
-  {
-    "id": "9e6e595c1968f85723e5ab171e8ab59eba1cdeedeeecf8bb2ff9422047aea4b2",
-    "title": "Designer - Structural Engineering",
-    "company": "SOM",
-    "location": "Chicago",
-    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Chicago/Designer---Structural-Engineering_R-3667",
-    "posted_date": "2026-07-14",
-    "scraped_date": "2026-08-13",
-    "active": false,
-    "tags": []
   },
   {
     "id": "a767820cdb2b01f25922df767961737155d1ceb0a696a28dc36fcd7a75a73d84",
@@ -375,7 +298,7 @@
     "location": "New York, New York",
     "url": "https://jobs.jobvite.com/nbbj/job/o5N0zfwb",
     "posted_date": "",
-    "scraped_date": "2026-09-11",
+    "scraped_date": "2026-09-12",
     "active": true,
     "tags": [
       "Full-Time"
@@ -445,7 +368,7 @@
     "location": "New York",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Interior-Design-Intern_R-4138",
     "posted_date": "2026-08-17",
-    "scraped_date": "2026-09-11",
+    "scraped_date": "2026-09-12",
     "active": true,
     "tags": [
       "Internship"
@@ -474,7 +397,7 @@
     "location": "Austin",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Urban-Designer_R-4144",
     "posted_date": "2026-08-20",
-    "scraped_date": "2026-09-11",
+    "scraped_date": "2026-09-12",
     "active": true,
     "tags": [
       "Full-Time"
@@ -488,7 +411,7 @@
     "location": "Dallas",
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713",
     "posted_date": "2026-08-25",
-    "scraped_date": "2026-09-11",
+    "scraped_date": "2026-09-12",
     "active": true,
     "tags": [
       "Full-Time"
@@ -516,7 +439,7 @@
     "location": "Sacramento, California, United States; San Diego, California, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008",
     "posted_date": "2026-08-26",
-    "scraped_date": "2026-09-11",
+    "scraped_date": "2026-09-12",
     "active": true,
     "tags": [
       "Contract",
@@ -533,7 +456,7 @@
     "location": "San Francisco",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148",
     "posted_date": "2026-08-27",
-    "scraped_date": "2026-09-11",
+    "scraped_date": "2026-09-12",
     "active": true,
     "tags": [
       "Full-Time"
@@ -576,7 +499,7 @@
     "url": "http://www.cannondesign.com/careers/?gh_jid=8770323002",
     "posted_date": "2026-09-01",
     "scraped_date": "2026-09-11",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship",
       "Revit"
@@ -716,7 +639,7 @@
     "location": "Remote",
     "url": "http://www.cannondesign.com/careers/?gh_jid=8786961002",
     "posted_date": "2026-09-09",
-    "scraped_date": "2026-09-11",
+    "scraped_date": "2026-09-12",
     "active": true,
     "tags": [
       "Internship"
