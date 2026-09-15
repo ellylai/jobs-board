@@ -63,7 +63,7 @@
     "location": "California",
     "url": "https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab",
     "posted_date": "",
-    "scraped_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Full-Time",
@@ -170,7 +170,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/IBB%20Lab%20RA%20Listing.pdf",
     "posted_date": "2026-08-13",
-    "scraped_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Full-Time",
@@ -185,7 +185,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/2026%20DOLPHIN%20RA%20Posting.pdf",
     "posted_date": "2026-08-06",
-    "scraped_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Full-Time",
@@ -200,7 +200,7 @@
     "location": "California",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-07/Research%20Assistant%20in%20the%20Clinical.pdf",
     "posted_date": "2026-07-20",
-    "scraped_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Full-Time",
@@ -470,7 +470,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf",
     "posted_date": "2026-08-17",
-    "scraped_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Full-Time",
@@ -606,7 +606,7 @@
     "location": "California",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/",
     "posted_date": "2026-09-10",
-    "scraped_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Full-Time",
@@ -615,5 +615,20 @@
       "Developmental"
     ],
     "source": "wordpress_psych"
+  },
+  {
+    "id": "10f4a870c23b7f83624e7bf72434a01ab17638c76fbb712dea2aa87fad2a68a7",
+    "title": "Clinical Research Coordinator in the Berner Lab",
+    "company": "the Icahn School of Medicine at Mount Sinai",
+    "location": "New York City",
+    "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-09/Clinical%20Research%20Coordinator%20Position_2026.pdf",
+    "posted_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
+    "active": true,
+    "tags": [
+      "Full-Time",
+      "Research"
+    ],
+    "source": "harvard"
   }
 ]

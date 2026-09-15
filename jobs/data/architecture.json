@@ -20,7 +20,7 @@
     "location": "South Pasadena, CA, US",
     "url": "https://archinect.com/jobs/entry/150556634/intern-designer",
     "posted_date": "2026-07-29",
-    "scraped_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Internship"
@@ -197,8 +197,8 @@
     "company": "KPF",
     "location": "New York",
     "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075",
-    "posted_date": "2026-08-15",
-    "scraped_date": "2026-09-14",
+    "posted_date": "2026-08-16",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Internship"
@@ -239,8 +239,8 @@
     "company": "SOM",
     "location": "Austin",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062",
-    "posted_date": "2026-08-15",
-    "scraped_date": "2026-09-14",
+    "posted_date": "2026-08-16",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Full-Time"
@@ -298,7 +298,7 @@
     "location": "New York, New York",
     "url": "https://jobs.jobvite.com/nbbj/job/o5N0zfwb",
     "posted_date": "",
-    "scraped_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Full-Time"
@@ -368,7 +368,7 @@
     "location": "New York",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Interior-Design-Intern_R-4138",
     "posted_date": "2026-08-17",
-    "scraped_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Internship"
@@ -397,7 +397,7 @@
     "location": "Austin",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Urban-Designer_R-4144",
     "posted_date": "2026-08-20",
-    "scraped_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Full-Time"
@@ -411,7 +411,7 @@
     "location": "Dallas",
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713",
     "posted_date": "2026-08-25",
-    "scraped_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Full-Time"
@@ -439,7 +439,7 @@
     "location": "Sacramento, California, United States; San Diego, California, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008",
     "posted_date": "2026-08-26",
-    "scraped_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Contract",
@@ -456,7 +456,7 @@
     "location": "San Francisco",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148",
     "posted_date": "2026-08-27",
-    "scraped_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Full-Time"
@@ -639,7 +639,7 @@
     "location": "Remote",
     "url": "http://www.cannondesign.com/careers/?gh_jid=8786961002",
     "posted_date": "2026-09-09",
-    "scraped_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
     "active": true,
     "tags": [
       "Internship"
@@ -669,6 +669,48 @@
     "posted_date": "2026-09-09",
     "scraped_date": "2026-09-10",
     "active": false,
+    "tags": [
+      "Internship"
+    ],
+    "source": "hdr"
+  },
+  {
+    "id": "ede533705f0b286fd3e5ded98beb15dbd8a547b8e28f0a44b04e06b64d23d9c9",
+    "title": "Power Delivery Intern",
+    "company": "HDR",
+    "location": "United States-Washington-Seattle",
+    "url": "https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=196233&tz=GMT%2B00%3A00&tzname=UTC",
+    "posted_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
+    "active": true,
+    "tags": [
+      "Internship"
+    ],
+    "source": "hdr"
+  },
+  {
+    "id": "f81361c1eda69ea4c65bf80255427de7c8b1f97fa4dbd88bd3c1e6387df76166",
+    "title": "Utility Transportation Intern-WG",
+    "company": "HDR",
+    "location": "United States-Texas-Austin",
+    "url": "https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195749&tz=GMT%2B00%3A00&tzname=UTC",
+    "posted_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
+    "active": true,
+    "tags": [
+      "Internship"
+    ],
+    "source": "hdr"
+  },
+  {
+    "id": "8333ce2d24a8d75bfb31c107784d1e74ca138391bbcefd5b35753151639d3c7c",
+    "title": "Civil Intern-WG",
+    "company": "HDR",
+    "location": "United States-Texas-Austin",
+    "url": "https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195729&tz=GMT%2B00%3A00&tzname=UTC",
+    "posted_date": "2026-09-14",
+    "scraped_date": "2026-09-15",
+    "active": true,
     "tags": [
       "Internship"
     ],
