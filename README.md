@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-09-16 13:10 UTC_
+_Last updated: 2026-09-17 13:07 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -26,9 +26,9 @@ Every listing is auto-filtered on two axes:
 | DLR Group | Interior Designer, K-12 | Sacramento, California, United States; San Diego, California, United States | Aug 26 | Contract, Revit, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008) |
 | HKS | Project Designer - Hospitality | Dallas | Aug 25 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713) |
 | SOM | Urban Designer | Austin | Aug 20 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Urban-Designer_R-4144) |
-| KPF | Architectural Intern (Interiors) | New York | Aug 17 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
-| SOM | Designer - Architecture (Austin TX) | Austin | Aug 17 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
-| SOM | Interior Design Intern | New York | Aug 17 | Internship | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Interior-Design-Intern_R-4138) |
+| KPF | Architectural Intern (Interiors) | New York | Aug 18 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
+| SOM | Designer - Architecture (Austin TX) | Austin | Aug 18 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
+| SOM | Interior Design Intern | New York | Aug 18 | Internship | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Interior-Design-Intern_R-4138) |
 | Harvest Architecture, LLC | Intern Designer | South Pasadena, CA, US | Jul 29 | Internship | [Apply](https://archinect.com/jobs/entry/150556634/intern-designer) |
 | NBBJ | Interior Designer - Corporate Commercial and Healthcare Practice | New York, New York | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/o5N0zfwb) |
 
@@ -40,7 +40,7 @@ Every listing is auto-filtered on two axes:
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
 | the Icahn School of Medicine at Mount Sinai | Clinical Research Coordinator in the Berner Lab | New York City | Sep 14 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-09/Clinical%20Research%20Coordinator%20Position_2026.pdf) |
-| Cognition Affect and Neurodevelopment in Youth Lab at the University of California – Los Angeles (CA) | Staff Research Associate | California | Sep 10 | Full-Time, Clinical, Cognitive, Developmental | [Apply](https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/) |
+| Cognition Affect and Neurodevelopment in Youth Lab at the University of California – Los Angeles (CA) | Staff Research Associate | California | Sep 10 | Full-Time, Developmental, Cognitive, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/) |
 | the Columbia University Medical Center | Research Assistant in the Eating Disorders Clinic | New York City | Aug 17 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf) |
 | NYU Langone Health | Research Assistant the in Infant Brain and Behavior Lab | New York City | Aug 13 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/IBB%20Lab%20RA%20Listing.pdf) |
 | New York University | Research Associate in the Shuffrey Lab | New York City | Aug 6 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/2026%20DOLPHIN%20RA%20Posting.pdf) |
