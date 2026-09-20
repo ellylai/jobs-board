@@ -20,26 +20,12 @@
     "location": "South Pasadena, CA, US",
     "url": "https://archinect.com/jobs/entry/150556634/intern-designer",
     "posted_date": "2026-07-29",
-    "scraped_date": "2026-09-19",
+    "scraped_date": "2026-09-20",
     "active": true,
     "tags": [
       "Internship"
     ],
     "source": "archinect"
-  },
-  {
-    "id": "e30b15e34e31292909b4b981869793b38509b1f17a9b0bb0411b9293b3148ca8",
-    "title": "Designer, Justice & Civic",
-    "company": "DLR Group",
-    "location": "Remote",
-    "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5366446008",
-    "posted_date": "2026-07-22",
-    "scraped_date": "2026-08-13",
-    "active": false,
-    "tags": [
-      "Full-Time",
-      "Revit"
-    ]
   },
   {
     "id": "93343968bbf4ee4004353bcb1d1b15d1d1e0dd12de740fda337fde5deb17d457",
@@ -74,20 +60,6 @@
     "location": "Remote",
     "url": "http://www.cannondesign.com/careers/?gh_jid=8654410002",
     "posted_date": "2026-07-28",
-    "scraped_date": "2026-08-13",
-    "active": false,
-    "tags": [
-      "Internship",
-      "Revit"
-    ]
-  },
-  {
-    "id": "6fc31feea66153a1d690b6fae84d5a1071efeb149706bb9fe6337d19cc474372",
-    "title": "Technology - Entry Level",
-    "company": "CannonDesign",
-    "location": "Remote",
-    "url": "http://www.cannondesign.com/careers/?gh_jid=8643131002",
-    "posted_date": "2026-07-22",
     "scraped_date": "2026-08-13",
     "active": false,
     "tags": [
@@ -184,8 +156,8 @@
     "company": "KPF",
     "location": "New York",
     "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075",
-    "posted_date": "2026-08-20",
-    "scraped_date": "2026-09-19",
+    "posted_date": "2026-08-21",
+    "scraped_date": "2026-09-20",
     "active": true,
     "tags": [
       "Internship"
@@ -226,8 +198,8 @@
     "company": "SOM",
     "location": "Austin",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062",
-    "posted_date": "2026-08-20",
-    "scraped_date": "2026-09-19",
+    "posted_date": "2026-08-21",
+    "scraped_date": "2026-09-20",
     "active": true,
     "tags": [
       "Full-Time"
@@ -271,7 +243,7 @@
     "location": "New York, New York",
     "url": "https://jobs.jobvite.com/nbbj/job/o5N0zfwb",
     "posted_date": "",
-    "scraped_date": "2026-09-19",
+    "scraped_date": "2026-09-20",
     "active": true,
     "tags": [
       "Full-Time"
@@ -326,8 +298,8 @@
     "company": "SOM",
     "location": "New York",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Interior-Design-Intern_R-4138",
-    "posted_date": "2026-08-20",
-    "scraped_date": "2026-09-19",
+    "posted_date": "2026-08-21",
+    "scraped_date": "2026-09-20",
     "active": true,
     "tags": [
       "Internship"
@@ -370,7 +342,7 @@
     "location": "Dallas",
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713",
     "posted_date": "2026-08-25",
-    "scraped_date": "2026-09-19",
+    "scraped_date": "2026-09-20",
     "active": true,
     "tags": [
       "Full-Time"
@@ -398,7 +370,7 @@
     "location": "Sacramento, California, United States; San Diego, California, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008",
     "posted_date": "2026-08-26",
-    "scraped_date": "2026-09-19",
+    "scraped_date": "2026-09-20",
     "active": true,
     "tags": [
       "Contract",
@@ -415,7 +387,7 @@
     "location": "San Francisco",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148",
     "posted_date": "2026-08-27",
-    "scraped_date": "2026-09-19",
+    "scraped_date": "2026-09-20",
     "active": true,
     "tags": [
       "Full-Time"
@@ -458,7 +430,7 @@
     "url": "http://www.cannondesign.com/careers/?gh_jid=8770323002",
     "posted_date": "2026-09-01",
     "scraped_date": "2026-09-19",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship",
       "Revit"
@@ -598,7 +570,7 @@
     "location": "Remote",
     "url": "http://www.cannondesign.com/careers/?gh_jid=8786961002",
     "posted_date": "2026-09-09",
-    "scraped_date": "2026-09-19",
+    "scraped_date": "2026-09-20",
     "active": true,
     "tags": [
       "Internship"
