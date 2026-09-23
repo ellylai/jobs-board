@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-09-22 13:05 UTC_
+_Last updated: 2026-09-23 13:21 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -16,18 +16,17 @@ Every listing is auto-filtered on two axes:
 ## Open roles
 
 <details>
-<summary><strong>🏛️ Architecture</strong> — 10 open role(s)</summary>
+<summary><strong>🏛️ Architecture</strong> — 9 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| CannonDesign | Consulting Intern (Summer 2027) | Remote | Sep 9 | Internship | [Apply](http://www.cannondesign.com/careers/?gh_jid=8786961002) |
 | CannonDesign | Structural - Entry Level | San Diego, CA | Sep 1 | Internship, Revit | [Apply](http://www.cannondesign.com/careers/?gh_jid=8770323002) |
 | SOM | Designer/Architect | San Francisco | Aug 27 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148) |
 | DLR Group | Interior Designer, K-12 | Sacramento, California, United States; San Diego, California, United States | Aug 26 | Contract, Revit, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008) |
 | HKS | Project Designer - Hospitality | Dallas | Aug 25 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713) |
-| KPF | Architectural Intern (Interiors) | New York | Aug 23 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
-| SOM | Designer - Architecture (Austin TX) | Austin | Aug 23 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
-| SOM | Interior Design Intern | New York | Aug 23 | Internship | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Interior-Design-Intern_R-4138) |
+| KPF | Architectural Intern (Interiors) | New York | Aug 24 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
+| SOM | Designer - Architecture (Austin TX) | Austin | Aug 24 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
+| SOM | Interior Design Intern | New York | Aug 24 | Internship | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Interior-Design-Intern_R-4138) |
 | Harvest Architecture, LLC | Intern Designer | South Pasadena, CA, US | Jul 29 | Internship | [Apply](https://archinect.com/jobs/entry/150556634/intern-designer) |
 | NBBJ | Interior Designer - Corporate Commercial and Healthcare Practice | New York, New York | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/o5N0zfwb) |
 
@@ -38,7 +37,7 @@ Every listing is auto-filtered on two axes:
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 MantraCare | Psychology Internships / Training in USA (Remote) | Remote | Sep 22 | Internship, Counseling | [Apply](https://mantra.care/careers/psychology-internship-in-united-states/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 GE HEALTHCARE | Clinical Application Specialist – Anesthesia & Respiratory Care | Remote | Sep 23 | Internship, Clinical | [Apply](https://careers.gehealthcare.com/fr/fr/job/GEVGHLGLOBALR4046473EXTERNALFRFR/Clinical-Application-Specialist-Anesthesia-Respiratory-Care?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
 | the Icahn School of Medicine at Mount Sinai | Clinical Research Coordinator in the Berner Lab | New York City | Sep 14 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-09/Clinical%20Research%20Coordinator%20Position_2026.pdf) |
 | Cognition Affect and Neurodevelopment in Youth Lab at the University of California – Los Angeles (CA) | Staff Research Associate | California | Sep 10 | Full-Time, Developmental, Cognitive, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/) |
 | the Columbia University Medical Center | Research Assistant in the Eating Disorders Clinic | New York City | Aug 17 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf) |
