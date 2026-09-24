@@ -63,7 +63,7 @@
     "location": "California",
     "url": "https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab",
     "posted_date": "",
-    "scraped_date": "2026-09-23",
+    "scraped_date": "2026-09-24",
     "active": true,
     "tags": [
       "Full-Time",
@@ -170,7 +170,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/IBB%20Lab%20RA%20Listing.pdf",
     "posted_date": "2026-08-13",
-    "scraped_date": "2026-09-23",
+    "scraped_date": "2026-09-24",
     "active": true,
     "tags": [
       "Full-Time",
@@ -185,7 +185,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/2026%20DOLPHIN%20RA%20Posting.pdf",
     "posted_date": "2026-08-06",
-    "scraped_date": "2026-09-23",
+    "scraped_date": "2026-09-24",
     "active": true,
     "tags": [
       "Full-Time",
@@ -455,7 +455,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf",
     "posted_date": "2026-08-17",
-    "scraped_date": "2026-09-23",
+    "scraped_date": "2026-09-24",
     "active": true,
     "tags": [
       "Full-Time",
@@ -515,9 +515,9 @@
     "company": "MantraCare",
     "location": "Remote",
     "url": "https://mantra.care/careers/psychology-internship-in-united-states/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-09-22",
-    "scraped_date": "2026-09-22",
-    "active": false,
+    "posted_date": "2026-09-24",
+    "scraped_date": "2026-09-24",
+    "active": true,
     "tags": [
       "Internship",
       "Counseling"
@@ -576,13 +576,13 @@
     "location": "California",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/",
     "posted_date": "2026-09-10",
-    "scraped_date": "2026-09-23",
+    "scraped_date": "2026-09-24",
     "active": true,
     "tags": [
       "Full-Time",
-      "Developmental",
+      "Clinical",
       "Cognitive",
-      "Clinical"
+      "Developmental"
     ],
     "source": "wordpress_psych"
   },
@@ -593,7 +593,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-09/Clinical%20Research%20Coordinator%20Position_2026.pdf",
     "posted_date": "2026-09-14",
-    "scraped_date": "2026-09-23",
+    "scraped_date": "2026-09-24",
     "active": true,
     "tags": [
       "Full-Time",
@@ -640,10 +640,27 @@
     "url": "https://careers.gehealthcare.com/fr/fr/job/GEVGHLGLOBALR4046473EXTERNALFRFR/Clinical-Application-Specialist-Anesthesia-Respiratory-Care?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-09-23",
     "scraped_date": "2026-09-23",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship",
       "Clinical"
+    ],
+    "source": "indeed"
+  },
+  {
+    "id": "d6bf43e1f595c92f26f3d1b5459bd86d8f24d2c3c2ea389085caf0a8a1b9bd8c",
+    "title": "Clinical Intern",
+    "company": "Transformations Care Network",
+    "location": "Remote",
+    "url": "https://www.indeed.com/viewjob?jk=113c935a7ca99a90&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-09-24",
+    "scraped_date": "2026-09-24",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Clinical",
+      "Counseling",
+      "Behavioral"
     ],
     "source": "indeed"
   }
