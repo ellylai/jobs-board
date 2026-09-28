@@ -63,7 +63,7 @@
     "location": "California",
     "url": "https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab",
     "posted_date": "",
-    "scraped_date": "2026-09-27",
+    "scraped_date": "2026-09-28",
     "active": true,
     "tags": [
       "Full-Time",
@@ -171,7 +171,7 @@
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/IBB%20Lab%20RA%20Listing.pdf",
     "posted_date": "2026-08-13",
     "scraped_date": "2026-09-27",
-    "active": true,
+    "active": false,
     "tags": [
       "Full-Time",
       "Research"
@@ -185,7 +185,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/2026%20DOLPHIN%20RA%20Posting.pdf",
     "posted_date": "2026-08-06",
-    "scraped_date": "2026-09-27",
+    "scraped_date": "2026-09-28",
     "active": true,
     "tags": [
       "Full-Time",
@@ -440,7 +440,7 @@
     "url": "https://bebee.com/us/jobs/fall-2026-psychology-adjunct-instructor-st-johns-university-jamaica-ny--t7xk-794947554?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-09-27",
     "scraped_date": "2026-09-27",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship",
       "Research",
@@ -456,7 +456,7 @@
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf",
     "posted_date": "2026-08-17",
     "scraped_date": "2026-09-27",
-    "active": true,
+    "active": false,
     "tags": [
       "Full-Time",
       "Research"
@@ -576,13 +576,13 @@
     "location": "California",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/",
     "posted_date": "2026-09-10",
-    "scraped_date": "2026-09-27",
+    "scraped_date": "2026-09-28",
     "active": true,
     "tags": [
       "Full-Time",
-      "Clinical",
+      "Developmental",
       "Cognitive",
-      "Developmental"
+      "Clinical"
     ],
     "source": "wordpress_psych"
   },
@@ -653,8 +653,8 @@
     "company": "Transformations Care Network",
     "location": "Remote",
     "url": "https://www.indeed.com/viewjob?jk=113c935a7ca99a90&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-09-27",
-    "scraped_date": "2026-09-27",
+    "posted_date": "2026-09-28",
+    "scraped_date": "2026-09-28",
     "active": true,
     "tags": [
       "Internship",
@@ -672,7 +672,7 @@
     "url": "https://careers.utpb.edu/jobs/tbd-investors-psychology-child-development-intern/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-09-27",
     "scraped_date": "2026-09-27",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship",
       "Clinical",
@@ -688,7 +688,7 @@
     "url": "https://shuconnect.sacredheart.edu/jobs/intern-abroad-hq-remote-psychology-social-work-intern-intern-abroad-hq/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-09-27",
     "scraped_date": "2026-09-27",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship",
       "Clinical",
@@ -704,9 +704,25 @@
     "url": "https://talents.vaia.com/companies/krisenchat-ggmbh/remote-psychology-internship-ukrainian-russian-speaking-123043513/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-09-27",
     "scraped_date": "2026-09-27",
+    "active": false,
+    "tags": [
+      "Internship",
+      "Counseling"
+    ],
+    "source": "indeed"
+  },
+  {
+    "id": "36d961308a66982bae5e439b7c91f314782e90eac04821a9282ca7517f754fd7",
+    "title": "Psychology Internship at krisenchat Ukrainian (gn)",
+    "company": "Krisenchat",
+    "location": "Remote",
+    "url": "https://talents.vaia.com/companies/krisenchat/psychology-internship-at-krisenchat-ukrainian-gn-123030400/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-09-28",
+    "scraped_date": "2026-09-28",
     "active": true,
     "tags": [
       "Internship",
+      "Clinical",
       "Counseling"
     ],
     "source": "indeed"
