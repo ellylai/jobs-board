@@ -63,7 +63,7 @@
     "location": "California",
     "url": "https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab",
     "posted_date": "",
-    "scraped_date": "2026-09-28",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Full-Time",
@@ -105,9 +105,9 @@
     "company": "NIP",
     "location": "New York City",
     "url": "https://talents.vaia.com/companies/nip/psychology-internship-live-intake-supervision-seminars-108417511/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-09-07",
-    "scraped_date": "2026-09-07",
-    "active": false,
+    "posted_date": "2026-09-29",
+    "scraped_date": "2026-09-29",
+    "active": true,
     "tags": [
       "Internship"
     ],
@@ -170,8 +170,8 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/IBB%20Lab%20RA%20Listing.pdf",
     "posted_date": "2026-08-13",
-    "scraped_date": "2026-09-27",
-    "active": false,
+    "scraped_date": "2026-09-29",
+    "active": true,
     "tags": [
       "Full-Time",
       "Research"
@@ -185,7 +185,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/2026%20DOLPHIN%20RA%20Posting.pdf",
     "posted_date": "2026-08-06",
-    "scraped_date": "2026-09-28",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Full-Time",
@@ -455,8 +455,8 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf",
     "posted_date": "2026-08-17",
-    "scraped_date": "2026-09-27",
-    "active": false,
+    "scraped_date": "2026-09-29",
+    "active": true,
     "tags": [
       "Full-Time",
       "Research"
@@ -576,13 +576,13 @@
     "location": "California",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/",
     "posted_date": "2026-09-10",
-    "scraped_date": "2026-09-28",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Full-Time",
-      "Developmental",
+      "Clinical",
       "Cognitive",
-      "Clinical"
+      "Developmental"
     ],
     "source": "wordpress_psych"
   },
@@ -593,8 +593,8 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-09/Clinical%20Research%20Coordinator%20Position_2026.pdf",
     "posted_date": "2026-09-14",
-    "scraped_date": "2026-09-26",
-    "active": false,
+    "scraped_date": "2026-09-29",
+    "active": true,
     "tags": [
       "Full-Time",
       "Research"
@@ -655,7 +655,7 @@
     "url": "https://www.indeed.com/viewjob?jk=113c935a7ca99a90&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-09-28",
     "scraped_date": "2026-09-28",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship",
       "Clinical",
@@ -670,9 +670,9 @@
     "company": "TBD Investors",
     "location": "Remote",
     "url": "https://careers.utpb.edu/jobs/tbd-investors-psychology-child-development-intern/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-09-27",
-    "scraped_date": "2026-09-27",
-    "active": false,
+    "posted_date": "2026-09-29",
+    "scraped_date": "2026-09-29",
+    "active": true,
     "tags": [
       "Internship",
       "Clinical",
@@ -686,9 +686,9 @@
     "company": "Intern Abroad HQ",
     "location": "Remote",
     "url": "https://shuconnect.sacredheart.edu/jobs/intern-abroad-hq-remote-psychology-social-work-intern-intern-abroad-hq/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-09-27",
-    "scraped_date": "2026-09-27",
-    "active": false,
+    "posted_date": "2026-09-29",
+    "scraped_date": "2026-09-29",
+    "active": true,
     "tags": [
       "Internship",
       "Clinical",
@@ -719,11 +719,26 @@
     "url": "https://talents.vaia.com/companies/krisenchat/psychology-internship-at-krisenchat-ukrainian-gn-123030400/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-09-28",
     "scraped_date": "2026-09-28",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship",
       "Clinical",
       "Counseling"
+    ],
+    "source": "indeed"
+  },
+  {
+    "id": "cb75f6cc26d9bc63a3a448d9684b0b764d4faf56a0ac945f5857e93630fe2e0f",
+    "title": "Nuclear Medicine Clinical Application Specialist - CHI",
+    "company": "GE HEALTHCARE",
+    "location": "Remote",
+    "url": "https://careers.gehealthcare.com/global/en/job/GEVGHLGLOBALR4044750EXTERNALENGLOBAL/Nuclear-Medicine-Clinical-Application-Specialist-CHI?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-09-29",
+    "scraped_date": "2026-09-29",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Clinical"
     ],
     "source": "indeed"
   }

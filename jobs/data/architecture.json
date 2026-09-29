@@ -61,17 +61,6 @@
     "tags": []
   },
   {
-    "id": "e28b560b3d08b2f7677a2a5753f37b02dcbd638f69327734e60eb85f434dc549",
-    "title": "Designer - Architectural Visualization",
-    "company": "HKS",
-    "location": "3 Locations",
-    "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Designer---Architectural-Visualization_2026-03532",
-    "posted_date": "2026-07-31",
-    "scraped_date": "2026-08-13",
-    "active": false,
-    "tags": []
-  },
-  {
     "id": "71c939001af9b994721d4427d67bcfdb59312df71b3b3562982ac28bf954fdba",
     "title": "Architectural Intern",
     "company": "KPF",
@@ -91,8 +80,8 @@
     "company": "KPF",
     "location": "New York",
     "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075",
-    "posted_date": "2026-08-29",
-    "scraped_date": "2026-09-28",
+    "posted_date": "2026-08-30",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Internship"
@@ -114,27 +103,13 @@
     "source": "firms"
   },
   {
-    "id": "7e4ef848958950f6e7d90a27cab975901fc7cdfe076dd8f370abbe4a376fd5dc",
-    "title": "Enclosure Intern",
-    "company": "SOM",
-    "location": "New York",
-    "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Architecture-Intern_R-4120",
-    "posted_date": "2026-07-31",
-    "scraped_date": "2026-08-30",
-    "active": false,
-    "tags": [
-      "Internship"
-    ],
-    "source": "firms"
-  },
-  {
     "id": "dc19c95339d4f046fd3d8af930ada34c21625f97e6e354ff85e9204665e3436b",
     "title": "Designer - Architecture (Austin TX)",
     "company": "SOM",
     "location": "Austin",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062",
-    "posted_date": "2026-08-29",
-    "scraped_date": "2026-09-28",
+    "posted_date": "2026-08-30",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Full-Time"
@@ -164,7 +139,7 @@
     "location": "New York, New York",
     "url": "https://jobs.jobvite.com/nbbj/job/o5N0zfwb",
     "posted_date": "",
-    "scraped_date": "2026-09-28",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Full-Time"
@@ -262,8 +237,8 @@
     "company": "HKS",
     "location": "Dallas",
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713",
-    "posted_date": "2026-08-29",
-    "scraped_date": "2026-09-28",
+    "posted_date": "2026-08-30",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Full-Time"
@@ -291,7 +266,7 @@
     "location": "Sacramento, California, United States; San Diego, California, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008",
     "posted_date": "2026-08-26",
-    "scraped_date": "2026-09-28",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Contract",
@@ -307,8 +282,8 @@
     "company": "SOM",
     "location": "San Francisco",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148",
-    "posted_date": "2026-08-29",
-    "scraped_date": "2026-09-28",
+    "posted_date": "2026-08-30",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Full-Time"
@@ -351,7 +326,7 @@
     "url": "http://www.cannondesign.com/careers/?gh_jid=8770323002",
     "posted_date": "2026-09-01",
     "scraped_date": "2026-09-28",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship",
       "Revit"
@@ -516,11 +491,11 @@
     "id": "66bfbb8c1471fbe8a640e044c28897f88cb422263335fc27649f958b31a403b7",
     "title": "Water Resources Intern",
     "company": "HDR",
-    "location": "United States-Texas-Dallas",
-    "url": "https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195748&tz=GMT%2B00%3A00&tzname=UTC",
-    "posted_date": "2026-09-09",
-    "scraped_date": "2026-09-10",
-    "active": false,
+    "location": "United States-Washington-Seattle",
+    "url": "https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=196349&tz=GMT%2B00%3A00&tzname=UTC",
+    "posted_date": "2026-09-28",
+    "scraped_date": "2026-09-29",
+    "active": true,
     "tags": [
       "Internship"
     ],
@@ -603,7 +578,7 @@
     "location": "Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C.",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5434408008",
     "posted_date": "2026-09-24",
-    "scraped_date": "2026-09-28",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Full-Time",
@@ -619,7 +594,7 @@
     "location": "Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C.",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5434252008",
     "posted_date": "2026-09-24",
-    "scraped_date": "2026-09-28",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Full-Time",
@@ -635,7 +610,7 @@
     "location": "Dallas",
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain_2026-03753",
     "posted_date": "2026-09-24",
-    "scraped_date": "2026-09-28",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Full-Time"
@@ -649,7 +624,7 @@
     "location": "Los Angeles, California",
     "url": "https://jobs.jobvite.com/nbbj/job/oaHQAfw1",
     "posted_date": "",
-    "scraped_date": "2026-09-28",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Full-Time"
@@ -663,7 +638,7 @@
     "location": "Austin, TX",
     "url": "https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=fbcde49b-9d35-425c-b476-70b993eaeaef",
     "posted_date": "2026-09-25",
-    "scraped_date": "2026-09-28",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Full-Time"
@@ -677,12 +652,27 @@
     "location": "Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C.",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5434248008",
     "posted_date": "2026-09-24",
-    "scraped_date": "2026-09-28",
+    "scraped_date": "2026-09-29",
     "active": true,
     "tags": [
       "Full-Time",
       "Revit",
       "AutoCAD"
+    ],
+    "source": "firms"
+  },
+  {
+    "id": "f9430396878c3ffdfedcffedece203e2443bd1ab20f0a423d3c01b879b2a8921",
+    "title": "Mechanical Engineer, Entry Level",
+    "company": "DLR Group",
+    "location": "Dallas, Texas, United States; Fort Worth, Texas, United States; Houston, Texas, United States",
+    "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5379842008",
+    "posted_date": "2026-08-05",
+    "scraped_date": "2026-09-29",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Revit"
     ],
     "source": "firms"
   }
