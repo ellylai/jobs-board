@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-09-30 14:39 UTC_
+_Last updated: 2026-10-01 15:07 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -16,20 +16,22 @@ Every listing is auto-filtered on two axes:
 ## Open roles
 
 <details>
-<summary><strong>🏛️ Architecture</strong> — 14 open role(s)</summary>
+<summary><strong>🏛️ Architecture</strong> — 16 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 CannonDesign | Designer IB | Dallas, TX | Sep 29 | Internship, Revit | [Apply](http://www.cannondesign.com/careers/?gh_jid=8857224002) |
-| 🆕 CannonDesign | Electrical - Entry Level | Dallas, TX | Sep 29 | Internship, Revit | [Apply](http://www.cannondesign.com/careers/?gh_jid=8854365002) |
+| 🆕 Casalta | Project designer | New York, USA | Oct 1 | Full-Time, Interior designer | [Apply](https://www.dezeenjobs.com/job/casalta-project-designer-1123777/) |
+| 🆕 DLR Group | Mechanical Engineering Intern \| Summer 2027 | Portland, Oregon, United States; Seattle, Washington, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441008008) |
+| 🆕 DLR Group | Structural Engineering Intern \| Summer 2027 | Portland, Oregon, United States; Seattle, Washington, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5440955008) |
+| 🆕 HKS | Recruitment Coordinator Intern | Dallas | Sep 30 | Internship | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Recruitment-Coordinator-Intern_2026-03760-1) |
+| CannonDesign | Designer IB | Dallas, TX | Sep 29 | Internship, Revit | [Apply](http://www.cannondesign.com/careers/?gh_jid=8857224002) |
 | Perkins&Will | Interior Designer | Austin, TX | Sep 25 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=fbcde49b-9d35-425c-b476-70b993eaeaef) |
 | DLR Group | Electronic Security System Designer | Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C. | Sep 24 | Full-Time, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5434408008) |
 | DLR Group | ICT Designer | Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C. | Sep 24 | Full-Time, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5434252008) |
-| DLR Group | Telecommunications + Security Designer | Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C. | Sep 24 | Full-Time, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5434248008) |
-| KPF | Architectural Intern (Interiors) | New York | Aug 31 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
-| SOM | Designer - Architecture (Austin TX) | Austin | Aug 31 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
-| HKS | Project Designer - Hospitality | Dallas | Aug 31 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713) |
-| SOM | Designer/Architect | San Francisco | Aug 31 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148) |
+| KPF | Architectural Intern (Interiors) | New York | Sep 1 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
+| SOM | Designer - Architecture (Austin TX) | Austin | Sep 1 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
+| HKS | Project Designer - Hospitality | Dallas | Sep 1 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713) |
+| SOM | Designer/Architect | San Francisco | Sep 1 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148) |
 | DLR Group | Interior Designer, K-12 | Sacramento, California, United States; San Diego, California, United States | Aug 26 | Contract, Revit, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008) |
 | DLR Group | Mechanical Engineer, Entry Level | Dallas, Texas, United States; Fort Worth, Texas, United States; Houston, Texas, United States | Aug 5 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5379842008) |
 | NBBJ | Interior Designer - Corporate Commercial and Healthcare Practice | New York, New York | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/o5N0zfwb) |
@@ -38,16 +40,17 @@ Every listing is auto-filtered on two axes:
 </details>
 
 <details>
-<summary><strong>🧠 Psychology</strong> — 26 open role(s)</summary>
+<summary><strong>🧠 Psychology</strong> — 27 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 NIP | Psychology Internship: Live Intake, Supervision & Seminars | New York City | Sep 30 | Internship | [Apply](https://talents.vaia.com/companies/nip/psychology-internship-live-intake-supervision-seminars-108417511/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 St. John's University | Fall 2026 Psychology Adjunct Instructor | New York City | Sep 30 | Internship, Research, Clinical | [Apply](https://bebee.com/us/jobs/fall-2026-psychology-adjunct-instructor-st-johns-university-jamaica-ny--t7xk-794947554?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 MantraCare | Psychology Internships / Training in USA (Remote) | Remote | Sep 30 | Internship, Counseling | [Apply](https://mantra.care/careers/psychology-internship-in-united-states/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 Transformations Care Network | Clinical Intern | Remote | Sep 30 | Internship, Clinical, Counseling, Behavioral | [Apply](https://www.indeed.com/viewjob?jk=113c935a7ca99a90&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 TBD Investors | Psychology & Child Development Intern | Remote | Sep 30 | Internship, Clinical, Behavioral | [Apply](https://careers.utpb.edu/jobs/tbd-investors-psychology-child-development-intern/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 Intern Abroad HQ | Remote Psychology & Social Work Intern - Intern Abroad HQ | Remote | Sep 30 | Internship, Clinical, Counseling | [Apply](https://shuconnect.sacredheart.edu/jobs/intern-abroad-hq-remote-psychology-social-work-intern-intern-abroad-hq/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 NIP | Psychology Internship: Live Intake, Supervision & Seminars | New York City | Oct 1 | Internship | [Apply](https://talents.vaia.com/companies/nip/psychology-internship-live-intake-supervision-seminars-108417511/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 GE HEALTHCARE | Clinical Application Specialist – Anesthesia & Respiratory Care | Remote | Oct 1 | Internship, Clinical | [Apply](https://careers.gehealthcare.com/fr/fr/job/GEVGHLGLOBALR4046473EXTERNALFRFR/Clinical-Application-Specialist-Anesthesia-Respiratory-Care?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 TBD Investors | Psychology & Child Development Intern | Remote | Oct 1 | Internship, Clinical, Behavioral | [Apply](https://careers.utpb.edu/jobs/tbd-investors-psychology-child-development-intern/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Intern Abroad HQ | Remote Psychology & Social Work Intern - Intern Abroad HQ | Remote | Oct 1 | Internship, Clinical, Counseling | [Apply](https://shuconnect.sacredheart.edu/jobs/intern-abroad-hq-remote-psychology-social-work-intern-intern-abroad-hq/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 MD Anderson | Clinical Outcomes Specialist - Surgical Urology & Orthopedics | Houston, TX | Oct 1 | Full-Time, Clinical | [Apply](https://jobs.mdanderson.org/search/jobdetails/clinical-outcomes-specialist---surgical-urology--orthopedics/51c3a6df-68c1-40c3-ae0e-899930aac687?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Skilled Wound Care | RN / LVN Regional Clinical Liaison | Orange, CA | Oct 1 | Clinical | [Apply](https://www.linkedin.com/jobs/view/rn-lvn-regional-clinical-liaison-at-skilled-wound-care-4473920067?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Memorial Hermann Health System | RN, Physician Practice Clinical Coordinator - Urology (SE) | Houston, TX | Oct 1 | Research, Clinical | [Apply](https://www.linkedin.com/jobs/view/rn-physician-practice-clinical-coordinator-urology-se-at-memorial-hermann-health-system-4472637277?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
 | the Icahn School of Medicine at Mount Sinai | Clinical Research Coordinator in the Berner Lab | New York City | Sep 14 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-09/Clinical%20Research%20Coordinator%20Position_2026.pdf) |
 | Cognition Affect and Neurodevelopment in Youth Lab at the University of California – Los Angeles (CA) | Staff Research Associate | California | Sep 10 | Full-Time, Developmental, Cognitive, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/) |
 | the Columbia University Medical Center | Research Assistant in the Eating Disorders Clinic | New York City | Aug 17 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf) |
