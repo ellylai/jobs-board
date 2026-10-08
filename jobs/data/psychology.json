@@ -63,7 +63,7 @@
     "location": "California",
     "url": "https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab",
     "posted_date": "",
-    "scraped_date": "2026-10-07",
+    "scraped_date": "2026-10-08",
     "active": true,
     "tags": [
       "Full-Time",
@@ -111,40 +111,14 @@
     "tags": []
   },
   {
-    "id": "7e9b81600794e828aae0c9659720fb6d61909229294931ca1b3edffc8eea56ad",
-    "title": "School Psychology Intern - Multi-Tier Student Support",
-    "company": "Greece Central School District",
-    "location": "United States",
-    "url": "https://bebee.com/us/jobs/school-psychology-intern-multi-tier-student-support-greece-central-school-district-hilton--lensa-7428_415a3735dd987dad7b47c5c7a087826650d625df156716a7faaa93d8dbf97f58?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-08-09",
-    "scraped_date": "2026-08-13",
-    "active": false,
-    "tags": [
-      "counseling"
-    ]
-  },
-  {
-    "id": "7e831e5f3436b6b2ed58db46d970eb1adce1c1c9332c8b3cad235d7f17a5a6f5",
-    "title": "Volunteer with Your Pet",
-    "company": "Holy Cross Home Care and Hospice",
-    "location": "United States",
-    "url": "https://bebee.com/us/jobs/volunteer-with-your-pet-holy-cross-home-care-and-hospice-md--appcast-13509_98551353?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-08-09",
-    "scraped_date": "2026-08-13",
-    "active": false,
-    "tags": [
-      "volunteer"
-    ]
-  },
-  {
     "id": "c0db4f750aed082224edbadade657831cc631cc663d52708884227fb0ee9a60d",
     "title": "Research Assistant the in Infant Brain and Behavior Lab",
     "company": "NYU Langone Health",
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/IBB%20Lab%20RA%20Listing.pdf",
     "posted_date": "2026-08-13",
-    "scraped_date": "2026-10-06",
-    "active": false,
+    "scraped_date": "2026-10-08",
+    "active": true,
     "tags": [
       "Full-Time",
       "Research"
@@ -413,8 +387,8 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf",
     "posted_date": "2026-08-17",
-    "scraped_date": "2026-10-06",
-    "active": false,
+    "scraped_date": "2026-10-08",
+    "active": true,
     "tags": [
       "Full-Time",
       "Research"
@@ -457,8 +431,8 @@
     "company": "MantraCare",
     "location": "Remote",
     "url": "https://mantra.care/careers/psychology-internship-in-united-states/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-10-07",
-    "scraped_date": "2026-10-07",
+    "posted_date": "2026-10-08",
+    "scraped_date": "2026-10-08",
     "active": true,
     "tags": [
       "Internship",
@@ -518,13 +492,13 @@
     "location": "California",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/",
     "posted_date": "2026-09-10",
-    "scraped_date": "2026-10-07",
+    "scraped_date": "2026-10-08",
     "active": true,
     "tags": [
       "Full-Time",
-      "Developmental",
+      "Clinical",
       "Cognitive",
-      "Clinical"
+      "Developmental"
     ],
     "source": "wordpress_psych"
   },
@@ -535,8 +509,8 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-09/Clinical%20Research%20Coordinator%20Position_2026.pdf",
     "posted_date": "2026-09-14",
-    "scraped_date": "2026-10-06",
-    "active": false,
+    "scraped_date": "2026-10-08",
+    "active": true,
     "tags": [
       "Full-Time",
       "Research"
@@ -735,7 +709,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/01/research-assistant-for-child-health-and-human-development-project-at-the-university-of-rochester-ny/",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-10-07",
+    "scraped_date": "2026-10-08",
     "active": true,
     "tags": [
       "Full-Time",
@@ -751,7 +725,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/01/research-associate-for-the-dialectical-behavioral-therapy-for-adolescents-program-at-albert-einstein-college-of-medicine-ny/",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-10-07",
+    "scraped_date": "2026-10-08",
     "active": true,
     "tags": [
       "Full-Time",
