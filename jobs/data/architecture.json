@@ -14,17 +14,6 @@
     "source": "archinect"
   },
   {
-    "id": "12ab14cc257a4b8c85bcfbee84e0d3ab1322700c756dba69f33690e6646a2496",
-    "title": "Job Captain - Sports",
-    "company": "HKS",
-    "location": "2 Locations",
-    "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain---Sports_2026-03274",
-    "posted_date": "2026-08-11",
-    "scraped_date": "2026-08-13",
-    "active": false,
-    "tags": []
-  },
-  {
     "id": "2512912ee98587670b1f917d070ec897c0b13e93082450d06e2c01b7cb6bb790",
     "title": "Job Captain - Education",
     "company": "HKS",
@@ -44,23 +33,9 @@
     "company": "KPF",
     "location": "New York",
     "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075",
-    "posted_date": "2026-09-09",
-    "scraped_date": "2026-10-09",
+    "posted_date": "2026-09-10",
+    "scraped_date": "2026-10-10",
     "active": true,
-    "tags": [
-      "Internship"
-    ],
-    "source": "firms"
-  },
-  {
-    "id": "4bee7de15396124eb79608bff47ba5f8ab7c174618752bc10b4f8d0b235a220f",
-    "title": "Data & Systems Developer Intern",
-    "company": "KPF",
-    "location": "New York",
-    "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Data---Systems-Developer-Intern_JR202600047",
-    "posted_date": "2026-08-11",
-    "scraped_date": "2026-09-10",
-    "active": false,
     "tags": [
       "Internship"
     ],
@@ -72,8 +47,8 @@
     "company": "SOM",
     "location": "Austin",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062",
-    "posted_date": "2026-09-09",
-    "scraped_date": "2026-10-09",
+    "posted_date": "2026-09-10",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Full-Time"
@@ -87,7 +62,7 @@
     "location": "New York, New York",
     "url": "https://jobs.jobvite.com/nbbj/job/o5N0zfwb",
     "posted_date": "",
-    "scraped_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Full-Time"
@@ -155,10 +130,10 @@
     "title": "Interior designer",
     "company": "CetraRuddy",
     "location": "New York, USA",
-    "url": "https://www.dezeenjobs.com/job/cetraruddy-interior-designer-1114117/",
-    "posted_date": "2026-08-21",
-    "scraped_date": "2026-09-01",
-    "active": false,
+    "url": "https://www.dezeenjobs.com/job/cetraruddy-i4-interior-designer-1125717/",
+    "posted_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
+    "active": true,
     "tags": [
       "Full-Time",
       "Interior designer"
@@ -185,8 +160,8 @@
     "company": "HKS",
     "location": "Dallas",
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713",
-    "posted_date": "2026-09-09",
-    "scraped_date": "2026-10-09",
+    "posted_date": "2026-09-10",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Full-Time"
@@ -214,7 +189,7 @@
     "location": "Sacramento, California, United States; San Diego, California, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008",
     "posted_date": "2026-08-26",
-    "scraped_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Contract",
@@ -526,7 +501,7 @@
     "location": "Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C.",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5434408008",
     "posted_date": "2026-09-24",
-    "scraped_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Full-Time",
@@ -542,7 +517,7 @@
     "location": "Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C.",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5434252008",
     "posted_date": "2026-09-24",
-    "scraped_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Full-Time",
@@ -572,7 +547,7 @@
     "location": "Los Angeles, California",
     "url": "https://jobs.jobvite.com/nbbj/job/oaHQAfw1",
     "posted_date": "",
-    "scraped_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Full-Time"
@@ -586,7 +561,7 @@
     "location": "Austin, TX",
     "url": "https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=fbcde49b-9d35-425c-b476-70b993eaeaef",
     "posted_date": "2026-09-25",
-    "scraped_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Full-Time"
@@ -600,7 +575,7 @@
     "location": "Dallas, TX",
     "url": "http://www.cannondesign.com/careers/?gh_jid=8857224002",
     "posted_date": "2026-09-29",
-    "scraped_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Internship",
@@ -615,7 +590,7 @@
     "location": "Dallas, TX",
     "url": "http://www.cannondesign.com/careers/?gh_jid=8854365002",
     "posted_date": "2026-09-29",
-    "scraped_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Internship",
@@ -631,7 +606,7 @@
     "url": "https://www.dezeenjobs.com/job/casalta-project-designer-1123777/",
     "posted_date": "2026-10-01",
     "scraped_date": "2026-10-07",
-    "active": true,
+    "active": false,
     "tags": [
       "Full-Time",
       "Interior designer"
@@ -717,7 +692,7 @@
     "location": "Cleveland, Ohio, United States; Los Angeles, California, United States; Sacramento, California, United States; Seattle, Washington, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5441252008",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Internship",
@@ -732,7 +707,7 @@
     "location": "Dallas, Texas, United States; Los Angeles, California, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5441426008",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Internship",
@@ -750,7 +725,7 @@
     "location": "Los Angeles, California, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5441685008",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Internship",
@@ -796,7 +771,7 @@
     "location": "Remote",
     "url": "https://www.dezeenjobs.com/job/future-future-global-communications-and-business-development-internship-572926/",
     "posted_date": "2026-10-05",
-    "scraped_date": "2026-10-07",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Internship",
@@ -869,7 +844,7 @@
     "location": "Seattle, Washington, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5444635008",
     "posted_date": "2026-10-06",
-    "scraped_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Full-Time"
@@ -883,7 +858,7 @@
     "location": "Houston, Texas, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5441952008",
     "posted_date": "2026-10-08",
-    "scraped_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Internship",
@@ -900,12 +875,55 @@
     "location": "Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C.",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5434248008",
     "posted_date": "2026-09-24",
-    "scraped_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
     "active": true,
     "tags": [
       "Full-Time",
       "Revit",
       "AutoCAD"
+    ],
+    "source": "firms"
+  },
+  {
+    "id": "a8bbcb4da0fa643194df841062a10dc052121be1b7283bc021d67a860eba01a8",
+    "title": "Transmission Line Intern- Civil/Structural WG",
+    "company": "HDR",
+    "location": "United States-Texas-Austin",
+    "url": "https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=196680&tz=GMT%2B00%3A00&tzname=UTC",
+    "posted_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
+    "active": true,
+    "tags": [
+      "Internship"
+    ],
+    "source": "hdr"
+  },
+  {
+    "id": "2f6c9aa20dd0170c841e459ae168199fc523bc965d120a54c0deb4b37dcd0ba3",
+    "title": "Resources Marketing Intern",
+    "company": "HDR",
+    "location": "United States-Washington-Seattle",
+    "url": "https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=196836&tz=GMT%2B00%3A00&tzname=UTC",
+    "posted_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
+    "active": true,
+    "tags": [
+      "Internship"
+    ],
+    "source": "hdr"
+  },
+  {
+    "id": "08a1b2a890df765ed11569570d29ced371721afa3d5506d7f2d90daf008420ca",
+    "title": "Plumbing Designer",
+    "company": "DLR Group",
+    "location": "Los Angeles, California, United States",
+    "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5449010008",
+    "posted_date": "2026-10-09",
+    "scraped_date": "2026-10-10",
+    "active": true,
+    "tags": [
+      "Full-Time",
+      "Revit"
     ],
     "source": "firms"
   }

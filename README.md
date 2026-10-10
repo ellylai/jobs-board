@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-10-09 14:59 UTC_
+_Last updated: 2026-10-10 14:13 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -16,14 +16,17 @@ Every listing is auto-filtered on two axes:
 ## Open roles
 
 <details>
-<summary><strong>🏛️ Architecture</strong> — 19 open role(s)</summary>
+<summary><strong>🏛️ Architecture</strong> — 22 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 DLR Group | High School Design Intern | Houston, Texas, United States | Oct 8 | Internship, Revit, Rhino, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441952008) |
+| 🆕 CetraRuddy | Interior designer | New York, USA | Oct 9 | Full-Time, Interior designer | [Apply](https://www.dezeenjobs.com/job/cetraruddy-i4-interior-designer-1125717/) |
+| 🆕 HDR | Transmission Line Intern- Civil/Structural WG | United States-Texas-Austin | Oct 9 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=196680&tz=GMT%2B00%3A00&tzname=UTC) |
+| 🆕 HDR | Resources Marketing Intern | United States-Washington-Seattle | Oct 9 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=196836&tz=GMT%2B00%3A00&tzname=UTC) |
+| 🆕 DLR Group | Plumbing Designer | Los Angeles, California, United States | Oct 9 | Full-Time, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5449010008) |
+| DLR Group | High School Design Intern | Houston, Texas, United States | Oct 8 | Internship, Revit, Rhino, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441952008) |
 | DLR Group | Service Desk Analyst, Entry-Level | Seattle, Washington, United States | Oct 6 | Full-Time | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5444635008) |
 | Future-Future Global | Communications and business development internship | Remote | Oct 5 | Internship, Business development, Communications, Marketing | [Apply](https://www.dezeenjobs.com/job/future-future-global-communications-and-business-development-internship-572926/) |
-| Casalta | Project designer | New York, USA | Oct 1 | Full-Time, Interior designer | [Apply](https://www.dezeenjobs.com/job/casalta-project-designer-1123777/) |
 | DLR Group | Audiovisual Systems Design Intern \| Summer 2027 | Cleveland, Ohio, United States; Los Angeles, California, United States; Sacramento, California, United States; Seattle, Washington, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441252008) |
 | DLR Group | Landscape Architecture Intern \| Summer 2027 | Dallas, Texas, United States; Los Angeles, California, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States | Oct 1 | Internship, Revit, Rhino, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441426008) |
 | DLR Group | Theater Planning Intern \| Summer 2027 | Los Angeles, California, United States | Oct 1 | Internship, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441685008) |
@@ -33,9 +36,9 @@ Every listing is auto-filtered on two axes:
 | DLR Group | Electronic Security System Designer | Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C. | Sep 24 | Full-Time, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5434408008) |
 | DLR Group | ICT Designer | Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C. | Sep 24 | Full-Time, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5434252008) |
 | DLR Group | Telecommunications + Security Designer | Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C. | Sep 24 | Full-Time, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5434248008) |
-| KPF | Architectural Intern (Interiors) | New York | Sep 9 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
-| SOM | Designer - Architecture (Austin TX) | Austin | Sep 9 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
-| HKS | Project Designer - Hospitality | Dallas | Sep 9 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713) |
+| KPF | Architectural Intern (Interiors) | New York | Sep 10 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
+| SOM | Designer - Architecture (Austin TX) | Austin | Sep 10 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
+| HKS | Project Designer - Hospitality | Dallas | Sep 10 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713) |
 | DLR Group | Interior Designer, K-12 | Sacramento, California, United States; San Diego, California, United States | Aug 26 | Contract, Revit, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008) |
 | NBBJ | Interior Designer - Corporate Commercial and Healthcare Practice | New York, New York | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/o5N0zfwb) |
 | NBBJ | Interior Designer - Corporate, Commercial Practice | Los Angeles, California | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/oaHQAfw1) |
@@ -47,9 +50,9 @@ Every listing is auto-filtered on two axes:
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 MantraCare | Psychology Internships / Training in USA (Remote) | Remote | Oct 9 | Internship, Counseling | [Apply](https://mantra.care/careers/psychology-internship-in-united-states/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 InwardWise | Business Intern – Psychology Major | Remote | Oct 9 | Internship, Behavioral | [Apply](https://www.indeed.com/viewjob?jk=8beaa2bcf4a14de9&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 the University of Texas at Dallas | Research Assistant in the Laboratory for Healthy Social-Emotional Development | Dallas | Oct 8 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Research%20Assistant%20in%20the%20Laboratory%20for%20Healthy%20Social.pdf) |
+| 🆕 MantraCare | Psychology Internships / Training in USA (Remote) | Remote | Oct 10 | Internship, Counseling | [Apply](https://mantra.care/careers/psychology-internship-in-united-states/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 InwardWise | Business Intern – Psychology Major | Remote | Oct 10 | Internship, Behavioral | [Apply](https://www.indeed.com/viewjob?jk=8beaa2bcf4a14de9&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| the University of Texas at Dallas | Research Assistant in the Laboratory for Healthy Social-Emotional Development | Dallas | Oct 8 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Research%20Assistant%20in%20the%20Laboratory%20for%20Healthy%20Social.pdf) |
 | Child Health and Human Development Project at the University of Rochester (NY) | Research Assistant | New York | Oct 1 | Full-Time, Cognitive, Developmental | [Apply](https://psychologyjobsinternships.wordpress.com/2026/10/01/research-assistant-for-child-health-and-human-development-project-at-the-university-of-rochester-ny/) |
 | Dialectical Behavioral Therapy for Adolescents Program at Albert Einstein College of Medicine (NY) | Research Associate | New York | Oct 1 | Full-Time, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/10/01/research-associate-for-the-dialectical-behavioral-therapy-for-adolescents-program-at-albert-einstein-college-of-medicine-ny/) |
 | the Icahn School of Medicine at Mount Sinai | Clinical Research Coordinator in the Berner Lab | New York City | Sep 14 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-09/Clinical%20Research%20Coordinator%20Position_2026.pdf) |
