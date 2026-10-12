@@ -63,7 +63,7 @@
     "location": "California",
     "url": "https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab",
     "posted_date": "",
-    "scraped_date": "2026-10-11",
+    "scraped_date": "2026-10-12",
     "active": true,
     "tags": [
       "Full-Time",
@@ -100,32 +100,6 @@
     "source": "indeed"
   },
   {
-    "id": "8dab9fa2a34ad25cd719e865e4b814ac9aafbb6c02ee48adbe3405d1f04eaa3a",
-    "title": "Psychometry Intern — Hands-On Psychological Assessment",
-    "company": "Pine Rest Christian Mental Health Services",
-    "location": "United States",
-    "url": "https://talents.vaia.com/companies/pine-rest-christian-mental-health-services/psychometry-intern-hands-on-psychological-assessment-126030136/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-08-13",
-    "scraped_date": "2026-08-13",
-    "active": false,
-    "tags": []
-  },
-  {
-    "id": "c0db4f750aed082224edbadade657831cc631cc663d52708884227fb0ee9a60d",
-    "title": "Research Assistant the in Infant Brain and Behavior Lab",
-    "company": "NYU Langone Health",
-    "location": "New York City",
-    "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/IBB%20Lab%20RA%20Listing.pdf",
-    "posted_date": "2026-08-13",
-    "scraped_date": "2026-10-11",
-    "active": true,
-    "tags": [
-      "Full-Time",
-      "Research"
-    ],
-    "source": "harvard"
-  },
-  {
     "id": "1ac9a196e57c7bc96576ca33b53625bda42855a1a855efca433f742367cdceb7",
     "title": "Lab Manager in the Social Origins Lab",
     "company": "the University of California, Berkeley",
@@ -139,20 +113,6 @@
       "Research"
     ],
     "source": "harvard"
-  },
-  {
-    "id": "133242aa40cf6482e00c68bd1b703dd0e8e6f7f3c93443780c22bd54b9dc1ff0",
-    "title": "I/O Psychology Intern | Fully Remote USA",
-    "company": "vmysmartpros",
-    "location": "Remote",
-    "url": "https://www.mysmartpros.com/tuition/job/i-o-psychology-intern-fully-remote-usa-f6db04df/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-08-13",
-    "scraped_date": "2026-08-16",
-    "active": false,
-    "tags": [
-      "Full-Time"
-    ],
-    "source": "indeed"
   },
   {
     "id": "bed2e99598a395bb0be5f4add8a7abeab072bae15aa6582dd02baeddee87295b",
@@ -387,7 +347,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf",
     "posted_date": "2026-08-17",
-    "scraped_date": "2026-10-11",
+    "scraped_date": "2026-10-12",
     "active": true,
     "tags": [
       "Full-Time",
@@ -431,26 +391,12 @@
     "company": "MantraCare",
     "location": "Remote",
     "url": "https://mantra.care/careers/psychology-internship-in-united-states/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-10-11",
-    "scraped_date": "2026-10-11",
+    "posted_date": "2026-10-12",
+    "scraped_date": "2026-10-12",
     "active": true,
     "tags": [
       "Internship",
       "Counseling"
-    ],
-    "source": "indeed"
-  },
-  {
-    "id": "67cd8e0dcfc0f9a36d97f690b9f21e6f5c16e66cd42681e713ad26523ed434b9",
-    "title": "Marketing, Content & Digital Experience Intern – Psychology, Spirituality, Wellness & Personal Growth",
-    "company": "Healing Happens",
-    "location": "Remote",
-    "url": "https://www.linkedin.com/jobs/view/marketing-content-digital-experience-intern-%E2%80%93-psychology-spirituality-wellness-personal-growth-at-healing-happens-4450788108?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-08-13",
-    "scraped_date": "2026-08-27",
-    "active": false,
-    "tags": [
-      "Internship"
     ],
     "source": "indeed"
   },
@@ -492,7 +438,7 @@
     "location": "California",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/",
     "posted_date": "2026-09-10",
-    "scraped_date": "2026-10-11",
+    "scraped_date": "2026-10-12",
     "active": true,
     "tags": [
       "Full-Time",
@@ -509,7 +455,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-09/Clinical%20Research%20Coordinator%20Position_2026.pdf",
     "posted_date": "2026-09-14",
-    "scraped_date": "2026-10-11",
+    "scraped_date": "2026-10-12",
     "active": true,
     "tags": [
       "Full-Time",
@@ -709,7 +655,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/01/research-assistant-for-child-health-and-human-development-project-at-the-university-of-rochester-ny/",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-10-11",
+    "scraped_date": "2026-10-12",
     "active": true,
     "tags": [
       "Full-Time",
@@ -725,7 +671,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/01/research-associate-for-the-dialectical-behavioral-therapy-for-adolescents-program-at-albert-einstein-college-of-medicine-ny/",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-10-11",
+    "scraped_date": "2026-10-12",
     "active": true,
     "tags": [
       "Full-Time",
@@ -740,7 +686,7 @@
     "location": "Dallas",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Research%20Assistant%20in%20the%20Laboratory%20for%20Healthy%20Social.pdf",
     "posted_date": "2026-10-08",
-    "scraped_date": "2026-10-11",
+    "scraped_date": "2026-10-12",
     "active": true,
     "tags": [
       "Full-Time",
@@ -769,8 +715,24 @@
     "company": "Camp Augusta",
     "location": "California",
     "url": "https://careers.tufts.edu/jobs/camp-augusta-humanistic-psychology-as-a-camp-counselor-paid-internship/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-10-11",
-    "scraped_date": "2026-10-11",
+    "posted_date": "2026-10-12",
+    "scraped_date": "2026-10-12",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Clinical",
+      "Counseling"
+    ],
+    "source": "indeed"
+  },
+  {
+    "id": "14836c688f2769db8d60cb618e1626c0c1daa8661258a245262060ebf8486916",
+    "title": "Educational Psychology as a Summer Camp Counselor - Paid Internship",
+    "company": "Camp Augusta",
+    "location": "California",
+    "url": "https://careers.tufts.edu/jobs/camp-augusta-educational-psychology-as-a-summer-camp-counselor-paid-internship/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-10-12",
+    "scraped_date": "2026-10-12",
     "active": true,
     "tags": [
       "Internship",
