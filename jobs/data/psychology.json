@@ -63,7 +63,7 @@
     "location": "California",
     "url": "https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab",
     "posted_date": "",
-    "scraped_date": "2026-10-13",
+    "scraped_date": "2026-10-14",
     "active": true,
     "tags": [
       "Full-Time",
@@ -347,8 +347,8 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-08/columbia%20ra.pdf",
     "posted_date": "2026-08-17",
-    "scraped_date": "2026-10-12",
-    "active": false,
+    "scraped_date": "2026-10-14",
+    "active": true,
     "tags": [
       "Full-Time",
       "Research"
@@ -372,27 +372,13 @@
     "source": "indeed"
   },
   {
-    "id": "34dcfe0699d995435f94bf1f849b651f022695cc65a1084e943bb3b341fb625e",
-    "title": "Psychology Extern Hospital-Based Internship",
-    "company": "Prime Healthcare",
-    "location": "California",
-    "url": "https://bebee.com/us/jobs/psychology-extern-hospital-based-internship-prime-healthcare-vista--lensa-7428_931fa2d9f29b3258ed6c56d852bd6863a8f331fd3f41c74892145b3b383ea93f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-08-15",
-    "scraped_date": "2026-08-21",
-    "active": false,
-    "tags": [
-      "Internship"
-    ],
-    "source": "indeed"
-  },
-  {
     "id": "b20ad7209e8625bbb9aeaec059a5c899006d36a3323724e95c77d417744a6e4b",
     "title": "Psychology Internships / Training in USA (Remote)",
     "company": "MantraCare",
     "location": "Remote",
     "url": "https://mantra.care/careers/psychology-internship-in-united-states/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-10-13",
-    "scraped_date": "2026-10-13",
+    "posted_date": "2026-10-14",
+    "scraped_date": "2026-10-14",
     "active": true,
     "tags": [
       "Internship",
@@ -438,7 +424,7 @@
     "location": "California",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/",
     "posted_date": "2026-09-10",
-    "scraped_date": "2026-10-13",
+    "scraped_date": "2026-10-14",
     "active": true,
     "tags": [
       "Full-Time",
@@ -455,8 +441,8 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-09/Clinical%20Research%20Coordinator%20Position_2026.pdf",
     "posted_date": "2026-09-14",
-    "scraped_date": "2026-10-12",
-    "active": false,
+    "scraped_date": "2026-10-14",
+    "active": true,
     "tags": [
       "Full-Time",
       "Research"
@@ -655,7 +641,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/01/research-assistant-for-child-health-and-human-development-project-at-the-university-of-rochester-ny/",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-10-13",
+    "scraped_date": "2026-10-14",
     "active": true,
     "tags": [
       "Full-Time",
@@ -671,7 +657,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/01/research-associate-for-the-dialectical-behavioral-therapy-for-adolescents-program-at-albert-einstein-college-of-medicine-ny/",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-10-13",
+    "scraped_date": "2026-10-14",
     "active": true,
     "tags": [
       "Full-Time",
@@ -686,7 +672,7 @@
     "location": "Dallas",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Research%20Assistant%20in%20the%20Laboratory%20for%20Healthy%20Social.pdf",
     "posted_date": "2026-10-08",
-    "scraped_date": "2026-10-13",
+    "scraped_date": "2026-10-14",
     "active": true,
     "tags": [
       "Full-Time",
@@ -715,8 +701,8 @@
     "company": "Camp Augusta",
     "location": "California",
     "url": "https://careers.tufts.edu/jobs/camp-augusta-humanistic-psychology-as-a-camp-counselor-paid-internship/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-10-13",
-    "scraped_date": "2026-10-13",
+    "posted_date": "2026-10-14",
+    "scraped_date": "2026-10-14",
     "active": true,
     "tags": [
       "Internship",
@@ -748,13 +734,29 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/13/case-manager-for-jewish-association-serving-the-aging-adult-protective-services-ny/",
     "posted_date": "2026-10-13",
-    "scraped_date": "2026-10-13",
+    "scraped_date": "2026-10-14",
     "active": true,
     "tags": [
       "Full-Time",
       "Clinical",
       "Cultural",
       "Social"
+    ],
+    "source": "wordpress_psych"
+  },
+  {
+    "id": "2adbc2a082ef8b88dfcfcf349065a8a7de244da2a8f2f7ac99b6c5aad06dd636",
+    "title": "Research Lab Technician",
+    "company": "Learning, Development, and Rehabilitation Lab at the University of Southern California (CA)",
+    "location": "California",
+    "url": "https://psychologyjobsinternships.wordpress.com/2026/10/13/research-lab-technician-for-the-learning-development-and-rehabilitation-lab-at-the-university-of-southern-california-ca/",
+    "posted_date": "2026-10-13",
+    "scraped_date": "2026-10-14",
+    "active": true,
+    "tags": [
+      "Part-Time",
+      "Cognitive",
+      "Developmental"
     ],
     "source": "wordpress_psych"
   }
