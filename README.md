@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-10-18 12:27 UTC_
+_Last updated: 2026-10-19 15:15 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -20,6 +20,7 @@ Every listing is auto-filtered on two axes:
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
+| 🆕 HDR | Substation Structural Intern | United States-Texas-Houston | Oct 19 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=196688&tz=GMT%2B00%3A00&tzname=UTC) |
 | HDR | Architectural Intern | United States-New York-New York | Oct 16 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=197128&tz=GMT%2B00%3A00&tzname=UTC) |
 | SOM | Designer | San Francisco | Oct 16 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148) |
 | HKS | Job Captain - Commercial Interiors | Seattle | Oct 14 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Seattle/Job-Captain---Commercial-Interiors_2026-03783) |
@@ -36,11 +37,10 @@ Every listing is auto-filtered on two axes:
 | DLR Group | Electronic Security System Designer | Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C. | Sep 24 | Full-Time, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5434408008) |
 | DLR Group | ICT Designer | Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C. | Sep 24 | Full-Time, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5434252008) |
 | DLR Group | Telecommunications + Security Designer | Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C. | Sep 24 | Full-Time, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5434248008) |
-| KPF | Architectural Intern (Interiors) | New York | Sep 18 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
-| SOM | Designer - Architecture (Austin TX) | Austin | Sep 18 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
-| HKS | Project Designer - Hospitality | Dallas | Sep 18 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713) |
-| SOM | Year One - Junior Designer - Architecture | Los Angeles | Sep 18 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Los-Angeles/Job-Posting-Title-Year-One---Junior-Designer---Architecture_R-4057) |
-| CannonDesign | Structural - Entry Level | San Diego, CA | Sep 1 | Internship, Revit | [Apply](http://www.cannondesign.com/careers/?gh_jid=8770323002) |
+| KPF | Architectural Intern (Interiors) | New York | Sep 19 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
+| SOM | Designer - Architecture (Austin TX) | Austin | Sep 19 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
+| HKS | Project Designer - Hospitality | Dallas | Sep 19 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713) |
+| SOM | Year One - Junior Designer - Architecture | Los Angeles | Sep 19 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Los-Angeles/Job-Posting-Title-Year-One---Junior-Designer---Architecture_R-4057) |
 | DLR Group | Interior Designer, K-12 | Sacramento, California, United States; San Diego, California, United States | Aug 26 | Contract, Revit, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008) |
 | NBBJ | Interior Designer - Corporate Commercial and Healthcare Practice | New York, New York | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/o5N0zfwb) |
 | NBBJ | Interior Designer - Corporate, Commercial Practice | Los Angeles, California | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/oaHQAfw1) |
@@ -53,9 +53,9 @@ Every listing is auto-filtered on two axes:
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 Camp Augusta | Humanistic Psychology as a Camp Counselor - Paid Internship | California | Oct 18 | Internship, Clinical, Counseling | [Apply](https://careers.tufts.edu/jobs/camp-augusta-humanistic-psychology-as-a-camp-counselor-paid-internship/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 Camp Augusta | Educational Psychology as a Summer Camp Counselor - Paid Internship | California | Oct 18 | Internship, Clinical, Counseling | [Apply](https://careers.tufts.edu/jobs/camp-augusta-educational-psychology-as-a-summer-camp-counselor-paid-internship/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 Overcome | Remote Clinical Psychology Intern — Accredited Training & Global Coaching | Remote | Oct 18 | Internship, Clinical | [Apply](https://talents.vaia.com/companies/overcome/remote-clinical-psychology-intern-accredited-training-global-coaching-131450733/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Camp Augusta | Humanistic Psychology as a Camp Counselor - Paid Internship | California | Oct 19 | Internship, Clinical, Counseling | [Apply](https://careers.tufts.edu/jobs/camp-augusta-humanistic-psychology-as-a-camp-counselor-paid-internship/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Overcome | Remote Clinical Psychology Intern — Accredited Training & Global Coaching | Remote | Oct 19 | Internship, Clinical | [Apply](https://talents.vaia.com/companies/overcome/remote-clinical-psychology-intern-accredited-training-global-coaching-131450733/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 CareMe Health | Psychology Intern: Drive Impact, Build Connections, Transform Lives! | Remote | Oct 19 | Internship | [Apply](https://us.jobrapido.com/jobpreview/8308267748362813440?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
 | Jewish Association Serving the Aging Adult Protective Services (NY) | Case Manager | New York | Oct 13 | Full-Time, Clinical, Cultural, Social | [Apply](https://psychologyjobsinternships.wordpress.com/2026/10/13/case-manager-for-jewish-association-serving-the-aging-adult-protective-services-ny/) |
 | Learning, Development, and Rehabilitation Lab at the University of Southern California (CA) | Research Lab Technician | California | Oct 13 | Part-Time, Developmental, Cognitive | [Apply](https://psychologyjobsinternships.wordpress.com/2026/10/13/research-lab-technician-for-the-learning-development-and-rehabilitation-lab-at-the-university-of-southern-california-ca/) |
 | the University of Texas at Dallas | Research Assistant in the Laboratory for Healthy Social-Emotional Development | Dallas | Oct 8 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Research%20Assistant%20in%20the%20Laboratory%20for%20Healthy%20Social.pdf) |
