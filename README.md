@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-10-21 13:25 UTC_
+_Last updated: 2026-10-22 13:26 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -16,10 +16,11 @@ Every listing is auto-filtered on two axes:
 ## Open roles
 
 <details>
-<summary><strong>🏛️ Architecture</strong> — 20 open role(s)</summary>
+<summary><strong>🏛️ Architecture</strong> — 22 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
+| 🆕 HDR | Transportation Roadway Intern | United States-Texas-Dallas | Oct 21 | Internship | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=197311&tz=GMT%2B00%3A00&tzname=UTC) |
 | HKS | Job Captain - Commercial Interiors | Seattle | Oct 19 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Seattle/Job-Captain---Commercial-Interiors_2026-03783) |
 | SOM | Designer | San Francisco | Oct 16 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148) |
 | Perkins&Will | Urban Designer | San Francisco, CA | Oct 12 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=12bec01e-b6d2-463f-8677-b1f5448ef8f8) |
@@ -32,10 +33,11 @@ Every listing is auto-filtered on two axes:
 | Perkins&Will | Interior Designer | Austin, TX | Sep 25 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=fbcde49b-9d35-425c-b476-70b993eaeaef) |
 | DLR Group | Electronic Security System Designer | Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C. | Sep 24 | Full-Time, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5434408008) |
 | DLR Group | ICT Designer | Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C. | Sep 24 | Full-Time, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5434252008) |
-| KPF | Architectural Intern (Interiors) | New York | Sep 21 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
-| SOM | Designer - Architecture (Austin TX) | Austin | Sep 21 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
-| HKS | Project Designer - Hospitality | Dallas | Sep 21 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713) |
-| SOM | Year One - Junior Designer - Architecture | Los Angeles | Sep 21 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Los-Angeles/Job-Posting-Title-Year-One---Junior-Designer---Architecture_R-4057) |
+| KPF | Architectural Intern (Interiors) | New York | Sep 22 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
+| SOM | Designer - Architecture (Austin TX) | Austin | Sep 22 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
+| HKS | Project Designer - Hospitality | Dallas | Sep 22 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713) |
+| SOM | Year One - Junior Designer - Architecture | Los Angeles | Sep 22 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Los-Angeles/Job-Posting-Title-Year-One---Junior-Designer---Architecture_R-4057) |
+| CannonDesign | Structural - Entry Level | San Diego, CA | Sep 1 | Internship, Revit | [Apply](http://www.cannondesign.com/careers/?gh_jid=8770323002) |
 | DLR Group | Interior Designer, K-12 | Sacramento, California, United States; San Diego, California, United States | Aug 26 | Contract, Revit, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008) |
 | NBBJ | Interior Designer - Corporate Commercial and Healthcare Practice | New York, New York | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/o5N0zfwb) |
 | NBBJ | Interior Designer - Corporate, Commercial Practice | Los Angeles, California | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/oaHQAfw1) |
@@ -44,14 +46,13 @@ Every listing is auto-filtered on two axes:
 </details>
 
 <details>
-<summary><strong>🧠 Psychology</strong> — 23 open role(s)</summary>
+<summary><strong>🧠 Psychology</strong> — 22 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 Camp Augusta | Humanistic Psychology as a Camp Counselor - Paid Internship | California | Oct 21 | Internship, Clinical, Counseling | [Apply](https://careers.tufts.edu/jobs/camp-augusta-humanistic-psychology-as-a-camp-counselor-paid-internship/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 Overcome | Remote Clinical Psychology Intern — Accredited Training & Global Coaching | Remote | Oct 21 | Internship, Clinical | [Apply](https://talents.vaia.com/companies/overcome/remote-clinical-psychology-intern-accredited-training-global-coaching-131450733/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Overcome | Remote Clinical Psychology Intern — Accredited Training & Global Coaching | Remote | Oct 22 | Internship, Clinical | [Apply](https://talents.vaia.com/companies/overcome/remote-clinical-psychology-intern-accredited-training-global-coaching-131450733/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
 | Jewish Association Serving the Aging Adult Protective Services (NY) | Case Manager | New York | Oct 13 | Full-Time, Clinical, Cultural, Social | [Apply](https://psychologyjobsinternships.wordpress.com/2026/10/13/case-manager-for-jewish-association-serving-the-aging-adult-protective-services-ny/) |
-| Learning, Development, and Rehabilitation Lab at the University of Southern California (CA) | Research Lab Technician | California | Oct 13 | Part-Time, Developmental, Cognitive | [Apply](https://psychologyjobsinternships.wordpress.com/2026/10/13/research-lab-technician-for-the-learning-development-and-rehabilitation-lab-at-the-university-of-southern-california-ca/) |
+| Learning, Development, and Rehabilitation Lab at the University of Southern California (CA) | Research Lab Technician | California | Oct 13 | Part-Time, Cognitive, Developmental | [Apply](https://psychologyjobsinternships.wordpress.com/2026/10/13/research-lab-technician-for-the-learning-development-and-rehabilitation-lab-at-the-university-of-southern-california-ca/) |
 | the University of Texas at Dallas | Research Assistant in the Laboratory for Healthy Social-Emotional Development | Dallas | Oct 8 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Research%20Assistant%20in%20the%20Laboratory%20for%20Healthy%20Social.pdf) |
 | Child Health and Human Development Project at the University of Rochester (NY) | Research Assistant | New York | Oct 1 | Full-Time, Cognitive, Developmental | [Apply](https://psychologyjobsinternships.wordpress.com/2026/10/01/research-assistant-for-child-health-and-human-development-project-at-the-university-of-rochester-ny/) |
 | Dialectical Behavioral Therapy for Adolescents Program at Albert Einstein College of Medicine (NY) | Research Associate | New York | Oct 1 | Full-Time, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/10/01/research-associate-for-the-dialectical-behavioral-therapy-for-adolescents-program-at-albert-einstein-college-of-medicine-ny/) |

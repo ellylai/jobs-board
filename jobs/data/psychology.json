@@ -63,7 +63,7 @@
     "location": "California",
     "url": "https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab",
     "posted_date": "",
-    "scraped_date": "2026-10-21",
+    "scraped_date": "2026-10-22",
     "active": true,
     "tags": [
       "Full-Time",
@@ -372,20 +372,6 @@
     "source": "indeed"
   },
   {
-    "id": "ae3b4d6636e89064c976a2f91127234b5aaf54b13bfdeba7ef568b036322ddcf",
-    "title": "reputed company Remote Psychology Internships | Intern Abroad HQ",
-    "company": "FlexBoard",
-    "location": "Remote",
-    "url": "https://flexboard.9y.liveblog365.com/job/866286?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-08-23",
-    "scraped_date": "2026-08-27",
-    "active": false,
-    "tags": [
-      "Full-Time"
-    ],
-    "source": "indeed"
-  },
-  {
     "id": "fe8514483f68cd73cfb57cdc1cd7d443670b3392da543aa73f70503d00f90485",
     "title": "Research Psychologist",
     "company": "KBR",
@@ -409,7 +395,7 @@
     "location": "California",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/",
     "posted_date": "2026-09-10",
-    "scraped_date": "2026-10-21",
+    "scraped_date": "2026-10-22",
     "active": true,
     "tags": [
       "Full-Time",
@@ -626,7 +612,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/01/research-assistant-for-child-health-and-human-development-project-at-the-university-of-rochester-ny/",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-10-21",
+    "scraped_date": "2026-10-22",
     "active": true,
     "tags": [
       "Full-Time",
@@ -642,7 +628,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/01/research-associate-for-the-dialectical-behavioral-therapy-for-adolescents-program-at-albert-einstein-college-of-medicine-ny/",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-10-21",
+    "scraped_date": "2026-10-22",
     "active": true,
     "tags": [
       "Full-Time",
@@ -657,7 +643,7 @@
     "location": "Dallas",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Research%20Assistant%20in%20the%20Laboratory%20for%20Healthy%20Social.pdf",
     "posted_date": "2026-10-08",
-    "scraped_date": "2026-10-21",
+    "scraped_date": "2026-10-22",
     "active": true,
     "tags": [
       "Full-Time",
@@ -688,7 +674,7 @@
     "url": "https://careers.tufts.edu/jobs/camp-augusta-humanistic-psychology-as-a-camp-counselor-paid-internship/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-10-21",
     "scraped_date": "2026-10-21",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship",
       "Clinical",
@@ -719,7 +705,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/13/case-manager-for-jewish-association-serving-the-aging-adult-protective-services-ny/",
     "posted_date": "2026-10-13",
-    "scraped_date": "2026-10-21",
+    "scraped_date": "2026-10-22",
     "active": true,
     "tags": [
       "Full-Time",
@@ -736,12 +722,12 @@
     "location": "California",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/13/research-lab-technician-for-the-learning-development-and-rehabilitation-lab-at-the-university-of-southern-california-ca/",
     "posted_date": "2026-10-13",
-    "scraped_date": "2026-10-21",
+    "scraped_date": "2026-10-22",
     "active": true,
     "tags": [
       "Part-Time",
-      "Developmental",
-      "Cognitive"
+      "Cognitive",
+      "Developmental"
     ],
     "source": "wordpress_psych"
   },
@@ -751,8 +737,8 @@
     "company": "Overcome",
     "location": "Remote",
     "url": "https://talents.vaia.com/companies/overcome/remote-clinical-psychology-intern-accredited-training-global-coaching-131450733/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-10-21",
-    "scraped_date": "2026-10-21",
+    "posted_date": "2026-10-22",
+    "scraped_date": "2026-10-22",
     "active": true,
     "tags": [
       "Internship",
