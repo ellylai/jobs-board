@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-10-23 13:14 UTC_
+_Last updated: 2026-10-24 12:28 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -28,16 +28,16 @@ Every listing is auto-filtered on two axes:
 | DLR Group | Audiovisual Systems Design Intern \| Summer 2027 | Cleveland, Ohio, United States; Los Angeles, California, United States; Seattle, Washington, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441252008) |
 | DLR Group | Landscape Architecture Intern \| Summer 2027 | Dallas, Texas, United States; Los Angeles, California, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States | Oct 1 | Internship, Revit, Rhino, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441426008) |
 | DLR Group | Theater Planning Intern \| Summer 2027 | Los Angeles, California, United States | Oct 1 | Internship, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441685008) |
+| DLR Group | Electrical Engineering Intern \| Summer 2027 | Dallas, Texas, United States; Houston, Texas, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441794008) |
 | CannonDesign | Designer IB | Dallas, TX | Sep 29 | Internship, Revit | [Apply](http://www.cannondesign.com/careers/?gh_jid=8857224002) |
 | CannonDesign | Electrical Student Intern | Dallas, TX | Sep 28 | Internship, Revit | [Apply](http://www.cannondesign.com/careers/?gh_jid=8853004002) |
-| Perkins&Will | Interior Designer | Austin, TX | Sep 25 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=fbcde49b-9d35-425c-b476-70b993eaeaef) |
+| KPF | Architectural Intern (Interiors) | New York | Sep 24 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
+| SOM | Designer - Architecture (Austin TX) | Austin | Sep 24 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
+| HKS | Project Designer - Hospitality | Dallas | Sep 24 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713) |
 | DLR Group | Electronic Security System Designer | Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C. | Sep 24 | Full-Time, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5434408008) |
 | DLR Group | ICT Designer | Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C. | Sep 24 | Full-Time, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5434252008) |
-| DLR Group | Telecommunications + Security Designer | Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Cleveland, Ohio, United States; Dallas, Texas, United States; Denver, Colorado, United States; Fort Worth, Texas, United States; Houston, Texas, United States; Los Angeles, California, United States; Omaha, Nebraska, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States; Portland, Oregon, United States; Washington, D.C. | Sep 24 | Full-Time, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5434248008) |
-| KPF | Architectural Intern (Interiors) | New York | Sep 23 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
-| SOM | Designer - Architecture (Austin TX) | Austin | Sep 23 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
-| HKS | Project Designer - Hospitality | Dallas | Sep 23 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Project-Designer---Hospitality_2026-03713) |
-| SOM | Year One - Junior Designer - Architecture | Los Angeles | Sep 23 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Los-Angeles/Job-Posting-Title-Year-One---Junior-Designer---Architecture_R-4057) |
+| SOM | Year One - Junior Designer - Architecture | Los Angeles | Sep 24 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Los-Angeles/Job-Posting-Title-Year-One---Junior-Designer---Architecture_R-4057) |
+| CannonDesign | Structural - Entry Level | San Diego, CA | Sep 1 | Internship, Revit | [Apply](http://www.cannondesign.com/careers/?gh_jid=8770323002) |
 | DLR Group | Interior Designer, K-12 | Sacramento, California, United States; San Diego, California, United States | Aug 26 | Contract, Revit, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5397606008) |
 | NBBJ | Interior Designer - Corporate Commercial and Healthcare Practice | New York, New York | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/o5N0zfwb) |
 | NBBJ | Interior Designer - Corporate, Commercial Practice | Los Angeles, California | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/oaHQAfw1) |
