@@ -63,7 +63,7 @@
     "location": "California",
     "url": "https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab",
     "posted_date": "",
-    "scraped_date": "2026-11-02",
+    "scraped_date": "2026-11-03",
     "active": true,
     "tags": [
       "Full-Time",
@@ -380,7 +380,7 @@
     "location": "California",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/",
     "posted_date": "2026-09-10",
-    "scraped_date": "2026-11-02",
+    "scraped_date": "2026-11-03",
     "active": true,
     "tags": [
       "Full-Time",
@@ -397,8 +397,8 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-09/Clinical%20Research%20Coordinator%20Position_2026.pdf",
     "posted_date": "2026-09-14",
-    "scraped_date": "2026-11-01",
-    "active": false,
+    "scraped_date": "2026-11-03",
+    "active": true,
     "tags": [
       "Full-Time",
       "Research"
@@ -597,7 +597,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/01/research-assistant-for-child-health-and-human-development-project-at-the-university-of-rochester-ny/",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-11-02",
+    "scraped_date": "2026-11-03",
     "active": true,
     "tags": [
       "Full-Time",
@@ -613,7 +613,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/01/research-associate-for-the-dialectical-behavioral-therapy-for-adolescents-program-at-albert-einstein-college-of-medicine-ny/",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-11-02",
+    "scraped_date": "2026-11-03",
     "active": true,
     "tags": [
       "Full-Time",
@@ -628,7 +628,7 @@
     "location": "Dallas",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Research%20Assistant%20in%20the%20Laboratory%20for%20Healthy%20Social.pdf",
     "posted_date": "2026-10-08",
-    "scraped_date": "2026-11-02",
+    "scraped_date": "2026-11-03",
     "active": true,
     "tags": [
       "Full-Time",
@@ -690,7 +690,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/13/case-manager-for-jewish-association-serving-the-aging-adult-protective-services-ny/",
     "posted_date": "2026-10-13",
-    "scraped_date": "2026-11-02",
+    "scraped_date": "2026-11-03",
     "active": true,
     "tags": [
       "Full-Time",
@@ -707,7 +707,7 @@
     "location": "California",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/13/research-lab-technician-for-the-learning-development-and-rehabilitation-lab-at-the-university-of-southern-california-ca/",
     "posted_date": "2026-10-13",
-    "scraped_date": "2026-11-02",
+    "scraped_date": "2026-11-03",
     "active": true,
     "tags": [
       "Part-Time",
@@ -752,8 +752,8 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Clinical%20Research%20Coordinator%20Position_R01_LOC_2026.docx.pdf",
     "posted_date": "2026-10-19",
-    "scraped_date": "2026-11-01",
-    "active": false,
+    "scraped_date": "2026-11-03",
+    "active": true,
     "tags": [
       "Full-Time",
       "Research"
@@ -767,8 +767,8 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Clinical%20Research%20Coordinator%20Position_R01_FC_2026.docx.pdf",
     "posted_date": "2026-10-19",
-    "scraped_date": "2026-11-01",
-    "active": false,
+    "scraped_date": "2026-11-03",
+    "active": true,
     "tags": [
       "Full-Time",
       "Research"
@@ -782,8 +782,8 @@
     "location": "California",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Staff%20Research%20Associate%20at%20UCLA.pdf",
     "posted_date": "2026-10-21",
-    "scraped_date": "2026-11-01",
-    "active": false,
+    "scraped_date": "2026-11-03",
+    "active": true,
     "tags": [
       "Full-Time",
       "Research"
@@ -811,12 +811,58 @@
     "company": "MQ Health Pty",
     "location": "Remote",
     "url": "https://www.jobleads.com/us/job/psychology-internship-supervisors-remote--united-states--e24459c310350be597701cdaba057ac25?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-11-02",
-    "scraped_date": "2026-11-02",
+    "posted_date": "2026-11-03",
+    "scraped_date": "2026-11-03",
     "active": true,
     "tags": [
       "Internship",
       "Clinical"
+    ],
+    "source": "indeed"
+  },
+  {
+    "id": "2e6be5eef73d9d13672e56b4b3f9c91152215e4683fd270baaf0a2d54dfeece9",
+    "title": "Social Work Intern/Psychology Intern/Mental Health Student POSTION ONLY",
+    "company": "Nurturing Life Counseling",
+    "location": "Remote",
+    "url": "https://www.indeed.com/viewjob?jk=5cb5725bedbb5adb&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-11-03",
+    "scraped_date": "2026-11-03",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Clinical",
+      "Counseling"
+    ],
+    "source": "indeed"
+  },
+  {
+    "id": "4ddc482ef7f8269002c158fb7bbefb8191dbb3a02d62b517bd349d7d2fff9ec6",
+    "title": "Wildlife Rehabilitation Internship San Pedro, CA",
+    "company": "International Bird Rescue",
+    "location": "California",
+    "url": "https://careercenter.cpp.edu/jobs/international-bird-rescue-wildlife-rehabilitation-internship-san-pedro-ca/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-11-03",
+    "scraped_date": "2026-11-03",
+    "active": true,
+    "tags": [
+      "Internship",
+      "Clinical",
+      "Rehab"
+    ],
+    "source": "indeed"
+  },
+  {
+    "id": "327771974dc203d84d9cdb80c1461df2dfb9a0adb3b4d3759c418b29cfc562c1",
+    "title": "AmeriCorps Volunteer: Environmental Health Literacy & Placemaking Service-Learning Projects",
+    "company": "Concrete Safaris",
+    "location": "New York City",
+    "url": "https://careers.tufts.edu/jobs/concrete-safaris-americorps-volunteer-environmental-health-literacy-placemaking-service-learning-projects/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2026-11-03",
+    "scraped_date": "2026-11-03",
+    "active": true,
+    "tags": [
+      "Volunteer"
     ],
     "source": "indeed"
   }
