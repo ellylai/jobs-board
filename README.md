@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-11-04 15:59 UTC_
+_Last updated: 2026-11-06 15:39 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -16,31 +16,26 @@ Every listing is auto-filtered on two axes:
 ## Open roles
 
 <details>
-<summary><strong>🏛️ Architecture</strong> — 28 open role(s)</summary>
+<summary><strong>🏛️ Architecture</strong> — 23 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 SOM | Finance Intern | New York | Nov 4 | Internship | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Finance-Intern_R-4214) |
-| 🆕 Perkins&Will | Designer I | Los Angeles, CA | Nov 4 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=c13cef8c-d861-42c8-b8ea-090943e592e2) |
-| 🆕 Megan Grehl | Interior designer | New York, USA | Nov 3 | Full-Time, Interior designer, Project manager | [Apply](https://www.dezeenjobs.com/job/megan-grehl-interior-designer-1129571/) |
-| 🆕 SOM | Junior Designer - Architecture | Los Angeles | Nov 3 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Los-Angeles/Junior-Designer---Architecture_R-4212) |
-| 🆕 OMA | Furniture / industrial designer | New York, USA | Nov 3 | Full-Time, Architect, Designer, Furniture designer, Industrial designer | [Apply](https://www.dezeenjobs.com/job/oma-furniture-industrial-designer-1130149/) |
-| 🆕 SOM | Summer Intern - Interior Design | San Francisco | Nov 3 | Internship | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Summer-Intern---Interior-Design_R-4213) |
-| 🆕 SOM | Summer Intern - Sustainable Engineering | Austin | Nov 3 | Internship | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Summer-Intern---Sustainable-Engineering_R-4209) |
-| SOM | Summer Intern - Architecture | Los Angeles | Nov 2 | Internship | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Los-Angeles/Summer-Intern---Architecture_R-4194) |
+| 🆕 SOM | Designer - Architecture (Austin TX) | Austin | Nov 5 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
+| 🆕 OMA | Furniture/industrial designer | New York, USA | Nov 5 | Full-Time, Architect, Designer, Furniture designer, Industrial designer | [Apply](https://www.dezeenjobs.com/job/oma-furniture-industrial-designer-1130149/) |
+| SOM | Finance Intern | New York | Nov 4 | Internship | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Finance-Intern_R-4214) |
+| Perkins&Will | Designer I | Los Angeles, CA | Nov 4 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=c13cef8c-d861-42c8-b8ea-090943e592e2) |
+| Megan Grehl | Interior designer | New York, USA | Nov 3 | Full-Time, Interior designer, Project manager | [Apply](https://www.dezeenjobs.com/job/megan-grehl-interior-designer-1129571/) |
 | HKS | Job Captain - Health | Dallas | Nov 2 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain_2026-03753) |
-| SOM | Summer Intern - Structural Engineering | San Francisco | Nov 2 | Internship | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Summer-Intern---Structural-Engineering_R-4205) |
 | SOM | Summer Intern - Landscape | New York | Nov 2 | Internship | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Summer-Intern---Landscape_R-4207) |
 | Perkins&Will | Spring 2027 Internship | San Francisco, CA | Nov 2 | Internship | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=36283506-3a16-4ffd-8b56-f84680531ef9) |
 | HKS | Designer, _MADE | Los Angeles | Oct 30 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Los-Angeles/Designer---MADE_2026-03796) |
 | KPF | Computational Urban Designer Intern | New York | Oct 27 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Computational-Urban-Designer-Intern_JR202600112) |
-| DLR Group | Talent Acquisition Intern | Chicago, Illinois, United States; Denver, Colorado, United States; Minneapolis, Minnesota, United States; Orlando, Florida, United States; Seattle, Washington, United States | Oct 26 | Internship | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5463666008) |
+| DLR Group | Talent Acquisition Intern | Chicago, Illinois, United States; Denver, Colorado, United States; Minneapolis, Minnesota, United States; Seattle, Washington, United States | Oct 26 | Internship | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5463666008) |
 | HKS | Job Captain - Commercial Interiors | Seattle | Oct 19 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Seattle/Job-Captain---Commercial-Interiors_2026-03783) |
 | SOM | Designer | San Francisco | Oct 16 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148) |
 | Perkins&Will | Urban Designer | San Francisco, CA | Oct 12 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=12bec01e-b6d2-463f-8677-b1f5448ef8f8) |
 | DLR Group | Plumbing Designer | Los Angeles, California, United States | Oct 9 | Full-Time, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5449010008) |
-| KPF | Architectural Intern (Interiors) | New York | Oct 5 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
-| SOM | Designer - Architecture (Austin TX) | Austin | Oct 5 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
+| KPF | Architectural Intern (Interiors) | New York | Oct 7 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
 | DLR Group | Audiovisual Systems Design Intern \| Summer 2027 | Cleveland, Ohio, United States; Los Angeles, California, United States; Seattle, Washington, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441252008) |
 | DLR Group | Landscape Architecture Intern \| Summer 2027 | Dallas, Texas, United States; Los Angeles, California, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States | Oct 1 | Internship, Revit, Rhino, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441426008) |
 | DLR Group | Theater Planning Intern \| Summer 2027 | Los Angeles, California, United States | Oct 1 | Internship, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441685008) |
@@ -52,11 +47,16 @@ Every listing is auto-filtered on two axes:
 </details>
 
 <details>
-<summary><strong>🧠 Psychology</strong> — 26 open role(s)</summary>
+<summary><strong>🧠 Psychology</strong> — 32 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 APA | Internships at APA - APA Advocacy Office | Remote | Nov 4 | Internship, Behavioral | [Apply](https://jobgether.com/offer/6ae4fe97d6c8b081a7998ab3-internships-at-apa---apa-advocacy-office?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Camp Augusta | Humanistic Psychology as a Camp Counselor - Paid Internship | California | Nov 6 | Internship, Clinical, Counseling | [Apply](https://careerhub.appstate.edu/jobs/camp-augusta-humanistic-psychology-as-a-camp-counselor-paid-internship-2/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Concrete Safaris | AmeriCorps Volunteer: Environmental Health Literacy & Placemaking Service-Learning Projects | New York City | Nov 6 | Volunteer | [Apply](https://careerhub.students.duke.edu/jobs/concrete-safaris-americorps-volunteer-environmental-health-literacy-placemaking-service-learning-projects/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Cornell University (NY) | Summer Internship Program with the Developmental Moral Psychology Lab | New York | Nov 6 | Internship, Developmental, Social | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/06/summer-internship-program-with-the-developmental-moral-psychology-lab-at-cornell-university-ny/) |
+| 🆕 Gustie Alumni and Friends | Remote, Non-Clinical Psychology Internships - Psychology.com | Remote | Nov 6 | Internship, Clinical, Counseling | [Apply](https://career.gustavus.edu/jobs/gustie-alumni-and-friends-remote-non-clinical-psychology-internships-psychology-com/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 American Psychological Association | Internships at APA - APA Catalyst Intern | Remote | Nov 6 | Internship, Clinical, Behavioral | [Apply](https://talents.vaia.com/companies/american-psychological-association/internships-at-apa-apa-catalyst-intern-149006500/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| the Icahn School of Medicine at Mount Sinai | Project Coordinator in the Center for Computational Psychiatry | New York City | Nov 4 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-11/ISMMS%20Project%20Coordinator%2C%20Center%20for%20Computational%20Psychiatry.pdf) |
 | UCLA | Staff Research Associate in the Brain & Body Lab (BABLab) and Social Affective Neuroscience and Development (SAND) Lab | California | Oct 21 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Staff%20Research%20Associate%20at%20UCLA.pdf) |
 | Icahn School of Medicine | Clinical Research Coordinator Studying Loss-of-Control Eating in the Berner Lab | New York City | Oct 19 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Clinical%20Research%20Coordinator%20Position_R01_LOC_2026.docx.pdf) |
 | Icahn School of Medicine | Clinical Research Coordinator Studying Food Craving in the Berner Lab | New York City | Oct 19 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Clinical%20Research%20Coordinator%20Position_R01_FC_2026.docx.pdf) |
@@ -65,6 +65,7 @@ Every listing is auto-filtered on two axes:
 | the University of Texas at Dallas | Research Assistant in the Laboratory for Healthy Social-Emotional Development | Dallas | Oct 8 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Research%20Assistant%20in%20the%20Laboratory%20for%20Healthy%20Social.pdf) |
 | Child Health and Human Development Project at the University of Rochester (NY) | Research Assistant | New York | Oct 1 | Full-Time, Cognitive, Developmental | [Apply](https://psychologyjobsinternships.wordpress.com/2026/10/01/research-assistant-for-child-health-and-human-development-project-at-the-university-of-rochester-ny/) |
 | Dialectical Behavioral Therapy for Adolescents Program at Albert Einstein College of Medicine (NY) | Research Associate | New York | Oct 1 | Full-Time, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/10/01/research-associate-for-the-dialectical-behavioral-therapy-for-adolescents-program-at-albert-einstein-college-of-medicine-ny/) |
+|  | Research Support Assistant in the Center for OCD and Related Disorders | New York City | Sep 22 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-09/Research%20Support%20Assistant%20in%20the%20Center%20for%20OCD%20and%20Related%20Disorders.pdf) |
 | the Icahn School of Medicine at Mount Sinai | Clinical Research Coordinator in the Berner Lab | New York City | Sep 14 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-09/Clinical%20Research%20Coordinator%20Position_2026.pdf) |
 | Cognition Affect and Neurodevelopment in Youth Lab at the University of California – Los Angeles (CA) | Staff Research Associate | California | Sep 10 | Full-Time, Clinical, Cognitive, Developmental | [Apply](https://psychologyjobsinternships.wordpress.com/2026/09/10/staff-research-associate-for-the-cognition-affect-and-neurodevelopment-in-youth-lab-at-the-university-of-california-los-angelas-ca/) |
 | UC Davis Cognition in Context Lab, | Lab Coordinator Position | California | --- | Full-Time, Research | [Apply](https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab) |
