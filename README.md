@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-11-08 14:44 UTC_
+_Last updated: 2026-11-10 16:04 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -16,10 +16,11 @@ Every listing is auto-filtered on two axes:
 ## Open roles
 
 <details>
-<summary><strong>🏛️ Architecture</strong> — 24 open role(s)</summary>
+<summary><strong>🏛️ Architecture</strong> — 26 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
+| 🆕 HDR | Structural EIT/Designer (Transportation) | United States-New York-New York | Nov 9 | Full-Time | [Apply](https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=197515&tz=GMT%2B00%3A00&tzname=UTC) |
 | SOM | Junior Designer - Architecture | Austin | Nov 6 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Junior-Designer---Architecture_R-4225) |
 | SOM | Designer - Architecture (Austin TX) | Austin | Nov 5 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062) |
 | OMA | Furniture/industrial designer | New York, USA | Nov 5 | Full-Time, Architect, Designer, Furniture designer, Industrial designer | [Apply](https://www.dezeenjobs.com/job/oma-furniture-industrial-designer-1130149/) |
@@ -35,8 +36,9 @@ Every listing is auto-filtered on two axes:
 | HKS | Job Captain - Commercial Interiors | Seattle | Oct 19 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Seattle/Job-Captain---Commercial-Interiors_2026-03783) |
 | SOM | Designer | San Francisco | Oct 16 | Full-Time | [Apply](https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148) |
 | Perkins&Will | Urban Designer | San Francisco, CA | Oct 12 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=12bec01e-b6d2-463f-8677-b1f5448ef8f8) |
-| KPF | Architectural Intern (Interiors) | New York | Oct 9 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
+| KPF | Architectural Intern (Interiors) | New York | Oct 11 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
 | DLR Group | Plumbing Designer | Los Angeles, California, United States | Oct 9 | Full-Time, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5449010008) |
+| DLR Group | Mechanical Engineering Intern \| Summer 2027 | Dallas, Texas, United States; Houston, Texas, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441863008) |
 | DLR Group | Audiovisual Systems Design Intern \| Summer 2027 | Cleveland, Ohio, United States; Los Angeles, California, United States; Seattle, Washington, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441252008) |
 | DLR Group | Landscape Architecture Intern \| Summer 2027 | Dallas, Texas, United States; Los Angeles, California, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States | Oct 1 | Internship, Revit, Rhino, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441426008) |
 | DLR Group | Theater Planning Intern \| Summer 2027 | Los Angeles, California, United States | Oct 1 | Internship, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441685008) |
@@ -48,15 +50,12 @@ Every listing is auto-filtered on two axes:
 </details>
 
 <details>
-<summary><strong>🧠 Psychology</strong> — 32 open role(s)</summary>
+<summary><strong>🧠 Psychology</strong> — 29 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 Camp Augusta | Humanistic Psychology as a Camp Counselor - Paid Internship | California | Nov 8 | Internship, Clinical, Counseling | [Apply](https://careerhub.appstate.edu/jobs/camp-augusta-humanistic-psychology-as-a-camp-counselor-paid-internship-2/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 MQ Health Pty | Psychology Internship Supervisors – Remote | Remote | Nov 8 | Internship, Clinical | [Apply](https://www.jobleads.com/us/job/psychology-internship-supervisors-remote--united-states--e24459c310350be597701cdaba057ac25?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 Gustie Alumni and Friends | Remote, Non-Clinical Psychology Internships - Psychology.com | Remote | Nov 8 | Internship, Clinical, Counseling | [Apply](https://career.gustavus.edu/jobs/gustie-alumni-and-friends-remote-non-clinical-psychology-internships-psychology-com/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 Centurions Michigan | Recruiting Specialist (Volunteer) | Remote | Nov 8 | Volunteer | [Apply](https://www.indeed.com/viewjob?jk=11ebc3ee9f1ed56d&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 Center for Computational Psychiatry at the Icahn School of Medicine at Mount Sinai (NY) | Project Coordinator | New York | Nov 7 | Full-Time, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/07/project-coordinator-for-the-center-for-computational-psychiatry-at-the-icahn-school-of-medicine-at-mount-sinai-ny/) |
+| 🆕 Gustie Alumni and Friends | Remote, Non-Clinical Psychology Internships - Psychology.com | Remote | Nov 10 | Internship, Clinical, Counseling | [Apply](https://career.gustavus.edu/jobs/gustie-alumni-and-friends-remote-non-clinical-psychology-internships-psychology-com/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| Center for Computational Psychiatry at the Icahn School of Medicine at Mount Sinai (NY) | Project Coordinator | New York | Nov 7 | Full-Time, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/07/project-coordinator-for-the-center-for-computational-psychiatry-at-the-icahn-school-of-medicine-at-mount-sinai-ny/) |
 | Cornell University (NY) | Summer Internship Program with the Developmental Moral Psychology Lab | New York | Nov 6 | Internship, Developmental, Social | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/06/summer-internship-program-with-the-developmental-moral-psychology-lab-at-cornell-university-ny/) |
 | the Icahn School of Medicine at Mount Sinai | Project Coordinator in the Center for Computational Psychiatry | New York City | Nov 4 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-11/ISMMS%20Project%20Coordinator%2C%20Center%20for%20Computational%20Psychiatry.pdf) |
 | UCLA | Staff Research Associate in the Brain & Body Lab (BABLab) and Social Affective Neuroscience and Development (SAND) Lab | California | Oct 21 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Staff%20Research%20Associate%20at%20UCLA.pdf) |
