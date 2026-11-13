@@ -5,8 +5,8 @@
     "company": "KPF",
     "location": "New York",
     "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075",
-    "posted_date": "2026-10-13",
-    "scraped_date": "2026-11-12",
+    "posted_date": "2026-10-14",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Internship"
@@ -20,7 +20,7 @@
     "location": "Austin",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Designer---Architecture--Austin-TX-_R-4062",
     "posted_date": "2026-11-05",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Full-Time"
@@ -34,7 +34,7 @@
     "location": "New York, New York",
     "url": "https://jobs.jobvite.com/nbbj/job/o5N0zfwb",
     "posted_date": "",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Full-Time"
@@ -155,48 +155,6 @@
     "source": "hdr"
   },
   {
-    "id": "ede533705f0b286fd3e5ded98beb15dbd8a547b8e28f0a44b04e06b64d23d9c9",
-    "title": "Power Delivery Intern",
-    "company": "HDR",
-    "location": "United States-Washington-Seattle",
-    "url": "https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=196233&tz=GMT%2B00%3A00&tzname=UTC",
-    "posted_date": "2026-09-14",
-    "scraped_date": "2026-09-15",
-    "active": false,
-    "tags": [
-      "Internship"
-    ],
-    "source": "hdr"
-  },
-  {
-    "id": "f81361c1eda69ea4c65bf80255427de7c8b1f97fa4dbd88bd3c1e6387df76166",
-    "title": "Utility Transportation Intern-WG",
-    "company": "HDR",
-    "location": "United States-Texas-Austin",
-    "url": "https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195749&tz=GMT%2B00%3A00&tzname=UTC",
-    "posted_date": "2026-09-14",
-    "scraped_date": "2026-09-15",
-    "active": false,
-    "tags": [
-      "Internship"
-    ],
-    "source": "hdr"
-  },
-  {
-    "id": "8333ce2d24a8d75bfb31c107784d1e74ca138391bbcefd5b35753151639d3c7c",
-    "title": "Civil Intern-WG",
-    "company": "HDR",
-    "location": "United States-Texas-Austin",
-    "url": "https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=195729&tz=GMT%2B00%3A00&tzname=UTC",
-    "posted_date": "2026-09-14",
-    "scraped_date": "2026-09-15",
-    "active": false,
-    "tags": [
-      "Internship"
-    ],
-    "source": "hdr"
-  },
-  {
     "id": "f13aaa490f27f592bf45d10426e4e0de9ce04df5399875696eca8b746f9b5687",
     "title": "Cultural Resources/Archeology Intern",
     "company": "HDR",
@@ -277,7 +235,7 @@
     "location": "Los Angeles, California",
     "url": "https://jobs.jobvite.com/nbbj/job/oaHQAfw1",
     "posted_date": "",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Full-Time"
@@ -305,7 +263,7 @@
     "location": "Dallas, TX",
     "url": "http://www.cannondesign.com/careers/?gh_jid=8857224002",
     "posted_date": "2026-09-29",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Internship",
@@ -422,7 +380,7 @@
     "location": "Cleveland, Ohio, United States; Los Angeles, California, United States; Seattle, Washington, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5441252008",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Internship",
@@ -437,7 +395,7 @@
     "location": "Dallas, Texas, United States; Los Angeles, California, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5441426008",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Internship",
@@ -455,7 +413,7 @@
     "location": "Los Angeles, California, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5441685008",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Internship",
@@ -483,10 +441,10 @@
     "id": "9a832025fa6999f8c0bc6f2e8068fa5b0e184c38441bfa96f23421a2b6684104",
     "title": "Electrical Engineering Intern | Summer 2027",
     "company": "DLR Group",
-    "location": "Los Angeles, California, United States",
-    "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5441288008",
+    "location": "Portland, Oregon, United States; Seattle, Washington, United States",
+    "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5441041008",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Internship",
@@ -633,7 +591,7 @@
     "location": "Los Angeles, California, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5449010008",
     "posted_date": "2026-10-09",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Full-Time",
@@ -662,7 +620,7 @@
     "location": "San Francisco, CA",
     "url": "https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=12bec01e-b6d2-463f-8677-b1f5448ef8f8",
     "posted_date": "2026-10-12",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Full-Time"
@@ -676,7 +634,7 @@
     "location": "Seattle, Washington Portland, Oregon",
     "url": "https://jobs.jobvite.com/nbbj/job/oJ0XAfw0",
     "posted_date": "",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Full-Time"
@@ -690,7 +648,7 @@
     "location": "Seattle",
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Seattle/Job-Captain---Commercial-Interiors_2026-03783",
     "posted_date": "2026-10-19",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Full-Time"
@@ -760,7 +718,7 @@
     "location": "San Francisco",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/San-Francisco/Designer-Architect_R-4148",
     "posted_date": "2026-10-16",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Full-Time"
@@ -818,7 +776,7 @@
     "location": "Chicago, Illinois, United States; Denver, Colorado, United States; Minneapolis, Minnesota, United States; Seattle, Washington, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5463666008",
     "posted_date": "2026-10-26",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Internship"
@@ -846,7 +804,7 @@
     "location": "New York",
     "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Computational-Urban-Designer-Intern_JR202600112",
     "posted_date": "2026-10-27",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Internship"
@@ -861,7 +819,7 @@
     "url": "https://www.dezeenjobs.com/job/megan-grehl-interior-designer-1129571/",
     "posted_date": "2026-11-03",
     "scraped_date": "2026-11-12",
-    "active": true,
+    "active": false,
     "tags": [
       "Full-Time",
       "Interior designer",
@@ -876,7 +834,7 @@
     "location": "Austin",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/Austin/Junior-Designer---Architecture_R-4225",
     "posted_date": "2026-11-06",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Full-Time"
@@ -908,7 +866,7 @@
     "location": "Los Angeles",
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Los-Angeles/Designer---MADE_2026-03796",
     "posted_date": "2026-10-30",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Full-Time"
@@ -950,7 +908,7 @@
     "location": "Dallas",
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain_2026-03753",
     "posted_date": "2026-11-02",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Full-Time"
@@ -1006,7 +964,7 @@
     "location": "New York",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Summer-Intern---Landscape_R-4207",
     "posted_date": "2026-11-02",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Internship"
@@ -1020,7 +978,7 @@
     "location": "San Francisco, CA",
     "url": "https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=36283506-3a16-4ffd-8b56-f84680531ef9",
     "posted_date": "2026-11-02",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Internship"
@@ -1034,7 +992,7 @@
     "location": "New York",
     "url": "https://som.wd5.myworkdayjobs.com/en-US/External/job/New-York/Finance-Intern_R-4214",
     "posted_date": "2026-11-04",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Internship"
@@ -1062,7 +1020,7 @@
     "location": "New York, USA",
     "url": "https://www.dezeenjobs.com/job/oma-furniture-industrial-designer-1130149/",
     "posted_date": "2026-11-05",
-    "scraped_date": "2026-11-12",
+    "scraped_date": "2026-11-13",
     "active": true,
     "tags": [
       "Full-Time",
