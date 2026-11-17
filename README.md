@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-11-16 17:54 UTC_
+_Last updated: 2026-11-17 17:23 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -16,13 +16,16 @@ Every listing is auto-filtered on two axes:
 ## Open roles
 
 <details>
-<summary><strong>🏛️ Architecture</strong> — 12 open role(s)</summary>
+<summary><strong>🏛️ Architecture</strong> — 15 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
 | OMA | Furniture/industrial designer | New York, USA | Nov 5 | Full-Time, Architect, Designer, Furniture designer, Industrial designer | [Apply](https://www.dezeenjobs.com/job/oma-furniture-industrial-designer-1130149/) |
+| HKS | Job Captain - Health | Dallas | Nov 2 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain_2026-03753) |
 | Perkins&Will | Spring 2027 Internship | San Francisco, CA | Nov 2 | Internship | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=36283506-3a16-4ffd-8b56-f84680531ef9) |
+| HKS | Designer, _MADE | Los Angeles | Oct 30 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Los-Angeles/Designer---MADE_2026-03796) |
 | DLR Group | Talent Acquisition Intern | Denver, Colorado, United States; Minneapolis, Minnesota, United States; Seattle, Washington, United States | Oct 26 | Internship | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5463666008) |
+| HKS | Job Captain - Commercial Interiors | Seattle | Oct 19 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Seattle/Job-Captain---Commercial-Interiors_2026-03783) |
 | Perkins&Will | Urban Designer | San Francisco, CA | Oct 12 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=12bec01e-b6d2-463f-8677-b1f5448ef8f8) |
 | DLR Group | Plumbing Designer | Los Angeles, California, United States | Oct 9 | Full-Time, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5449010008) |
 | DLR Group | Audiovisual Systems Design Intern \| Summer 2027 | Cleveland, Ohio, United States; Los Angeles, California, United States; Seattle, Washington, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441252008) |
@@ -36,13 +39,12 @@ Every listing is auto-filtered on two axes:
 </details>
 
 <details>
-<summary><strong>🧠 Psychology</strong> — 30 open role(s)</summary>
+<summary><strong>🧠 Psychology</strong> — 29 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 MantraCare | Psychology Internships / Training in USA (Remote) | Remote | Nov 16 | Internship, Counseling | [Apply](https://mantra.care/careers/psychology-internship-in-united-states/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 Overcome | Remote Clinical Psychology Intern — Accredited Training & Global Coaching | Remote | Nov 16 | Full-Time, Clinical | [Apply](https://talents.vaia.com/companies/overcome/remote-clinical-psychology-intern-accredited-training-global-coaching-131450733/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 Gustie Alumni and Friends | Remote, Non-Clinical Psychology Internships - Psychology.com | Remote | Nov 16 | Internship, Clinical, Counseling | [Apply](https://career.gustavus.edu/jobs/gustie-alumni-and-friends-remote-non-clinical-psychology-internships-psychology-com/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 MantraCare | Psychology Internships / Training in USA (Remote) | Remote | Nov 17 | Internship, Counseling | [Apply](https://mantra.care/careers/psychology-internship-in-united-states/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Gustie Alumni and Friends | Remote, Non-Clinical Psychology Internships - Psychology.com | Remote | Nov 17 | Internship, Clinical, Counseling | [Apply](https://career.gustavus.edu/jobs/gustie-alumni-and-friends-remote-non-clinical-psychology-internships-psychology-com/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
 | Center for Computational Psychiatry at the Icahn School of Medicine at Mount Sinai (NY) | Project Coordinator | New York | Nov 7 | Full-Time, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/07/project-coordinator-for-the-center-for-computational-psychiatry-at-the-icahn-school-of-medicine-at-mount-sinai-ny/) |
 | Cornell University (NY) | Summer Internship Program with the Developmental Moral Psychology Lab | New York | Nov 6 | Internship, Developmental, Social | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/06/summer-internship-program-with-the-developmental-moral-psychology-lab-at-cornell-university-ny/) |
 | the Icahn School of Medicine at Mount Sinai | Project Coordinator in the Center for Computational Psychiatry | New York City | Nov 4 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-11/ISMMS%20Project%20Coordinator%2C%20Center%20for%20Computational%20Psychiatry.pdf) |
