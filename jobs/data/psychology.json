@@ -63,7 +63,7 @@
     "location": "California",
     "url": "https://psychandneuro.duke.edu/opportunity/lab-coordinator-position-uc-davis-cognition-context-lab",
     "posted_date": "",
-    "scraped_date": "2026-11-20",
+    "scraped_date": "2026-11-21",
     "active": true,
     "tags": [
       "Full-Time",
@@ -333,7 +333,7 @@
     "url": "https://mantra.care/careers/psychology-internship-in-united-states/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-11-20",
     "scraped_date": "2026-11-20",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship",
       "Counseling"
@@ -501,7 +501,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/01/research-assistant-for-child-health-and-human-development-project-at-the-university-of-rochester-ny/",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-11-20",
+    "scraped_date": "2026-11-21",
     "active": true,
     "tags": [
       "Full-Time",
@@ -517,7 +517,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/01/research-associate-for-the-dialectical-behavioral-therapy-for-adolescents-program-at-albert-einstein-college-of-medicine-ny/",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-11-20",
+    "scraped_date": "2026-11-21",
     "active": true,
     "tags": [
       "Full-Time",
@@ -532,7 +532,7 @@
     "location": "Dallas",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Research%20Assistant%20in%20the%20Laboratory%20for%20Healthy%20Social.pdf",
     "posted_date": "2026-10-08",
-    "scraped_date": "2026-11-20",
+    "scraped_date": "2026-11-21",
     "active": true,
     "tags": [
       "Full-Time",
@@ -594,7 +594,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/13/case-manager-for-jewish-association-serving-the-aging-adult-protective-services-ny/",
     "posted_date": "2026-10-13",
-    "scraped_date": "2026-11-20",
+    "scraped_date": "2026-11-21",
     "active": true,
     "tags": [
       "Full-Time",
@@ -611,7 +611,7 @@
     "location": "California",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/10/13/research-lab-technician-for-the-learning-development-and-rehabilitation-lab-at-the-university-of-southern-california-ca/",
     "posted_date": "2026-10-13",
-    "scraped_date": "2026-11-20",
+    "scraped_date": "2026-11-21",
     "active": true,
     "tags": [
       "Part-Time",
@@ -626,9 +626,9 @@
     "company": "Overcome",
     "location": "Remote",
     "url": "https://talents.vaia.com/companies/overcome/remote-clinical-psychology-intern-accredited-training-global-coaching-131450733/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "posted_date": "2026-11-16",
-    "scraped_date": "2026-11-16",
-    "active": false,
+    "posted_date": "2026-11-21",
+    "scraped_date": "2026-11-21",
+    "active": true,
     "tags": [
       "Full-Time",
       "Clinical"
@@ -656,7 +656,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Clinical%20Research%20Coordinator%20Position_R01_LOC_2026.docx.pdf",
     "posted_date": "2026-10-19",
-    "scraped_date": "2026-11-20",
+    "scraped_date": "2026-11-21",
     "active": true,
     "tags": [
       "Full-Time",
@@ -671,7 +671,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Clinical%20Research%20Coordinator%20Position_R01_FC_2026.docx.pdf",
     "posted_date": "2026-10-19",
-    "scraped_date": "2026-11-20",
+    "scraped_date": "2026-11-21",
     "active": true,
     "tags": [
       "Full-Time",
@@ -686,22 +686,7 @@
     "location": "California",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-11/Staff%20Research%20Associate%20at%20UCLA.pdf",
     "posted_date": "2026-11-17",
-    "scraped_date": "2026-11-20",
-    "active": true,
-    "tags": [
-      "Full-Time",
-      "Research"
-    ],
-    "source": "harvard"
-  },
-  {
-    "id": "a8e4a5e34f4a3d791766587e166ae65a269fef82358f8ce83ab9cde030f39645",
-    "title": "Research Support Assistant in the Center for OCD and Related Disorders",
-    "company": "",
-    "location": "New York City",
-    "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-09/Research%20Support%20Assistant%20in%20the%20Center%20for%20OCD%20and%20Related%20Disorders.pdf",
-    "posted_date": "2026-09-22",
-    "scraped_date": "2026-11-20",
+    "scraped_date": "2026-11-21",
     "active": true,
     "tags": [
       "Full-Time",
@@ -792,7 +777,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/11/06/summer-internship-program-with-the-developmental-moral-psychology-lab-at-cornell-university-ny/",
     "posted_date": "2026-11-06",
-    "scraped_date": "2026-11-20",
+    "scraped_date": "2026-11-21",
     "active": true,
     "tags": [
       "Internship",
@@ -808,7 +793,7 @@
     "location": "New York City",
     "url": "https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-11/ISMMS%20Project%20Coordinator%2C%20Center%20for%20Computational%20Psychiatry.pdf",
     "posted_date": "2026-11-04",
-    "scraped_date": "2026-11-20",
+    "scraped_date": "2026-11-21",
     "active": true,
     "tags": [
       "Full-Time",
@@ -824,7 +809,7 @@
     "url": "https://career.gustavus.edu/jobs/gustie-alumni-and-friends-remote-non-clinical-psychology-internships-psychology-com/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-11-20",
     "scraped_date": "2026-11-20",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship",
       "Clinical",
@@ -855,7 +840,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/11/07/project-coordinator-for-the-center-for-computational-psychiatry-at-the-icahn-school-of-medicine-at-mount-sinai-ny/",
     "posted_date": "2026-11-07",
-    "scraped_date": "2026-11-20",
+    "scraped_date": "2026-11-21",
     "active": true,
     "tags": [
       "Full-Time",
@@ -902,7 +887,7 @@
     "url": "https://www.indeed.com/viewjob?jk=113c935a7ca99a90&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "posted_date": "2026-11-20",
     "scraped_date": "2026-11-20",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship",
       "Clinical",
@@ -947,7 +932,7 @@
     "location": "New York",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/11/19/clinical-research-coordinator-for-the-center-of-excellence-in-eating-and-weight-disorders-at-the-icahn-school-of-medicine-at-mount-sinai-ny/",
     "posted_date": "2026-11-19",
-    "scraped_date": "2026-11-20",
+    "scraped_date": "2026-11-21",
     "active": true,
     "tags": [
       "Full-Time",
@@ -962,7 +947,7 @@
     "location": "California",
     "url": "https://psychologyjobsinternships.wordpress.com/2026/11/19/behavioral-health-specialist-for-newport-healthcare-at-shingle-springs-ca/",
     "posted_date": "2026-11-19",
-    "scraped_date": "2026-11-20",
+    "scraped_date": "2026-11-21",
     "active": true,
     "tags": [
       "Full-Time",
