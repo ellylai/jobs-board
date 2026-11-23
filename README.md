@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-11-22 15:58 UTC_
+_Last updated: 2026-11-23 19:49 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -16,17 +16,23 @@ Every listing is auto-filtered on two axes:
 ## Open roles
 
 <details>
-<summary><strong>🏛️ Architecture</strong> — 14 open role(s)</summary>
+<summary><strong>🏛️ Architecture</strong> — 20 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
+| KPF | Environmental Performance Intern (Project Design Focus) | New York | Nov 19 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Environmental-Performance-Intern--Project-Design-Focus-_JR202600122) |
+| KPF | Environmental Performance Intern (Embodied Carbon Focus) | New York | Nov 19 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Environmental-Performance-Intern--Embodied-Carbon-Focus-_JR202600123) |
+| KPF | Environmental Performance Intern (Computation & AI Development Focus) | New York | Nov 19 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Environmental-Performance-Intern--Computation---AI-Development-Focus-_JR202600124) |
 | HKS | Job Captain - Health | Dallas | Nov 2 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain_2026-03753) |
 | Perkins&Will | Spring 2027 Internship | San Francisco, CA | Nov 2 | Internship | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=36283506-3a16-4ffd-8b56-f84680531ef9) |
 | HKS | Designer, _MADE | Los Angeles | Oct 30 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Los-Angeles/Designer---MADE_2026-03796) |
+| KPF | Computational Urban Designer Intern | New York | Oct 27 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Computational-Urban-Designer-Intern_JR202600112) |
 | DLR Group | Talent Acquisition Intern | Denver, Colorado, United States; Minneapolis, Minnesota, United States; Seattle, Washington, United States | Oct 26 | Internship | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5463666008) |
-| HKS | Job Captain - Commercial Interiors | Seattle | Oct 23 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Seattle/Job-Captain---Commercial-Interiors_2026-03783) |
+| KPF | Architectural Intern (Interiors) | New York | Oct 24 | Internship | [Apply](https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075) |
+| HKS | Job Captain - Commercial Interiors | Seattle | Oct 24 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Seattle/Job-Captain---Commercial-Interiors_2026-03783) |
 | Perkins&Will | Urban Designer | San Francisco, CA | Oct 12 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=12bec01e-b6d2-463f-8677-b1f5448ef8f8) |
 | DLR Group | Plumbing Designer | Los Angeles, California, United States | Oct 9 | Full-Time, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5449010008) |
+| DLR Group | Mechanical Engineering Intern \| Summer 2027 | Los Angeles, California, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441262008) |
 | DLR Group | Audiovisual Systems Design Intern \| Summer 2027 | Cleveland, Ohio, United States; Los Angeles, California, United States; Seattle, Washington, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441252008) |
 | DLR Group | Landscape Architecture Intern \| Summer 2027 | Dallas, Texas, United States; Los Angeles, California, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States | Oct 1 | Internship, Revit, Rhino, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441426008) |
 | DLR Group | Theater Planning Intern \| Summer 2027 | Los Angeles, California, United States | Oct 1 | Internship, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441685008) |
@@ -38,16 +44,19 @@ Every listing is auto-filtered on two axes:
 </details>
 
 <details>
-<summary><strong>🧠 Psychology</strong> — 28 open role(s)</summary>
+<summary><strong>🧠 Psychology</strong> — 31 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 Overcome | Remote Clinical Psychology Intern — Accredited Training & Global Coaching | Remote | Nov 22 | Full-Time, Clinical | [Apply](https://talents.vaia.com/companies/overcome/remote-clinical-psychology-intern-accredited-training-global-coaching-131450733/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
-| 🆕 Gustie Alumni and Friends | Remote, Non-Clinical Psychology Internships - Psychology.com | Remote | Nov 22 | Internship, Clinical, Counseling | [Apply](https://career.gustavus.edu/jobs/gustie-alumni-and-friends-remote-non-clinical-psychology-internships-psychology-com/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Overcome | Remote Clinical Psychology Intern — Accredited Training & Global Coaching | Remote | Nov 23 | Full-Time, Clinical | [Apply](https://talents.vaia.com/companies/overcome/remote-clinical-psychology-intern-accredited-training-global-coaching-131450733/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Gustie Alumni and Friends | Remote, Non-Clinical Psychology Internships - Psychology.com | Remote | Nov 23 | Internship, Clinical, Counseling | [Apply](https://career.gustavus.edu/jobs/gustie-alumni-and-friends-remote-non-clinical-psychology-internships-psychology-com/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 International Bird Rescue | Wildlife Rehabilitation Internship Fairfield, CA & San Pedro, CA | California | Nov 23 | Internship, Clinical, Rehab | [Apply](https://elc.middlebury.edu/jobs/international-bird-rescue-wildlife-rehabilitation-internship-fairfield-ca-san-pedro-ca/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
 | Center of Excellence in Eating and Weight Disorders at the Icahn School of Medicine at Mount Sinai (NY) | Clinical Research Coordinator | New York | Nov 19 | Full-Time, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/19/clinical-research-coordinator-for-the-center-of-excellence-in-eating-and-weight-disorders-at-the-icahn-school-of-medicine-at-mount-sinai-ny/) |
 | Newport Healthcare at Shingle Springs (CA) | Behavioral Health Specialist | California | Nov 19 | Full-Time, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/19/behavioral-health-specialist-for-newport-healthcare-at-shingle-springs-ca/) |
 | Center for Computational Psychiatry at the Icahn School of Medicine at Mount Sinai (NY) | Project Coordinator | New York | Nov 7 | Full-Time, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/07/project-coordinator-for-the-center-for-computational-psychiatry-at-the-icahn-school-of-medicine-at-mount-sinai-ny/) |
 | Cornell University (NY) | Summer Internship Program with the Developmental Moral Psychology Lab | New York | Nov 6 | Internship, Developmental, Social | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/06/summer-internship-program-with-the-developmental-moral-psychology-lab-at-cornell-university-ny/) |
+| American Heart Association | Remote Volunteer Engagement Marketing Intern at American Heart Association United States | Remote | Nov 1 | Full-Time | [Apply](https://jamaalafnasquare.com/job-library/job/remote-volunteer-engagement-marketing-intern-at-american-heart-association-united-states-TXQ3WGQyWGJnVFlONDA0bnkzS0c3SzdjNWc9PQ==?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| FLORIDA YOUTH AT RISK ACHIEVING READINESS | Volunteer Recruitment & Onboarding Coordinator Intern | Remote | Oct 25 | Internship | [Apply](https://careerservices.pvamu.edu/jobs/florida-youth-at-risk-achieving-readiness-volunteer-recruitment-onboarding-coordinator-intern/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
 | Icahn School of Medicine | Clinical Research Coordinator Studying Loss-of-Control Eating in the Berner Lab | New York City | Oct 19 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Clinical%20Research%20Coordinator%20Position_R01_LOC_2026.docx.pdf) |
 | Icahn School of Medicine | Clinical Research Coordinator Studying Food Craving in the Berner Lab | New York City | Oct 19 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Clinical%20Research%20Coordinator%20Position_R01_FC_2026.docx.pdf) |
 | Jewish Association Serving the Aging Adult Protective Services (NY) | Case Manager | New York | Oct 13 | Full-Time, Clinical, Cultural, Social | [Apply](https://psychologyjobsinternships.wordpress.com/2026/10/13/case-manager-for-jewish-association-serving-the-aging-adult-protective-services-ny/) |
