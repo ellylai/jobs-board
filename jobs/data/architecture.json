@@ -7,7 +7,7 @@
     "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Architectural-Intern--Interiors-_JR202600075",
     "posted_date": "2026-10-24",
     "scraped_date": "2026-11-23",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship"
     ],
@@ -34,7 +34,7 @@
     "location": "New York, New York",
     "url": "https://jobs.jobvite.com/nbbj/job/o5N0zfwb",
     "posted_date": "",
-    "scraped_date": "2026-11-23",
+    "scraped_date": "2026-11-24",
     "active": true,
     "tags": [
       "Full-Time"
@@ -175,22 +175,8 @@
     "location": "Los Angeles, California",
     "url": "https://jobs.jobvite.com/nbbj/job/oaHQAfw1",
     "posted_date": "",
-    "scraped_date": "2026-11-23",
+    "scraped_date": "2026-11-24",
     "active": true,
-    "tags": [
-      "Full-Time"
-    ],
-    "source": "firms"
-  },
-  {
-    "id": "204eeef71fb6d6d6a97499685bc48913440dfa9b6b52eeabf27e9a7c4c5ab37e",
-    "title": "Interior Designer",
-    "company": "Perkins&Will",
-    "location": "Austin, TX",
-    "url": "https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=fbcde49b-9d35-425c-b476-70b993eaeaef",
-    "posted_date": "2026-09-25",
-    "scraped_date": "2026-10-23",
-    "active": false,
     "tags": [
       "Full-Time"
     ],
@@ -203,7 +189,7 @@
     "location": "Dallas, TX",
     "url": "http://www.cannondesign.com/careers/?gh_jid=8857224002",
     "posted_date": "2026-09-29",
-    "scraped_date": "2026-11-23",
+    "scraped_date": "2026-11-24",
     "active": true,
     "tags": [
       "Internship",
@@ -249,7 +235,7 @@
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5441262008",
     "posted_date": "2026-10-01",
     "scraped_date": "2026-11-23",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship",
       "Revit"
@@ -320,7 +306,7 @@
     "location": "Cleveland, Ohio, United States; Los Angeles, California, United States; Seattle, Washington, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5441252008",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-11-23",
+    "scraped_date": "2026-11-24",
     "active": true,
     "tags": [
       "Internship",
@@ -335,7 +321,7 @@
     "location": "Dallas, Texas, United States; Los Angeles, California, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5441426008",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-11-23",
+    "scraped_date": "2026-11-24",
     "active": true,
     "tags": [
       "Internship",
@@ -353,7 +339,7 @@
     "location": "Los Angeles, California, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5441685008",
     "posted_date": "2026-10-01",
-    "scraped_date": "2026-11-23",
+    "scraped_date": "2026-11-24",
     "active": true,
     "tags": [
       "Internship",
@@ -531,7 +517,7 @@
     "location": "Los Angeles, California, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5449010008",
     "posted_date": "2026-10-09",
-    "scraped_date": "2026-11-23",
+    "scraped_date": "2026-11-24",
     "active": true,
     "tags": [
       "Full-Time",
@@ -560,7 +546,7 @@
     "location": "San Francisco, CA",
     "url": "https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=12bec01e-b6d2-463f-8677-b1f5448ef8f8",
     "posted_date": "2026-10-12",
-    "scraped_date": "2026-11-23",
+    "scraped_date": "2026-11-24",
     "active": true,
     "tags": [
       "Full-Time"
@@ -574,7 +560,7 @@
     "location": "Seattle, Washington Portland, Oregon",
     "url": "https://jobs.jobvite.com/nbbj/job/oJ0XAfw0",
     "posted_date": "",
-    "scraped_date": "2026-11-23",
+    "scraped_date": "2026-11-24",
     "active": true,
     "tags": [
       "Full-Time"
@@ -589,7 +575,7 @@
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Seattle/Job-Captain---Commercial-Interiors_2026-03783",
     "posted_date": "2026-10-24",
     "scraped_date": "2026-11-23",
-    "active": true,
+    "active": false,
     "tags": [
       "Full-Time"
     ],
@@ -700,7 +686,7 @@
     "location": "Denver, Colorado, United States; Minneapolis, Minnesota, United States; Seattle, Washington, United States",
     "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5463666008",
     "posted_date": "2026-10-26",
-    "scraped_date": "2026-11-23",
+    "scraped_date": "2026-11-24",
     "active": true,
     "tags": [
       "Internship"
@@ -729,7 +715,7 @@
     "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Computational-Urban-Designer-Intern_JR202600112",
     "posted_date": "2026-10-27",
     "scraped_date": "2026-11-23",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship"
     ],
@@ -791,7 +777,7 @@
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Los-Angeles/Designer---MADE_2026-03796",
     "posted_date": "2026-10-30",
     "scraped_date": "2026-11-23",
-    "active": true,
+    "active": false,
     "tags": [
       "Full-Time"
     ],
@@ -833,7 +819,7 @@
     "url": "https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain_2026-03753",
     "posted_date": "2026-11-02",
     "scraped_date": "2026-11-23",
-    "active": true,
+    "active": false,
     "tags": [
       "Full-Time"
     ],
@@ -902,7 +888,7 @@
     "location": "San Francisco, CA",
     "url": "https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=36283506-3a16-4ffd-8b56-f84680531ef9",
     "posted_date": "2026-11-02",
-    "scraped_date": "2026-11-23",
+    "scraped_date": "2026-11-24",
     "active": true,
     "tags": [
       "Internship"
@@ -1005,7 +991,7 @@
     "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Environmental-Performance-Intern--Project-Design-Focus-_JR202600122",
     "posted_date": "2026-11-19",
     "scraped_date": "2026-11-23",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship"
     ],
@@ -1019,7 +1005,7 @@
     "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Environmental-Performance-Intern--Embodied-Carbon-Focus-_JR202600123",
     "posted_date": "2026-11-19",
     "scraped_date": "2026-11-23",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship"
     ],
@@ -1033,10 +1019,59 @@
     "url": "https://kpf.wd5.myworkdayjobs.com/en-US/KPF_Careers/job/New-York/Environmental-Performance-Intern--Computation---AI-Development-Focus-_JR202600124",
     "posted_date": "2026-11-19",
     "scraped_date": "2026-11-23",
-    "active": true,
+    "active": false,
     "tags": [
       "Internship"
     ],
     "source": "firms"
+  },
+  {
+    "id": "76fc77d3d7dd89cd2c6d12c3dc8cdc4e8306978837e1c18afb8d34d2db8ddd5f",
+    "title": "Designer (interior design/architecture)",
+    "company": "Rapt Studio",
+    "location": "San Francisco, USA",
+    "url": "https://www.dezeenjobs.com/job/rapt-studio-designer-interior-design-architecture-1133823/",
+    "posted_date": "2026-11-23",
+    "scraped_date": "2026-11-24",
+    "active": true,
+    "tags": [
+      "Full-Time",
+      "Architect",
+      "Designer",
+      "Interior architect",
+      "Interior design"
+    ],
+    "source": "dezeen"
+  },
+  {
+    "id": "9624bb547df0550fdc75fd9518d30bfaeb486608d47c64162c577e7acca8df28",
+    "title": "Job captain (interior design/architecture)",
+    "company": "Rapt Studio",
+    "location": "San Francisco, USA",
+    "url": "https://www.dezeenjobs.com/job/rapt-studio-job-captain-interior-design-architecture-1133821/",
+    "posted_date": "2026-11-23",
+    "scraped_date": "2026-11-24",
+    "active": true,
+    "tags": [
+      "Full-Time",
+      "Designer"
+    ],
+    "source": "dezeen"
+  },
+  {
+    "id": "61e5f4559e11b3d6761daf95cee529a4f972876aeeb2d84cca15afcb4a531896",
+    "title": "Project designer (interior design/architecture)",
+    "company": "Rapt Studio",
+    "location": "San Francisco, USA",
+    "url": "https://www.dezeenjobs.com/job/rapt-studio-project-designer-interior-design-architecture-1133818/",
+    "posted_date": "2026-11-23",
+    "scraped_date": "2026-11-24",
+    "active": true,
+    "tags": [
+      "Full-Time",
+      "Interior design",
+      "Interior designer"
+    ],
+    "source": "dezeen"
   }
 ]
