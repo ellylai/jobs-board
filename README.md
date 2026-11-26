@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-11-25 18:27 UTC_
+_Last updated: 2026-11-26 18:06 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -25,8 +25,8 @@ Every listing is auto-filtered on two axes:
 | Rapt Studio | Project designer (interior design/architecture) | San Francisco, USA | Nov 23 | Full-Time, Interior design, Interior designer | [Apply](https://www.dezeenjobs.com/job/rapt-studio-project-designer-interior-design-architecture-1133818/) |
 | Perkins&Will | Spring 2027 Internship | San Francisco, CA | Nov 2 | Internship | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=36283506-3a16-4ffd-8b56-f84680531ef9) |
 | DLR Group | Talent Acquisition Intern | Denver, Colorado, United States; Minneapolis, Minnesota, United States; Seattle, Washington, United States | Oct 26 | Internship | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5463666008) |
-| Perkins&Will | Urban Designer | San Francisco, CA | Oct 12 | Full-Time | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=12bec01e-b6d2-463f-8677-b1f5448ef8f8) |
 | DLR Group | Plumbing Designer | Los Angeles, California, United States | Oct 9 | Full-Time, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5449010008) |
+| DLR Group | Mechanical Engineering Intern \| Summer 2027 | Los Angeles, California, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441262008) |
 | DLR Group | Audiovisual Systems Design Intern \| Summer 2027 | Cleveland, Ohio, United States; Los Angeles, California, United States; Seattle, Washington, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441252008) |
 | DLR Group | Landscape Architecture Intern \| Summer 2027 | Dallas, Texas, United States; Los Angeles, California, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States | Oct 1 | Internship, Revit, Rhino, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441426008) |
 | DLR Group | Theater Planning Intern \| Summer 2027 | Los Angeles, California, United States | Oct 1 | Internship, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441685008) |
@@ -38,16 +38,21 @@ Every listing is auto-filtered on two axes:
 </details>
 
 <details>
-<summary><strong>🧠 Psychology</strong> — 28 open role(s)</summary>
+<summary><strong>🧠 Psychology</strong> — 33 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 Gustie Alumni and Friends | Remote, Non-Clinical Psychology Internships - Psychology.com | Remote | Nov 25 | Internship, Clinical, Counseling | [Apply](https://career.gustavus.edu/jobs/gustie-alumni-and-friends-remote-non-clinical-psychology-internships-psychology-com/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Gustie Alumni and Friends | Remote, Non-Clinical Psychology Internships - Psychology.com | Remote | Nov 26 | Internship, Clinical, Counseling | [Apply](https://career.gustavus.edu/jobs/gustie-alumni-and-friends-remote-non-clinical-psychology-internships-psychology-com/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 FLORIDA YOUTH AT RISK ACHIEVING READINESS | Volunteer Recruitment & Onboarding Coordinator Intern | Remote | Nov 26 | Internship | [Apply](https://careers.utpb.edu/jobs/florida-youth-at-risk-achieving-readiness-volunteer-recruitment-onboarding-coordinator-intern/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 International Bird Rescue | Wildlife Rehabilitation Internship Fairfield, CA & San Pedro, CA | California | Nov 26 | Internship, Clinical, Rehab | [Apply](https://elc.middlebury.edu/jobs/international-bird-rescue-wildlife-rehabilitation-internship-fairfield-ca-san-pedro-ca/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Loma Linda University | Research Assistant in the Biobehavioral Effects of Adversity, Trauma, and Stress (BEATS) Lab | California | Nov 25 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-11/BEATS_RA_Job_Description.pdf) |
+| the Icahn School of Medicine at Mount Sinai | Clinical Research Coordinator in the Seaver Autism Center | New York City | Nov 23 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-11/Seaver_Clinical%20Research%20Coordinator%202026%20Job%20Description.pdf) |
 | Center of Excellence in Eating and Weight Disorders at the Icahn School of Medicine at Mount Sinai (NY) | Clinical Research Coordinator | New York | Nov 19 | Full-Time, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/19/clinical-research-coordinator-for-the-center-of-excellence-in-eating-and-weight-disorders-at-the-icahn-school-of-medicine-at-mount-sinai-ny/) |
 | Newport Healthcare at Shingle Springs (CA) | Behavioral Health Specialist | California | Nov 19 | Full-Time, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/19/behavioral-health-specialist-for-newport-healthcare-at-shingle-springs-ca/) |
+| UCLA | Staff Research Associate in the Brain & Body Lab (BABLab) and Social Affective Neuroscience and Development (SAND) Lab | California | Nov 17 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-11/Staff%20Research%20Associate%20at%20UCLA.pdf) |
 | Center for Computational Psychiatry at the Icahn School of Medicine at Mount Sinai (NY) | Project Coordinator | New York | Nov 7 | Full-Time, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/07/project-coordinator-for-the-center-for-computational-psychiatry-at-the-icahn-school-of-medicine-at-mount-sinai-ny/) |
 | Cornell University (NY) | Summer Internship Program with the Developmental Moral Psychology Lab | New York | Nov 6 | Internship, Developmental, Social | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/06/summer-internship-program-with-the-developmental-moral-psychology-lab-at-cornell-university-ny/) |
-| APA | Internships at APA - APA Advocacy Office | Remote | Oct 30 | Full-Time, Behavioral | [Apply](https://jobgether.com/offer/6ae4fe97d6c8b081a7998ab3-internships-at-apa---apa-advocacy-office?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| the Icahn School of Medicine at Mount Sinai | Project Coordinator in the Center for Computational Psychiatry | New York City | Nov 4 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-11/ISMMS%20Project%20Coordinator%2C%20Center%20for%20Computational%20Psychiatry.pdf) |
 | Icahn School of Medicine | Clinical Research Coordinator Studying Loss-of-Control Eating in the Berner Lab | New York City | Oct 19 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Clinical%20Research%20Coordinator%20Position_R01_LOC_2026.docx.pdf) |
 | Icahn School of Medicine | Clinical Research Coordinator Studying Food Craving in the Berner Lab | New York City | Oct 19 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-10/Clinical%20Research%20Coordinator%20Position_R01_FC_2026.docx.pdf) |
 | Jewish Association Serving the Aging Adult Protective Services (NY) | Case Manager | New York | Oct 13 | Full-Time, Clinical, Cultural, Social | [Apply](https://psychologyjobsinternships.wordpress.com/2026/10/13/case-manager-for-jewish-association-serving-the-aging-adult-protective-services-ny/) |
