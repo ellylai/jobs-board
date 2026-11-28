@@ -1,6 +1,6 @@
 # Open Internships & Jobs for Architecture / Psychology
 
-_Last updated: 2026-11-27 17:50 UTC_
+_Last updated: 2026-11-28 16:37 UTC_
 
 <!-- intro:start -->
 Job board that scrapes the web for scrapable target websites to list currently open internship/full-time/research roles for the listed fields, ordered by time of posting with tags. Sources are in `jobs/README.md`. Refreshes automatically daily.
@@ -16,21 +16,23 @@ Every listing is auto-filtered on two axes:
 ## Open roles
 
 <details>
-<summary><strong>🏛️ Architecture</strong> — 14 open role(s)</summary>
+<summary><strong>🏛️ Architecture</strong> — 16 open role(s)</summary>
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
 | Rapt Studio | Designer (interior design/architecture) | San Francisco, USA | Nov 23 | Full-Time, Architect, Designer, Interior architect, Interior design | [Apply](https://www.dezeenjobs.com/job/rapt-studio-designer-interior-design-architecture-1133823/) |
 | Rapt Studio | Job captain (interior design/architecture) | San Francisco, USA | Nov 23 | Full-Time, Designer | [Apply](https://www.dezeenjobs.com/job/rapt-studio-job-captain-interior-design-architecture-1133821/) |
 | Rapt Studio | Project designer (interior design/architecture) | San Francisco, USA | Nov 23 | Full-Time, Interior design, Interior designer | [Apply](https://www.dezeenjobs.com/job/rapt-studio-project-designer-interior-design-architecture-1133818/) |
+| HKS | Job Captain - Health | Dallas | Nov 2 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Dallas/Job-Captain_2026-03753) |
 | Perkins&Will | Spring 2027 Internship | San Francisco, CA | Nov 2 | Internship | [Apply](https://recruiting2.ultipro.com/PER1007PWILL/JobBoard/0ca393a4-bf82-4db6-acae-91e6a0315a4a/OpportunityDetail?opportunityId=36283506-3a16-4ffd-8b56-f84680531ef9) |
+| HKS | Designer, _MADE | Los Angeles | Oct 30 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Los-Angeles/Designer---MADE_2026-03796) |
+| HKS | Job Captain - Commercial Interiors | Seattle | Oct 29 | Full-Time | [Apply](https://hksinc.wd501.myworkdayjobs.com/en-US/HKSCareers/job/Seattle/Job-Captain---Commercial-Interiors_2026-03783) |
 | DLR Group | Talent Acquisition Intern | Denver, Colorado, United States; Minneapolis, Minnesota, United States; Seattle, Washington, United States | Oct 26 | Internship | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5463666008) |
 | DLR Group | Plumbing Designer | Los Angeles, California, United States | Oct 9 | Full-Time, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5449010008) |
+| DLR Group | Mechanical Engineering Intern \| Summer 2027 | Los Angeles, California, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441262008) |
 | DLR Group | Audiovisual Systems Design Intern \| Summer 2027 | Cleveland, Ohio, United States; Los Angeles, California, United States; Seattle, Washington, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441252008) |
 | DLR Group | Landscape Architecture Intern \| Summer 2027 | Dallas, Texas, United States; Los Angeles, California, United States; Overland Park, Kansas, United States; Phoenix, Arizona, United States | Oct 1 | Internship, Revit, Rhino, AutoCAD, SketchUp | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441426008) |
 | DLR Group | Theater Planning Intern \| Summer 2027 | Los Angeles, California, United States | Oct 1 | Internship, Revit, AutoCAD | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441685008) |
-| DLR Group | Electrical Engineering Intern \| Summer 2027 | Los Angeles, California, United States | Oct 1 | Internship, Revit | [Apply](https://job-boards.greenhouse.io/dlrgroup/jobs/5441288008) |
-| CannonDesign | Designer IB | Dallas, TX | Sep 29 | Internship, Revit | [Apply](http://www.cannondesign.com/careers/?gh_jid=8857224002) |
 | NBBJ | Interior Designer - Corporate Commercial and Healthcare Practice | New York, New York | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/o5N0zfwb) |
 | NBBJ | Interior Designer - Corporate, Commercial Practice | Los Angeles, California | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/oaHQAfw1) |
 | NBBJ | Interior Designer - Healthcare Practice | Seattle, Washington Portland, Oregon | --- | Full-Time | [Apply](https://jobs.jobvite.com/nbbj/job/oJ0XAfw0) |
@@ -42,7 +44,7 @@ Every listing is auto-filtered on two axes:
 
 | Company | Role | Location | Posted | Tags | Apply |
 | --- | --- | --- | --- | --- | --- |
-| 🆕 Gustie Alumni and Friends | Remote, Non-Clinical Psychology Internships - Psychology.com | Remote | Nov 27 | Internship, Clinical, Counseling | [Apply](https://career.gustavus.edu/jobs/gustie-alumni-and-friends-remote-non-clinical-psychology-internships-psychology-com/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
+| 🆕 Gustie Alumni and Friends | Remote, Non-Clinical Psychology Internships - Psychology.com | Remote | Nov 28 | Internship, Clinical, Counseling | [Apply](https://career.gustavus.edu/jobs/gustie-alumni-and-friends-remote-non-clinical-psychology-internships-psychology-com/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) |
 | Loma Linda University | Research Assistant in the Biobehavioral Effects of Adversity, Trauma, and Stress (BEATS) Lab | California | Nov 25 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-11/BEATS_RA_Job_Description.pdf) |
 | the Icahn School of Medicine at Mount Sinai | Clinical Research Coordinator in the Seaver Autism Center | New York City | Nov 23 | Full-Time, Research | [Apply](https://undergrad.psychology.fas.harvard.edu/sites/g/files/omnuum9616/files/2026-11/Seaver_Clinical%20Research%20Coordinator%202026%20Job%20Description.pdf) |
 | Center of Excellence in Eating and Weight Disorders at the Icahn School of Medicine at Mount Sinai (NY) | Clinical Research Coordinator | New York | Nov 19 | Full-Time, Clinical | [Apply](https://psychologyjobsinternships.wordpress.com/2026/11/19/clinical-research-coordinator-for-the-center-of-excellence-in-eating-and-weight-disorders-at-the-icahn-school-of-medicine-at-mount-sinai-ny/) |
